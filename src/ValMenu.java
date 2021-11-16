@@ -42,16 +42,32 @@ public class ValMenu {
                     d = diet();
                     break;
                 case '4':
-                    menu(d);
+                    menu(d, B, L, D);
                     break;
                 case '0': System.out.println("\n** You entered option 0 to exit. Good bye! **"); break;
                 default: System.out.println("\n** Input error! Enter a valid input, please! **");
             }
         } while (option != '0');
     }//main
-    static void menu(String d){
-        System.out.println("1. Breakfast\n2. Lunch\n3. Dinner");
-    }
+    static void menu(String d, ArrayList<Food> B, ArrayList<Food> L, ArrayList<Food> D){
+        char option;
+        do{
+            System.out.println("1. Breakfast\n2. Lunch\n3. Dinner");
+            System.out.print("Enter your option(1-3): ");
+            option = cin.next().charAt(0);
+            switch(option){
+                case '1':
+
+                case '0':
+                    System.out.println("Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid input");
+            }
+
+        } while(option != '0');
+    }//menu
+
     static String diet(){
         System.out.println("1. Vegetarian\n2. Vegan\n3. Pescatarian\n4. Halal\n" +
                 "5. Dairy-free\n6. Gluten-free\n7. Egg-free\n8. Keto\n9. Enter your own restrictions list");
