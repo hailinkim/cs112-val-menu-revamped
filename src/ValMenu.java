@@ -4,27 +4,32 @@ Title: Val Menu Revamped
 Authors: Mia Jung (BO), Vanesa Farooq (VF), Hailin Kim (HK)
 */
 import java.io.File;
+import java.lang.reflect.Array;
 import java.util.*;
 public class ValMenu {
     static Scanner cin = new Scanner(System.in); // a global scanner.
     public static void main (String[] args){
         System.out.println("Welcome to our code.");
         char option;
-        String d = ""; //dietary preferences
+        char day;
+        String diet = ""; //dietary preferences
+        ArrayList<Food> F = new ArrayList<>();
 
-        ArrayList<Food> B = new ArrayList<>();
-        readBreakfast(B);
-        ArrayList<Food> L = new ArrayList<>();
-        readLunch(L);
-        ArrayList<Food> D = new ArrayList<>();
-        readDinner(D);
+
+
+//        ArrayList<Food> B = new ArrayList<>();
+//        readBreakfast(B);
+//        ArrayList<Food> L = new ArrayList<>();
+//        readLunch(L);
+//        ArrayList<Food> D = new ArrayList<>();
+//        readDinner(D);
 
         do{
             System.out.println("\nMenu: ");
             System.out.print("\n1. Program Description" +
                     " \n2. Authors" +
                     " \n3. Enter your dietary preferences/restrictions" +
-                    " \n4. Start building your menu" +
+                    " \n4. Start building your meal plan" +
                     "\n0. Exit program."+
                     "\n\nEnter an option (1-3, 0 to quit): ");
             option = cin.next().charAt(0); // returns the character at index 0.
@@ -39,17 +44,25 @@ public class ValMenu {
                     System.out.println("This program was designed by Amherst College sophomores, Mia Jung, Vanesa Farooq, and Angelica Kim.");
                     break;
                 case '3':
-                    d = diet();
+                    diet = diet();
                     break;
                 case '4':
-                    menu(d, B, L, D);
+                    day(F);
+                    menu(diet, F);
                     break;
                 case '0': System.out.println("\n** You entered option 0 to exit. Good bye! **"); break;
                 default: System.out.println("\n** Input error! Enter a valid input, please! **");
             }
         } while (option != '0');
     }//main
-    static void menu(String d, ArrayList<Food> B, ArrayList<Food> L, ArrayList<Food> D){
+    static void day(ArrayList<Food> F){
+        System.out.println("1. Monday\n2. Tuesday\n3. Wednesday\n4. Thursday\n5. Friday\n6. Saturday\n7. Sunday");
+        System.out.print("Choose day of the week: ");
+        char op = cin.next().charAt(0);
+        cin.nextLine();
+        read(op, F);
+    }
+    static void menu(String diet, ArrayList<Food> F){
         char option;
         do{
             System.out.println("1. Breakfast\n2. Lunch\n3. Dinner");
@@ -57,7 +70,8 @@ public class ValMenu {
             option = cin.next().charAt(0);
             switch(option){
                 case '1':
-
+                    restrictions(F, diet);
+                    break;
                 case '0':
                     System.out.println("Goodbye!");
                     break;
@@ -67,6 +81,12 @@ public class ValMenu {
 
         } while(option != '0');
     }//menu
+    static void restrictions(ArrayList<Food> F, String diet){
+        for(Food f: F){
+            if(diet.contains("1")){
+            }
+        }
+    }
 
     static String diet(){
         System.out.println("1. Vegetarian\n2. Vegan\n3. Pescatarian\n4. Halal\n" +
@@ -88,74 +108,37 @@ public class ValMenu {
         cin.nextLine();
         return option;
     }//customDiet
-    static void readBreakfast(ArrayList<Food> F){
+    static void read(char day, ArrayList<Food> F){
         Scanner fin = null;
         try{
-            fin = new Scanner(new File("breakfast.txt"));
-        } catch(Exception ex){ //"Exception" is a comprehensive term for all the exceptions
+            fin = new Scanner(new File("day" + day + ".txt")); //datasets for each day
+        } catch(Exception ex){
             System.out.println(ex);
             System.exit(1);
         }
 
         while(fin.hasNext()){
             String m = fin.nextLine();
-//            System.out.println(m);
+//            System.out.println(m); //for debugging
             String[] M = m.split(",");
-            String[] ing = M[2].split("/");
+            String[] ing = M[3].split("/");
+            ArrayList<String> Ing = new ArrayList<>(Arrays.asList(ing));
 //            System.out.println(Arrays.toString(ing));
-            Food c = new Food(M[0], M[1], ing);
+            Food c = new Food(M[0], M[1], M[2], Ing);
             F.add(c);
         }
         fin.close();
-    }//readBreakfast
-    static void readLunch(ArrayList<Food> F){
-        Scanner fin = null;
-        try{
-            fin = new Scanner(new File("lunch.txt"));
-        } catch(Exception ex){ //"Exception" is a comprehensive term for all the exceptions
-            System.out.println(ex);
-            System.exit(1);
-        }
-
-        while(fin.hasNext()){
-            String m = fin.nextLine();
-//            System.out.println(m);
-            String[] M = m.split(",");
-            String[] ing = M[2].split("/");
-//            System.out.println(Arrays.toString(ing));
-            Food c = new Food(M[0], M[1], ing);
-            F.add(c);
-        }
-        fin.close();
-    }//readLunch
-    static void readDinner(ArrayList<Food> F){
-        Scanner fin = null;
-        try{
-            fin = new Scanner(new File("dinner.txt"));
-        } catch(Exception ex){ //"Exception" is a comprehensive term for all the exceptions
-            System.out.println(ex);
-            System.exit(1);
-        }
-
-        while(fin.hasNext()){
-            String m = fin.nextLine();
-//            System.out.println(m);
-            String[] M = m.split(",");
-            String[] ing = M[2].split("/");
-//            System.out.println(Arrays.toString(ing));
-            Food c = new Food(M[0], M[1], ing);
-            F.add(c);
-        }
-        fin.close();
-    }//readDinner
+    }//read
 }//class
 ////////////////////////////
 class Food{
     String name;
+    String type;
     String calories;
-    String[] ingredients;
-    Food(String name, String calories, String[] ingredients){
+    ArrayList<String> ingredients;
+    Food(String name, String type, String calories, ArrayList<String> ingredients){
         this.name = name;
+        this.type = type;
         this.calories = calories;
         this.ingredients = ingredients;
     }//constructor
