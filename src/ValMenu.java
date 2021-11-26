@@ -35,16 +35,30 @@ public class ValMenu {
                 case '3':
                     diet(F);
                     break;
-                case '0': System.out.println("\n** You entered option 0 to exit. Good bye! **"); break;
+                case '0':
+                    System.out.println("\n** You entered option 0 to exit. Good bye! **");
+                    break;
                 default: System.out.println("\n** Input error! Enter a valid input, please! **");
             }
         } while (option != '0');
     }//main
     static void diet(ArrayList<Food> F){
-        System.out.println("1. Vegetarian\n2. Vegan\n3. Pescatarian\n4. Halal\n" +
-                "5. Dairy-free\n6. Gluten-free\n7. Egg-free\n8. Keto\n9. Enter your own restrictions list");
-        System.out.print("Choose your dietary preferences/restrictions (enter all numbers that apply to you separated by space):");
-        String option = cin.nextLine();
+        String option;
+        ArrayList<String> O;
+        do{
+            System.out.println("1. Vegetarian\n2. Vegan\n3. Pescatarian\n4. Halal\n" +
+                    "5. Dairy-free\n6. Gluten-free\n7. Egg-free\n8. Keto\n9. Enter your own restrictions list");
+            System.out.print("Choose your dietary preferences/restrictions (enter all numbers that apply to you separated by space): ");
+            option = cin.nextLine();
+            O = new ArrayList<>(Arrays.asList(option.split(" ")));
+
+            //if O includes invalid input
+            if (!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
+                    O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9"))) {
+                System.out.println("Invalid input! Enter 1-9.");
+            }
+        } while(!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
+                O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9")));
 
         String c = "";
         if(option.contains("9"))
@@ -52,26 +66,38 @@ public class ValMenu {
 
         String diet_num = option + " " + c;
         String[] Diet_num = diet_num.split(" ");
+//        System.out.println(Arrays.toString(Diet_num)); //for debugging
 
         System.out.println("Let's start building your meal plan!");
         String s = day(F); //saves the selected day of week, meal type
         read(s, F); //reads data for certain day of week, certain meal type
         ArrayList<Food> Result = F;
         for (String d:Diet_num){
-            Result = exclude(d, Result); //F now contains all the foods for certain day of week, certain meal type
+            exclude(d, Result);//F now contains all the foods for certain day of week, certain meal type
         }
-        System.out.println("possible: ");
+        System.out.println("Possible options: ");
         for(Food f: Result){
             System.out.println(f.name);
         }
     }//diet
     static String customDiet(){
-        System.out.println("1. Fish\n2. Shellfish\n3. Tree nuts\n4. Peanuts\n" +
-                "5. Gluten/Wheat\n6. Soybean\n7. Sesame\n8. Alcohol\n9. Coconut");
-        System.out.print("Enter all numbers that apply to you separated by space: ");
-        String option = cin.nextLine();
-        cin.nextLine();
-        String[] O = option.split(" ");
+        String option;
+        ArrayList<String> O;
+        do{
+            System.out.println("1. Fish\n2. Shellfish\n3. Tree nuts\n4. Peanuts\n" +
+                    "5. Soybean\n6. Sesame\n7. Alcohol\n8. Coconut");
+            System.out.print("Enter all numbers that apply to you separated by space: ");
+            option = cin.nextLine();
+            O = new ArrayList<>(Arrays.asList(option.split(" ")));
+
+            //if O includes invalid input
+            if (!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
+                    O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8"))) {
+                System.out.println("Invalid input! Enter 1-8.");
+            }
+        } while(!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
+                O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8")));
+
         String result = "";
         for(String o:O){ //recoding the user input
             if(o.equals("1"))
@@ -90,40 +116,49 @@ public class ValMenu {
                 result = result + "16 ";
             if(o.equals("8"))
                 result = result + "17 ";
-            if(o.equals("9"))
-                result = result + "18 ";
         }
         return result;
     }//customDiet
     static String day(ArrayList<Food> F){
-        System.out.println("1. Monday\n2. Tuesday\n3. Wednesday\n4. Thursday\n5. Friday\n6. Saturday\n7. Sunday");
-        System.out.print("Choose day of the week: ");
-        char d = cin.next().charAt(0); //choice of day
-        cin.nextLine();
-
-        System.out.println("1. Breakfast\n2. Lunch\n3. Dinner");
-        System.out.print("Enter your option(1-3): ");
-        char m = cin.next().charAt(0); //choice of meal type
-        cin.nextLine();
-        String meal = "";
+        char d;
         do{
-            switch(m){
-                case '1':
-                    meal = "breakfast";
-                    break;
-                case '2':
-                    meal = "lunch";
-                    break;
-                case '3':
-                    meal = "dinner";
-                    break;
-                default:
-                    System.out.println("Invalid input");
-            }
-        } while(m != '1' && m!= '2' && m!= '3');
+            System.out.println("1. Monday\n2. Tuesday\n3. Wednesday\n4. Thursday\n5. Friday\n6. Saturday\n7. Sunday");
+            System.out.print("Choose day of the week: ");
+            d = cin.next().charAt(0); //choice of day
+            cin.nextLine();
 
+            //if O includes invalid input
+            if (!(d == '1' || d == '2' || d == '3' || d == '4' || d == '5' || d == '6' || d == '7')) {
+                System.out.println("Invalid input! Enter 1-7.");
+            }
+        } while(!(d == '1' || d == '2' || d == '3' || d == '4' || d == '5' || d == '6' || d == '7'));
+
+        char m;
+        do{
+            System.out.println("1. Breakfast\n2. Lunch\n3. Dinner");
+            System.out.print("Enter your option(1-3): ");
+            m = cin.next().charAt(0); //choice of meal type
+            cin.nextLine();
+            if (!(m == '1' || m == '2' || m == '3')) {
+                System.out.println("Invalid input! Enter 1-3.");
+            }
+        } while(!(m == '1' || m == '2' || m == '3'));
+
+        String meal = "";
+        switch(m) {
+            case '1':
+                meal = "breakfast";
+                break;
+            case '2':
+                meal = "lunch";
+                break;
+            case '3':
+                meal = "dinner";
+                break;
+        }
         return d + "_" + meal;
-    }
+    }//day
+
     static void read(String s, ArrayList<Food> F){
         Scanner fin = null;
         try{
@@ -141,54 +176,156 @@ public class ValMenu {
             String[] ing = M[2].split("/");
             ArrayList<String> Ing = new ArrayList<>(Arrays.asList(ing));
 //            System.out.println(Arrays.toString(ing)); //for debugging
-            Food c = new Food(M[0], M[1], M[2], Ing);
+//            System.out.println(M[1]); //for debugging
+            Food c = new Food(M[0], M[1], Ing);
             F.add(c);
         }
         fin.close();
     }//read
 
-    static ArrayList<Food> exclude(String d, ArrayList<Food> F){ //String d represents each of the dietary preferences selected by the user
+    static void exclude(String d, ArrayList<Food> Result){ //String d represents each of the dietary preferences selected by the user
 //        ArrayList<Food> possible = F;
         ArrayList<Food> bad = new ArrayList<>();
         //excludes meat/poultry/pork/turkey/seafood/fish/eggs/dairy/shellfish
         ArrayList<String> vegan = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "turkey", "duck",
-                "fish", "eggs", "dairy", "shellfish", "shrimp", "prawn", "crab", "lobster"));
+                "fish", "eggs", "egg", "dairy", "shellfish", "shrimp", "prawn", "crab", "lobster", "milk"));
         ArrayList<String> vegetarian = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "turkey", "duck",
                 "fish", "shellfish", "shrimp", "prawn", "crab", "lobster"));
         ArrayList<String> pescatarian = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "turkey", "duck"));
         String halal = "chicken"; //chicken is the only halal option in Val
         String dairyFree = "dairy";
         String glutenFree = "gluten";
-        String eggFree = "egg";
+        ArrayList<String> eggFree = new ArrayList<>(Arrays.asList("egg", "eggs"));
+        ArrayList<String> keto = new ArrayList<>(Arrays.asList("gluten", "flour", "wheat", "potato", "potatoes", "rice", "pasta"));
+        String fishFree = "fish";
+        String shellFree = "shellfish";
+        ArrayList<String> treeNutsFree = new ArrayList<>(Arrays.asList("tree nut", "tree nuts", "pistachio", "pistachios",
+                "chestnut", "chestnuts", "hazelnut", "hazelnuts", "pecan", "pecans", "hickory nut", "hickory nuts",
+                "brazil nut", "brazil nuts", "macadamia", "macadamia nut", "macadamia nuts", "cashews", "cashew",
+                "cashew nut", "cashew nuts", "walnut", "walnuts", "pine nut", "pine nuts", "almond", "almond nuts"));
+        ArrayList<String> peanutFree = new ArrayList<>(Arrays.asList("peanut", "peanuts"));
+        ArrayList<String> soyFree = new ArrayList<>(Arrays.asList("soy", "soybean", "soybeans"));
+        String sesameFree = "sesame";
+        String alcoholFree = "alcohol";
+        String coconutFree = "coconut";
 
-        for(Food f:F){
+        for(Food f:Result){
             for(String i:f.ingredients){
                 switch(d) {
-                    case "1":
+                    case "1": //vegetarian
                         if (vegetarian.contains(i.toLowerCase())) {
-                            bad.add(f);
+                            if (!bad.contains(f))
+                                bad.add(f);
                             break;
                         }
                         break;
-                    case "2":
+                    case "2": //vegan
                         if (vegan.contains(i.toLowerCase())) {
-                            bad.add(f);
+                            if (!bad.contains(f))
+                                bad.add(f);
                             break;
                         }
                         break;
-                    default:
-                            System.out.println("invalid");
-                }
-//                if(d.equals("1")){
-//                    if (vegetarian.contains(i.toLowerCase())) {
-//                        bad.add(f);
-//                        break;
-//                    }
-//                }
+                    case "3": //pescatarian
+                        if (pescatarian.contains(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "4": //halal
+                        //codes for halal to be added
+                        break;
+                    case "5": //dairy-Free
+                        if (dairyFree.equals(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "6": //gluten-Free
+                        if (glutenFree.equals(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "7": //egg-Free
+                        if (eggFree.contains(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "8": //keto
+                        if (keto.contains(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "9": //move on to custom options
+                        break;
+                    case "10": //fish-free
+                        if (fishFree.equals(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "11": //shellfish-free
+                        if (shellFree.equals(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "12": //tree nuts-free
+                        if (treeNutsFree.contains(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "13": //peanut-free
+                        if (peanutFree.contains(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "14": //soy-free
+                        if (soyFree.contains(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "15": //sesame-free
+                        if (sesameFree.equals(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "16": //alcohol-free
+                        if (alcoholFree.equals(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                    case "17": //coconut-free
+                        if (coconutFree.equals(i.toLowerCase())) {
+                            if (!bad.contains(f))
+                                bad.add(f);
+                            break;
+                        }
+                        break;
+                }//switch
             }//inner for loop
         }//outer for loop
-        F.removeAll(bad);
-        return F;
+        Result.removeAll(bad);
     }//exclude
 }//class
 ////////////////////////////
@@ -197,9 +334,9 @@ class Food{
     String type;
     String calories;
     ArrayList<String> ingredients; //change to set
-    Food(String name, String type, String calories, ArrayList<String> ingredients){
+    Food(String name, String calories, ArrayList<String> ingredients){
         this.name = name;
-        this.type = type;
+//        this.type = type;
         this.calories = calories;
         this.ingredients = ingredients;
     }//constructor
