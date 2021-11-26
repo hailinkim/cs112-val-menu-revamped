@@ -1,0 +1,476 @@
+day,meal_type,dining_course,menu
+day1,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day1,breakfast,Breakfast/Grill,Tofu Scramble
+day1,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day1,breakfast,Breakfast/Grill,Belgian Waffles
+day1,breakfast,Breakfast/Grill,Turkey Sausage Link
+day1,breakfast,Breakfast/Grill,Grilled Ham Steak
+day1,breakfast,Breakfast/Grill,Hash Browns
+day1,breakfast,Breakfast/Grill,Pure Maple Syrup
+day1,breakfast,Breakfast/Grill,Maine Rolled Oats
+day1,breakfast,Breakfast/Grill,Grits
+day1,breakfast,Breakfast/Grill,White Rice
+day1,breakfast,Pastry Selection,Cheese Danish
+day1,breakfast,Pastry Selection,Vegan GF Pineapple Muffin
+day2,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day2,breakfast,Breakfast/Grill,JustEgg Folded
+day2,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day2,breakfast,Breakfast/Grill,English Muffin
+day2,breakfast,Breakfast/Grill,Pork Breakfast Sausage Patty
+day2,breakfast,Breakfast/Grill,Turkey Sausage Patty
+day2,breakfast,Breakfast/Grill,Home Fries
+day2,breakfast,Breakfast/Grill,Maine Rolled Oats
+day2,breakfast,Breakfast/Grill,Grits
+day2,breakfast,Breakfast/Grill,Quinoa
+day2,breakfast,Breakfast/Grill,Cantaloupe
+day2,breakfast,Breakfast/Grill,Blackberries
+day2,breakfast,Breakfast/Grill,Greek Yogurt
+day2,breakfast,Breakfast/Grill,Vanilla Yogurt
+day2,breakfast,Breakfast/Grill,Soy Yogurt
+day2,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day2,breakfast,Pastry Selection,Blueberry Muffin
+day2,breakfast,Pastry Selection,Vegan GF Blueberry Muffin
+day3,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day3,breakfast,Breakfast/Grill,Tempeh and Vegetable Scramble
+day3,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day3,breakfast,Breakfast/Grill,French Toast
+day3,breakfast,Breakfast/Grill,Grilled Kielbasa
+day3,breakfast,Breakfast/Grill,Ovengold Turkey Steaks
+day3,breakfast,Breakfast/Grill,O'Brien Potatoes
+day3,breakfast,Breakfast/Grill,Maine Rolled Oats
+day3,breakfast,Breakfast/Grill,Grits
+day3,breakfast,Breakfast/Grill,Pineapple
+day3,breakfast,Breakfast/Grill,White Rice
+day3,breakfast,Breakfast/Grill,Blueberries
+day3,breakfast,Breakfast/Grill,Greek Yogurt
+day3,breakfast,Breakfast/Grill,Vanilla Yogurt
+day3,breakfast,Breakfast/Grill,Soy Yogurt
+day3,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day3,breakfast,Pastry Selection,Chocolate Muffin
+day3,breakfast,Pastry Selection,Vegan GF Double Chocolate Muffin
+day4,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day4,breakfast,Breakfast/Grill,Tofu Scramble with Artichoke & Mushroom
+day4,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day4,breakfast,Breakfast/Grill,Apple Cinnamon Pancakes
+day4,breakfast,Breakfast/Grill,Canadian Bacon
+day4,breakfast,Breakfast/Grill,Chicken Sausage Patty
+day4,breakfast,Breakfast/Grill,Santa Fe Potatoes
+day4,breakfast,Breakfast/Grill,Maine Rolled Oats
+day4,breakfast,Breakfast/Grill,Grits
+day4,breakfast,Breakfast/Grill,White Rice
+day4,breakfast,Breakfast/Grill,Red Grapes
+day4,breakfast,Breakfast/Grill,Mandarin Oranges
+day4,breakfast,Breakfast/Grill,Greek Yogurt
+day4,breakfast,Breakfast/Grill,Vanilla Yogurt
+day4,breakfast,Breakfast/Grill,Soy Yogurt
+day4,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day4,breakfast,Pastry Selection,Cinnamon Chocolate Chip Coffee Cake
+day4,breakfast,Pastry Selection,Vegan GF Cinnamon Chocolate Chip Muffin
+day5,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day5,breakfast,Breakfast/Grill,Berkshire Scramble
+day5,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day5,breakfast,Breakfast/Grill,Bananas Foster French Toast
+day5,breakfast,Breakfast/Grill,Chorizo Sausage with Onions and Peppers
+day5,breakfast,Breakfast/Grill,Four Pepper Chicken Sausage
+day5,breakfast,Breakfast/Grill,Pan Fried Potatoes
+day5,breakfast,Breakfast/Grill,Maine Rolled Oats
+day5,breakfast,Breakfast/Grill,Grits
+day5,breakfast,Breakfast/Grill,Brown Rice
+day5,breakfast,Breakfast/Grill,Honeydew Melon
+day5,breakfast,Breakfast/Grill,Strawberries
+day5,breakfast,Breakfast/Grill,Greek Yogurt
+day5,breakfast,Breakfast/Grill,Vanilla Yogurt
+day5,breakfast,Breakfast/Grill,Soy Yogurt
+day5,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day5,breakfast,Pastry Selection,Cinnamon Roll with Icing
+day5,breakfast,Pastry Selection,Vegan GF Cinnamon Streusel Muffin
+day6,breakfast,Breakfast/Grill,Pork Breakfast Sausage Patty
+day6,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day6,breakfast,Breakfast/Grill,JustEgg Folded
+day6,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day6,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day6,breakfast,Breakfast/Grill,English Muffin
+day6,breakfast,Breakfast/Grill,Chicken Sausage Patty
+day6,breakfast,Breakfast/Grill,White American Cheese
+day6,breakfast,Breakfast/Grill,Avocado
+day6,breakfast,Breakfast/Grill,Tomato
+day6,breakfast,Breakfast/Grill,Maine Rolled Oats
+day6,breakfast,Breakfast/Grill,Grits
+day6,breakfast,Breakfast/Grill,Peaches
+day6,breakfast,Breakfast/Grill,Mango Chunks
+day6,breakfast,Breakfast/Grill,Greek Yogurt
+day6,breakfast,Breakfast/Grill,Vanilla Yogurt
+day6,breakfast,Breakfast/Grill,Soy Yogurt
+day6,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day6,breakfast,Pastry Selection,Val's Cider Donut
+day6,breakfast,Pastry Selection,Vegan GF Apple Cider Muffin
+day7,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day7,breakfast,Breakfast/Grill,Chile Lime Tofu Scramble
+day7,breakfast,Breakfast/Grill,Rosemary Focaccia Strata
+day7,breakfast,Breakfast/Grill,Cinnamon Swirl French Toast
+day7,breakfast,Breakfast/Grill,Turkey Bacon
+day7,breakfast,Breakfast/Grill,Pork Breakfast Sausage Link
+day7,breakfast,Breakfast/Grill,Herbed Breakfast Potatoes
+day7,breakfast,Breakfast/Grill,Maine Rolled Oats
+day7,breakfast,Breakfast/Grill,Grits
+day7,breakfast,Breakfast/Grill,Brown Rice
+day7,breakfast,Pastry Selection,Blueberry Scones
+day7,breakfast,Pastry Selection,Multigrain Croissant
+day7,breakfast,Pastry Selection,Vegan GF Blueberry Muffin
+day8,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day8,breakfast,Breakfast/Grill,Tofu Scramble
+day8,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day8,breakfast,Breakfast/Grill,Belgian Waffles
+day8,breakfast,Breakfast/Grill,Turkey Sausage Link
+day8,breakfast,Breakfast/Grill,Grilled Ham Steak
+day8,breakfast,Breakfast/Grill,Hash Browns
+day8,breakfast,Breakfast/Grill,Pure Maple Syrup
+day8,breakfast,Breakfast/Grill,Maine Rolled Oats
+day8,breakfast,Breakfast/Grill,Grits
+day8,breakfast,Breakfast/Grill,White Rice
+day8,breakfast,Pastry Selection,Cheese Danish
+day8,breakfast,Pastry Selection,Vegan GF Pineapple Muffin
+day9,breakfast,Breakfast/Grill,Chicken Sausage Patty
+day9,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day9,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day9,breakfast,Breakfast/Grill,JustEgg Folded
+day9,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day9,breakfast,Breakfast/Grill,English Muffin
+day9,breakfast,Breakfast/Grill,Bacon
+day9,breakfast,Breakfast/Grill,Home Fries
+day9,breakfast,Breakfast/Grill,White American Cheese
+day9,breakfast,Breakfast/Grill,Tomato
+day9,breakfast,Breakfast/Grill,Avocado
+day9,breakfast,Breakfast/Grill,Maine Rolled Oats
+day9,breakfast,Breakfast/Grill,Grits
+day9,breakfast,Breakfast/Grill,Quinoa
+day9,breakfast,Breakfast/Grill,Cantaloupe
+day9,breakfast,Breakfast/Grill,Blackberries
+day9,breakfast,Breakfast/Grill,Greek Yogurt
+day9,breakfast,Breakfast/Grill,Vanilla Yogurt
+day9,breakfast,Breakfast/Grill,Soy Yogurt
+day9,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day9,breakfast,Pastry Selection,Blueberry Muffin
+day9,breakfast,Pastry Selection,Vegan GF Blueberry Muffin
+day10,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day10,breakfast,Breakfast/Grill,Tempeh and Vegetable Scramble
+day10,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day10,breakfast,Breakfast/Grill,French Toast
+day10,breakfast,Breakfast/Grill,Grilled Kielbasa
+day10,breakfast,Breakfast/Grill,Ovengold Turkey Steaks
+day10,breakfast,Breakfast/Grill,O'Brien Potatoes
+day10,breakfast,Breakfast/Grill,Maine Rolled Oats
+day10,breakfast,Breakfast/Grill,Cheddar Grits
+day10,breakfast,Breakfast/Grill,Brown Rice
+day10,breakfast,Breakfast/Grill,Pineapple
+day10,breakfast,Breakfast/Grill,Blueberries
+day10,breakfast,Breakfast/Grill,Greek Yogurt
+day10,breakfast,Breakfast/Grill,Vanilla Yogurt
+day10,breakfast,Breakfast/Grill,Soy Yogurt
+day10,breakfast,Breakfast/Grill,Gluten Free Honey Oat Granola
+day10,breakfast,Breakfast/Grill,Coconut and Fruit Granola
+day10,breakfast,Pastry Selection,Chocolate Muffin
+day10,breakfast,Pastry Selection,Vegan GF Double Chocolate Muffin
+day11,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day11,breakfast,Breakfast/Grill,Tofu Scramble with Artichoke & Mushroom
+day11,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day11,breakfast,Breakfast/Grill,Apple Cinnamon Pancakes
+day11,breakfast,Breakfast/Grill,Canadian Bacon
+day11,breakfast,Breakfast/Grill,Chicken Sausage Patty
+day11,breakfast,Breakfast/Grill,Santa Fe Potatoes
+day11,breakfast,Breakfast/Grill,Maine Rolled Oats
+day11,breakfast,Breakfast/Grill,Hoop Cheddar Grits
+day11,breakfast,Breakfast/Grill,White Rice
+day11,breakfast,Breakfast/Grill,Red Grapes
+day11,breakfast,Breakfast/Grill,Mandarin Oranges
+day11,breakfast,Breakfast/Grill,Greek Yogurt
+day11,breakfast,Breakfast/Grill,Vanilla Yogurt
+day11,breakfast,Breakfast/Grill,Soy Yogurt
+day11,breakfast,Breakfast/Grill,Coconut and Fruit Granola
+day11,breakfast,Pastry Selection,Cinnamon Chocolate Chip Coffee Cake
+day11,breakfast,Pastry Selection,Vegan GF Cinnamon Chocolate Chip Muffin
+day12,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day12,breakfast,Breakfast/Grill,Berkshire Scramble
+day12,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day12,breakfast,Breakfast/Grill,Bananas Foster French Toast
+day12,breakfast,Breakfast/Grill,Chorizo Sausage with Onions and Peppers
+day12,breakfast,Breakfast/Grill,Four Pepper Chicken Sausage
+day12,breakfast,Breakfast/Grill,Pan Fried Potatoes
+day12,breakfast,Breakfast/Grill,Maine Rolled Oats
+day12,breakfast,Breakfast/Grill,Cinnamon Apple Grits
+day12,breakfast,Breakfast/Grill,Quinoa
+day12,breakfast,Breakfast/Grill,Honeydew Melon
+day12,breakfast,Breakfast/Grill,Strawberries
+day12,breakfast,Breakfast/Grill,Greek Yogurt
+day12,breakfast,Breakfast/Grill,Vanilla Yogurt
+day12,breakfast,Breakfast/Grill,Soy Yogurt
+day12,breakfast,Breakfast/Grill,Cranberry Chew Low-Fat Granola
+day12,breakfast,Pastry Selection,Cinnamon Roll with Icing
+day12,breakfast,Pastry Selection,Vegan GF Cinnamon Streusel Muffin
+day13,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day13,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day13,breakfast,Breakfast/Grill,JustEgg Folded
+day13,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day13,breakfast,Breakfast/Grill,Turkey Sausage Patty
+day13,breakfast,Breakfast/Grill,Pork Breakfast Sausage Patty
+day13,breakfast,Breakfast/Grill,English Muffin
+day13,breakfast,Breakfast/Grill,White American Cheese
+day13,breakfast,Breakfast/Grill,Avocado
+day13,breakfast,Breakfast/Grill,Tomato
+day13,breakfast,Breakfast/Grill,Maine Rolled Oats
+day13,breakfast,Breakfast/Grill,Grits
+day13,breakfast,Breakfast/Grill,Peaches
+day13,breakfast,Breakfast/Grill,Mango Chunks
+day13,breakfast,Breakfast/Grill,Greek Yogurt
+day13,breakfast,Breakfast/Grill,Vanilla Yogurt
+day13,breakfast,Breakfast/Grill,Soy Yogurt
+day13,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day13,breakfast,Lighter Side,AF Steamed Kale
+day13,breakfast,Pastry Selection,Val's Cider Donut
+day13,breakfast,Pastry Selection,Vegan GF Apple Cider Muffin
+day14,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day14,breakfast,Breakfast/Grill,Chile Lime Tofu Scramble
+day14,breakfast,Breakfast/Grill,Rosemary Focaccia Strata
+day14,breakfast,Breakfast/Grill,Cinnamon Swirl French Toast
+day14,breakfast,Breakfast/Grill,Turkey Bacon
+day14,breakfast,Breakfast/Grill,Pork Breakfast Sausage Link
+day14,breakfast,Breakfast/Grill,Herbed Breakfast Potatoes
+day14,breakfast,Breakfast/Grill,Maine Rolled Oats
+day14,breakfast,Breakfast/Grill,Cinnamon Grits
+day14,breakfast,Breakfast/Grill,Brown Rice
+day14,breakfast,Pastry Selection,Blueberry Scones
+day14,breakfast,Pastry Selection,Multigrain Croissant
+day14,breakfast,Pastry Selection,Vegan GF Blueberry Muffin
+day15,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day15,breakfast,Breakfast/Grill,Tofu Scramble
+day15,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day15,breakfast,Breakfast/Grill,Belgian Waffles
+day15,breakfast,Breakfast/Grill,Turkey Sausage Link
+day15,breakfast,Breakfast/Grill,Grilled Ham Steak
+day15,breakfast,Breakfast/Grill,Hash Browns
+day15,breakfast,Breakfast/Grill,Pure Maple Syrup
+day15,breakfast,Breakfast/Grill,Maine Rolled Oats
+day15,breakfast,Breakfast/Grill,Grits
+day15,breakfast,Breakfast/Grill,White Rice
+day15,breakfast,Pastry Selection,Vegan GF Pineapple Muffin
+day16,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day16,breakfast,Breakfast/Grill,JustEgg Folded
+day16,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day16,breakfast,Breakfast/Grill,Chocolate Chip Pancakes
+day16,breakfast,Breakfast/Grill,Bacon
+day16,breakfast,Breakfast/Grill,Sausage Chicken and Apple
+day16,breakfast,Breakfast/Grill,Home Fries
+day16,breakfast,Breakfast/Grill,Maine Rolled Oats
+day16,breakfast,Breakfast/Grill,Grits
+day16,breakfast,Breakfast/Grill,Quinoa
+day16,breakfast,Breakfast/Grill,Cantaloupe
+day16,breakfast,Breakfast/Grill,Blackberries
+day16,breakfast,Breakfast/Grill,Greek Yogurt
+day16,breakfast,Breakfast/Grill,Vanilla Yogurt
+day16,breakfast,Breakfast/Grill,Soy Yogurt
+day16,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day16,breakfast,Pastry Selection,Blueberry Muffin
+day16,breakfast,Pastry Selection,Vegan GF Blueberry Muffin
+day17,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day17,breakfast,Breakfast/Grill,Tempeh and Vegetable Scramble
+day17,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day17,breakfast,Breakfast/Grill,French Toast
+day17,breakfast,Breakfast/Grill,Grilled Kielbasa
+day17,breakfast,Breakfast/Grill,Ovengold Turkey Steaks
+day17,breakfast,Breakfast/Grill,O'Brien Potatoes
+day17,breakfast,Breakfast/Grill,Maine Rolled Oats
+day17,breakfast,Breakfast/Grill,Grits
+day17,breakfast,Breakfast/Grill,Brown Rice
+day17,breakfast,Breakfast/Grill,Pineapple
+day17,breakfast,Breakfast/Grill,Blueberries
+day17,breakfast,Breakfast/Grill,Greek Yogurt
+day17,breakfast,Breakfast/Grill,Vanilla Yogurt
+day17,breakfast,Breakfast/Grill,Soy Yogurt
+day17,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day17,breakfast,Pastry Selection,Chocolate Muffin
+day17,breakfast,Pastry Selection,Vegan GF Double Chocolate Muffin
+day18,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day18,breakfast,Breakfast/Grill,Tofu Scramble with Artichoke & Mushroom
+day18,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day18,breakfast,Breakfast/Grill,Apple Cinnamon Pancakes
+day18,breakfast,Breakfast/Grill,Canadian Bacon
+day18,breakfast,Breakfast/Grill,Chicken Sausage Patty
+day18,breakfast,Breakfast/Grill,Santa Fe Potatoes
+day18,breakfast,Breakfast/Grill,Maine Rolled Oats
+day18,breakfast,Breakfast/Grill,Grits
+day18,breakfast,Breakfast/Grill,White Rice
+day18,breakfast,Breakfast/Grill,Red Grapes
+day18,breakfast,Breakfast/Grill,Mandarin Oranges
+day18,breakfast,Breakfast/Grill,Greek Yogurt
+day18,breakfast,Breakfast/Grill,Vanilla Yogurt
+day18,breakfast,Breakfast/Grill,Soy Yogurt
+day18,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day18,breakfast,Pastry Selection,Cinnamon Chocolate Chip Coffee Cake
+day18,breakfast,Pastry Selection,Vegan GF Cinnamon Chocolate Chip Muffin
+day19,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day19,breakfast,Breakfast/Grill,Berkshire Scramble
+day19,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day19,breakfast,Breakfast/Grill,Bananas Foster French Toast
+day19,breakfast,Breakfast/Grill,Chorizo Sausage with Onions and Peppers
+day19,breakfast,Breakfast/Grill,Four Pepper Chicken Sausage
+day19,breakfast,Breakfast/Grill,Pan Fried Potatoes
+day19,breakfast,Breakfast/Grill,Maine Rolled Oats
+day19,breakfast,Breakfast/Grill,Grits
+day19,breakfast,Breakfast/Grill,Quinoa
+day19,breakfast,Breakfast/Grill,Honeydew Melon
+day19,breakfast,Breakfast/Grill,Strawberries
+day19,breakfast,Breakfast/Grill,Greek Yogurt
+day19,breakfast,Breakfast/Grill,Vanilla Yogurt
+day19,breakfast,Breakfast/Grill,Soy Yogurt
+day19,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day19,breakfast,Pastry Selection,Cinnamon Roll with Icing
+day19,breakfast,Pastry Selection,Vegan GF Cinnamon Streusel Muffin
+day20,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day20,breakfast,Breakfast/Grill,JustEgg Folded
+day20,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day20,breakfast,Breakfast/Grill,Turkey Sausage Patty
+day20,breakfast,Breakfast/Grill,Pork Breakfast Sausage Patty
+day20,breakfast,Breakfast/Grill,English Muffin
+day20,breakfast,Breakfast/Grill,White American Cheese
+day20,breakfast,Breakfast/Grill,Avocado
+day20,breakfast,Breakfast/Grill,Tomato
+day20,breakfast,Breakfast/Grill,Maine Rolled Oats
+day20,breakfast,Breakfast/Grill,Grits
+day20,breakfast,Breakfast/Grill,Peaches
+day20,breakfast,Breakfast/Grill,Mango Chunks
+day20,breakfast,Breakfast/Grill,Greek Yogurt
+day20,breakfast,Breakfast/Grill,Vanilla Yogurt
+day20,breakfast,Breakfast/Grill,Soy Yogurt
+day20,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day20,breakfast,Pastry Selection,Val's Cider Donut
+day20,breakfast,Pastry Selection,Vegan GF Apple Cider Muffin
+day21,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day21,breakfast,Breakfast/Grill,JustEgg Folded
+day21,breakfast,Breakfast/Grill,Rosemary Focaccia Strata
+day21,breakfast,Breakfast/Grill,Cinnamon Swirl French Toast
+day21,breakfast,Breakfast/Grill,Pork Breakfast Sausage Link
+day21,breakfast,Breakfast/Grill,Herbed Breakfast Potatoes
+day21,breakfast,Breakfast/Grill,Maine Rolled Oats
+day21,breakfast,Breakfast/Grill,Grits
+day21,breakfast,Breakfast/Grill,Brown Rice
+day21,breakfast,Breakfast/Grill,Turkey Bacon
+day21,breakfast,Pastry Selection,Blueberry Scones
+day21,breakfast,Pastry Selection,Multigrain Croissant
+day21,breakfast,Pastry Selection,Vegan GF Blueberry Muffin
+day22,breakfast,Breakfast/Grill,O'Brien Potatoes
+day22,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day22,breakfast,Breakfast/Grill,Quinoa
+day22,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day22,breakfast,Breakfast/Grill,Berkshire Scramble
+day22,breakfast,Breakfast/Grill,Ovengold Turkey Steaks
+day22,breakfast,Breakfast/Grill,Grilled Kielbasa
+day22,breakfast,Breakfast/Grill,Whole Grain French Toast Sticks
+day22,breakfast,Breakfast/Grill,Pure Maple Syrup
+day22,breakfast,Breakfast/Grill,Maine Rolled Oats
+day22,breakfast,Breakfast/Grill,Grits
+day22,breakfast,Pastry Selection,Vegan GF Chocolate Chip Muffin
+day22,breakfast,Pastry Selection,Mini Chocolate Croissant
+day23,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day23,breakfast,Breakfast/Grill,JustEgg Folded
+day23,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day23,breakfast,Breakfast/Grill,Pork Breakfast Sausage Patty
+day23,breakfast,Breakfast/Grill,Chicken Sausage Patty
+day23,breakfast,Breakfast/Grill,English Muffin
+day23,breakfast,Breakfast/Grill,Avocado
+day23,breakfast,Breakfast/Grill,Tomato
+day23,breakfast,Breakfast/Grill,Home Fries
+day23,breakfast,Breakfast/Grill,Maine Rolled Oats
+day23,breakfast,Breakfast/Grill,Grits
+day23,breakfast,Breakfast/Grill,Quinoa
+day23,breakfast,Breakfast/Grill,Cantaloupe
+day23,breakfast,Breakfast/Grill,Blackberries
+day23,breakfast,Breakfast/Grill,Greek Yogurt
+day23,breakfast,Breakfast/Grill,Vanilla Yogurt
+day23,breakfast,Breakfast/Grill,Soy Yogurt
+day23,breakfast,Breakfast/Grill,Blueberry Vanilla Granola
+day23,breakfast,Pastry Selection,Raspberry Muffin
+day23,breakfast,Pastry Selection,Raspberry Sour Cream Muffin
+day24,breakfast,Allergen Friendly,AF Beef Stir Fry with Onions & Peppers
+day24,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day24,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day24,breakfast,Breakfast/Grill,Belgian Waffle
+day24,breakfast,Breakfast/Grill,Four Pepper Chicken Sausage
+day24,breakfast,Breakfast/Grill,Chorizo Sausage with Onions and Peppers
+day24,breakfast,Breakfast/Grill,Hash Browns
+day24,breakfast,Breakfast/Grill,Southwest Tofu Scramble
+day24,breakfast,Breakfast/Grill,Maine Rolled Oats
+day24,breakfast,Breakfast/Grill,Grits
+day24,breakfast,Breakfast/Grill,White Rice
+day24,breakfast,Breakfast/Grill,Blueberries
+day24,breakfast,Breakfast/Grill,Pineapple
+day24,breakfast,Breakfast/Grill,Soy Yogurt
+day24,breakfast,Breakfast/Grill,Vanilla Yogurt
+day24,breakfast,Breakfast/Grill,Greek Yogurt
+day24,breakfast,Breakfast/Grill,Gluten Free Honey Oat Granola
+day24,breakfast,Pastry Selection,Vegan GF Cranberry Orange Muffin
+day24,breakfast,Pastry Selection,Cranberry Orange Muffins
+day25,breakfast,Breakfast/Grill,Turkey Sausage Patty
+day25,breakfast,Breakfast/Grill,Canadian Bacon
+day25,breakfast,Breakfast/Grill,Tofu Scramble
+day25,breakfast,Breakfast/Grill,Brown Rice
+day25,breakfast,Breakfast/Grill,Pan Fried Potatoes
+day25,breakfast,Breakfast/Grill,Chocolate Chip Pancakes
+day25,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day25,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day25,breakfast,Breakfast/Grill,Cinnamon Apple Grits
+day25,breakfast,Breakfast/Grill,Maine Rolled Oats
+day25,breakfast,Breakfast/Grill,Vanilla Yogurt
+day25,breakfast,Breakfast/Grill,Soy Yogurt
+day25,breakfast,Breakfast/Grill,Greek Yogurt
+day25,breakfast,Breakfast/Grill,Mandarin Oranges
+day25,breakfast,Breakfast/Grill,Red Grapes
+day25,breakfast,Pastry Selection,Vegan GF Lemon Poppy Muffin
+day25,breakfast,Pastry Selection,Lemon Poppy Seed Coffee Cake
+day26,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day26,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day26,breakfast,Breakfast/Grill,JustEgg Folded
+day26,breakfast,Breakfast/Grill,Texas Toast French Toast
+day26,breakfast,Breakfast/Grill,Herbed Breakfast Potatoes
+day26,breakfast,Breakfast/Grill,Turkey Bacon
+day26,breakfast,Breakfast/Grill,Pork Breakfast Sausage Link
+day26,breakfast,Breakfast/Grill,Strawberries
+day26,breakfast,Breakfast/Grill,Honeydew Melon
+day26,breakfast,Breakfast/Grill,Gluten Free Honey Oat Granola
+day26,breakfast,Breakfast/Grill,Soy Yogurt
+day26,breakfast,Breakfast/Grill,Vanilla Yogurt
+day26,breakfast,Breakfast/Grill,Greek Yogurt
+day26,breakfast,Breakfast/Grill,Quinoa
+day26,breakfast,Breakfast/Grill,Hoop Cheddar Grits
+day26,breakfast,Breakfast/Grill,Maine Rolled Oats
+day26,breakfast,Pastry Selection,Cherry Cinnamon Rolls
+day26,breakfast,Pastry Selection,Vegan GF Cherry Muffin
+day27,breakfast,Breakfast/Grill,Cage Free Fried Egg
+day27,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day27,breakfast,Breakfast/Grill,Santa Fe Potatoes
+day27,breakfast,Breakfast/Grill,Grilled Ham Steak
+day27,breakfast,Breakfast/Grill,English Muffin
+day27,breakfast,Breakfast/Grill,Maine Rolled Oats
+day27,breakfast,Breakfast/Grill,Turkey Sausage Patty
+day27,breakfast,Breakfast/Grill,Tempeh and Vegetable Scramble
+day27,breakfast,Breakfast/Grill,White Rice
+day27,breakfast,Breakfast/Grill,Vanilla Yogurt
+day27,breakfast,Breakfast/Grill,Soy Yogurt
+day27,breakfast,Breakfast/Grill,Mango Chunks
+day27,breakfast,Breakfast/Grill,Peaches
+day27,breakfast,Breakfast/Grill,Cranberry Chew Low-Fat Granola
+day27,breakfast,Breakfast/Grill,Greek Yogurt
+day27,breakfast,Breakfast/Grill,Grits
+day27,breakfast,Pastry Selection,Assorted Donuts
+day27,breakfast,Pastry Selection,Vegan GF Maple Muffin
+day28,breakfast,Breakfast/Grill,Sausage Chicken and Apple
+day28,breakfast,Breakfast/Grill,Bacon
+day28,breakfast,Breakfast/Grill,Tofu Scramble with Asparagus & Mushroom
+day28,breakfast,Breakfast/Grill,Brown Rice
+day28,breakfast,Breakfast/Grill,Creme Brule French Toast
+day28,breakfast,Breakfast/Grill,Herbed Breakfast Potatoes
+day28,breakfast,Breakfast/Grill,Cage Free Scrambled Eggs
+day28,breakfast,Breakfast/Grill,Cage Free Hard Boiled Egg
+day28,breakfast,Breakfast/Grill,Cinnamon Apple Grits
+day28,breakfast,Breakfast/Grill,Maine Rolled Oats
+day28,breakfast,Pastry Selection,Cinnamon Chip Scone
+day28,breakfast,Pastry Selection,Vegan GF Cinnamon Muffin

@@ -1,0 +1,534 @@
+day,meal_type,dining_course,menu
+day1,lunch,Allergen Friendly,AF Creole Fried Chicpea Tofu
+day1,lunch,Allergen Friendly,AF Lemon Parsley Quinoa
+day1,lunch,Allergen Friendly,AF Charlie's Chicken
+day1,lunch,Dessert,Crispy Chewy Treats
+day1,lunch,Dessert,Rice Krispy Treats
+day1,lunch,Lighter Side,Roast Sweet Potato
+day1,lunch,Lighter Side,Steamed Kale
+day1,lunch,Lighter Side,Grilled Chicken Breast
+day1,lunch,Soup,Carrot Ginger Soup
+day1,lunch,Soup,French Onion Soup
+day1,lunch,Traditional,Pure Maple Syrup
+day1,lunch,Traditional,AF Citrus Roasted Beets
+day1,lunch,Traditional,Cheddar Grits
+day1,lunch,Traditional,Buttermilk Biscuit
+day1,lunch,Traditional,Sausage Gravy
+day1,lunch,Traditional,Cage Free Scrambled Eggs
+day1,lunch,Traditional,Country Fried Steak
+day2,lunch,Allergen Friendly,AF Szechuan Chicken
+day2,lunch,Allergen Friendly,AF Steamed Rice Brown
+day2,lunch,Allergen Friendly,AF Szechuan Chickpea Tofu
+day2,lunch,Dessert,Peppermint Chocolate Brownie
+day2,lunch,Dessert,Vegan Peppermint Brownies
+day2,lunch,Lighter Side,Steamed Broccoli
+day2,lunch,Lighter Side,Roasted Potatoes
+day2,lunch,Lighter Side,Grilled Chicken Breast
+day2,lunch,Salad Bar,Egg Salad
+day2,lunch,Salad Bar,"Kale, Cabbage and Cranberry Slaw"
+day2,lunch,Salad Bar,Kalamata Olive Hummus
+day2,lunch,Salad Bar,Sesame Ginger Pasta Salad
+day2,lunch,Soup,Butternut Squash & Apple Soup
+day2,lunch,Soup,Beef and Barley Soup
+day2,lunch,Traditional,Vegetable Egg Rolls
+day2,lunch,Traditional,Sauteed Snap Peas and Mushrooms
+day2,lunch,Traditional,Vegetable Fried Rice
+day2,lunch,Traditional,Vegan Sesame Nuggets
+day2,lunch,Traditional,Tempura Tender
+day3,lunch,Allergen Friendly,AF Chili Lime Chicken
+day3,lunch,Allergen Friendly,Gluten Free Tortilla
+day3,lunch,Allergen Friendly,AF Cooked Jasmine Rice
+day3,lunch,Allergen Friendly,AF Chili Lime Seared Chickpea Tofu
+day3,lunch,Burrito Bar,Sour Cream
+day3,lunch,Burrito Bar,Diced Tomatoes
+day3,lunch,Burrito Bar,"Cilantro, Chopped"
+day3,lunch,Burrito Bar,Guacamole
+day3,lunch,Burrito Bar,Pico de Gallo
+day3,lunch,Burrito Bar,"Iceberg, Lettuce, Shredded"
+day3,lunch,Dessert,Vegan Vanilla Coconut Cookie
+day3,lunch,Dessert,Sugar Cookie
+day3,lunch,Lighter Side,Roasted Yukon Gold Potatoes
+day3,lunch,Lighter Side,Cremini Mushrooms
+day3,lunch,Lighter Side,Grilled Chicken Breast
+day3,lunch,Lighter Side,Roasted Vegetables
+day3,lunch,Salad Bar,Sesame Ginger Pasta Salad
+day3,lunch,Salad Bar,"Kale, Cabbage and Cranberry Slaw"
+day3,lunch,Salad Bar,Kalamata Olive Hummus
+day3,lunch,Salad Bar,Egg Salad
+day3,lunch,Soup,Pasta Fagioli with Sausage
+day3,lunch,Soup,Chipotle Sweet Potato Soup
+day3,lunch,Traditional,Mexican Rice
+day3,lunch,Traditional,Jalapeno Cheese Sauce
+day3,lunch,Traditional,Steamed Corn
+day3,lunch,Traditional,Braised Beef Taco Filling
+day3,lunch,Traditional,Black Bean Veggie Burrito Filling
+day4,lunch,Allergen Friendly,AF Pasta Bolognese
+day4,lunch,Allergen Friendly,Millet
+day4,lunch,Allergen Friendly,AF Pasta Primavera
+day4,lunch,Dessert,Vegan Oatmeal Raisin Cookies
+day4,lunch,Dessert,Vegan Ranger Cookies
+day4,lunch,Lighter Side,Baked Sweet Potato
+day4,lunch,Lighter Side,Steamed Fresh Carrots
+day4,lunch,Lighter Side,Grilled Chicken Breast
+day4,lunch,Salad Bar,Toasted Quinoa Butternut Salad
+day4,lunch,Salad Bar,Tuna Salad
+day4,lunch,Salad Bar,Sweet Potato Salad with Cilantro & Lime
+day4,lunch,Salad Bar,Red Pepper Hummus
+day4,lunch,Soup,Soup Turkey Gumbo Kettle Cuisine
+day4,lunch,Soup,White Bean & Escarole Soup
+day4,lunch,Traditional,Roasted Broccoli
+day4,lunch,Traditional,Garlic and Herb Breadsticks
+day4,lunch,Traditional,Meatless American Chop Suey
+day4,lunch,Traditional,American Chop Suey
+day5,lunch,Allergen Friendly,AF Rice Pilaf
+day5,lunch,Allergen Friendly,AF Cider Mill BBQ Sauce
+day5,lunch,Allergen Friendly,AF BBQ Chickpea Tofu
+day5,lunch,Allergen Friendly,AF Grilled Chicken Breast
+day5,lunch,Dessert,Raspberry Coconut Macaroon Bar
+day5,lunch,Dessert,Vegan Vanilla Raspberry Coconut Cookie
+day5,lunch,Lighter Side,Roasted Potatoes
+day5,lunch,Lighter Side,Steamed Swiss Chard
+day5,lunch,Lighter Side,Grilled Chicken Breast
+day5,lunch,Salad Bar,Cornmeal Dusted Challa Roll
+day5,lunch,Salad Bar,Tuna Salad
+day5,lunch,Salad Bar,Sweet Potato Salad with Cilantro & Lime
+day5,lunch,Salad Bar,Red Pepper Hummus
+day5,lunch,Salad Bar,Toasted Quinoa Butternut Salad
+day5,lunch,Soup,White Cauliflower & Cheddar Soup
+day5,lunch,Soup,Chicken and Roasted Corn Chowder
+day5,lunch,Traditional,BBQ Smoked Tofu
+day5,lunch,Traditional,Roasted Broccoli and Cauliflower
+day5,lunch,Traditional,Pulled BBQ Chicken
+day5,lunch,Traditional,Corn Bread
+day5,lunch,Traditional,Macaroni and Cheese
+day6,lunch,Allergen Friendly,AF Cooked Brown Basmati Rice
+day6,lunch,Allergen Friendly,AF Curried Mango Jackfruit
+day6,lunch,Allergen Friendly,AF Mango Chicken Curry
+day6,lunch,Dessert,Cacao Brownie
+day6,lunch,Dessert,Vegan Cacao Brownies
+day6,lunch,Lighter Side,Grilled Chicken Breast
+day6,lunch,Lighter Side,Roasted Yukon Gold Potatoes
+day6,lunch,Lighter Side,Roasted Butternut Squash
+day6,lunch,Salad Bar,Toasted Quinoa Butternut Salad
+day6,lunch,Salad Bar,Sweet Potato Salad with Cilantro & Lime
+day6,lunch,Salad Bar,Red Pepper Hummus
+day6,lunch,Salad Bar,Tuna Salad
+day6,lunch,Soup,Lentil Soup
+day6,lunch,Soup,Clam Chowder
+day6,lunch,Traditional,Shanghai Bok Choy and Mushroom
+day6,lunch,Traditional,Scallion Jasmine Rice
+day6,lunch,Traditional,Miso Marinated Tofu
+day6,lunch,Traditional,Miso Marinated Salmon
+day7,lunch,Allergen Friendly,AF Vegetarian Chili
+day7,lunch,Allergen Friendly,AF Steamed Rice Brown
+day7,lunch,Allergen Friendly,AF Chicken Chili
+day7,lunch,Dessert,Double Chocolate Coconut Cookie
+day7,lunch,Dessert,Chocolate Chip Blondie
+day7,lunch,Lighter Side,Roasted Corn and Red Peppers
+day7,lunch,Lighter Side,Roasted Calico Fingerling Potatoes
+day7,lunch,Lighter Side,Grilled Chicken Breast
+day7,lunch,Salad Bar,Red Pepper Hummus
+day7,lunch,Salad Bar,Sweet Potato Salad with Cilantro & Lime
+day7,lunch,Salad Bar,Tuna Salad
+day7,lunch,Salad Bar,Toasted Quinoa Butternut Salad
+day7,lunch,Soup,Black Bean Soup
+day7,lunch,Soup,Loaded Potato Soup
+day7,lunch,Traditional,Tempeh Reuben
+day7,lunch,Traditional,Reuben Sandwich
+day7,lunch,Traditional,Roasted Brussels Sprouts with Garlic
+day7,lunch,Traditional,Waffle Fries
+day8,lunch,Allergen Friendly,Sausage Chicken and Apple
+day8,lunch,Allergen Friendly,AF Cooked Quinoa
+day8,lunch,Allergen Friendly,AF Quinoa Breakfast Hash
+day8,lunch,Dessert,Vegan Espresso Brownies
+day8,lunch,Dessert,Chocolate Cream Cheese Brownie
+day8,lunch,Lighter Side,Baked Sweet Potato
+day8,lunch,Lighter Side,Steamed Kale
+day8,lunch,Lighter Side,Grilled Chicken Breast
+day8,lunch,Salad Bar,Tortellini Salad
+day8,lunch,Salad Bar,Sriracha Tuna Salad
+day8,lunch,Salad Bar,Fresh Mozzarella and Tomato Salad
+day8,lunch,Salad Bar,Spinach Hummus
+day8,lunch,Soup,Chicken Noodle Soup
+day8,lunch,Soup,Split Pea & Kale Soup
+day8,lunch,Traditional,Roasted Cauliflower
+day8,lunch,Traditional,White Rice
+day8,lunch,Traditional,Maple Bourbon Baked Ham
+day8,lunch,Traditional,Wild Mushroom & Artichoke Frittata
+day9,lunch,Allergen Friendly,AF Steamed Rice Brown
+day9,lunch,Allergen Friendly,Philly Cheesesteak Beef
+day9,lunch,Allergen Friendly,Philly Portabella Sandwich Filling
+day9,lunch,Dessert,Vegan Coconut Lemon Bars
+day9,lunch,Dessert,Lemon Bars
+day9,lunch,Lighter Side,Roasted Potatoes
+day9,lunch,Lighter Side,Steamed Swiss Chard
+day9,lunch,Lighter Side,Grilled Chicken Breast
+day9,lunch,Salad Bar,Fresh Mozzarella and Tomato Salad
+day9,lunch,Salad Bar,Sriracha Tuna Salad
+day9,lunch,Salad Bar,Spinach Hummus
+day9,lunch,Salad Bar,Tortellini Salad
+day9,lunch,Soup,Tomato & Garden Vegetable Soup
+day9,lunch,Soup,Minestrone Soup
+day9,lunch,Traditional,Garlic Green Beans
+day9,lunch,Traditional,Philly Portabella Sandwich Filling
+day9,lunch,Traditional,Seasoned Potato Wedges
+day9,lunch,Traditional,Nacho Cheese Sauce
+day9,lunch,Traditional,Sauteed Onions and Peppers
+day9,lunch,Traditional,Philly Cheesesteak Beef
+day9,lunch,Traditional,Sub Rolls
+day10,lunch,Allergen Friendly,Corn Tortilla
+day10,lunch,Allergen Friendly,AF Grilled Vegetable Taco Filling
+day10,lunch,Allergen Friendly,AF Beef Taco Filling
+day10,lunch,Dessert,Vegan Chocolate Chip Cookies
+day10,lunch,Dessert,Chocolate Chip Cookie
+day10,lunch,Lighter Side,Roasted Yukon Gold Potatoes
+day10,lunch,Lighter Side,Steamed Sugar Snap Peas
+day10,lunch,Lighter Side,Grilled Chicken Breast
+day10,lunch,Salad Bar,Tortellini Salad
+day10,lunch,Salad Bar,Fresh Mozzarella and Tomato Salad
+day10,lunch,Salad Bar,Spinach Hummus
+day10,lunch,Salad Bar,Sriracha Tuna Salad
+day10,lunch,Soup,Hungarian Mushroom Soup
+day10,lunch,Soup,Thai Chicken Soup with Red Curry
+day10,lunch,Traditional,Yellow Corn Tortillas
+day10,lunch,Traditional,Tortilla
+day10,lunch,Traditional,Black Bean & Corn Salsa
+day10,lunch,Traditional,Taco Shells
+day10,lunch,Traditional,Spanish Rice
+day10,lunch,Traditional,Roasted Broccoli
+day10,lunch,Traditional,Sweet Potato Taco Filling
+day10,lunch,Traditional,Beef Taco Filling
+day11,lunch,Allergen Friendly,AF Vegan Green Monster
+day11,lunch,Allergen Friendly,AF Grilled Chicken Green Monster
+day11,lunch,Allergen Friendly,Millet
+day11,lunch,Dessert,Chocolate Brownie
+day11,lunch,Dessert,Vegan Brownies
+day11,lunch,Lighter Side,Baked Sweet Potato
+day11,lunch,Lighter Side,Roasted Zucchini and Summer Squash
+day11,lunch,Lighter Side,Grilled Chicken Breast
+day11,lunch,Salad Bar,Pesto Chicken Salad
+day11,lunch,Salad Bar,Pearl Pasta Salad with Apricot
+day11,lunch,Salad Bar,Green Bean Potato Salad
+day11,lunch,Salad Bar,White Bean Hummus
+day11,lunch,Soup,Tomato Basil Bisque
+day11,lunch,Traditional,Green Monster Grilled Cheese
+day11,lunch,Traditional,Vegan Green Monster Grilled Cheese
+day11,lunch,Traditional,Grilled Cheese
+day11,lunch,Traditional,Roasted Carrots
+day12,lunch,Allergen Friendly,AF Beef Kofta
+day12,lunch,Allergen Friendly,AF Vegan Kofta
+day12,lunch,Allergen Friendly,AF Cooked Brown Basmati Rice
+day12,lunch,Dessert,Chocolate Chip M&M Cookie
+day12,lunch,Dessert,Vegan Ranger Cookies
+day12,lunch,Lighter Side,Roasted Potatoes
+day12,lunch,Lighter Side,Steamed Green Beans
+day12,lunch,Lighter Side,Grilled Chicken Breast
+day12,lunch,Salad Bar,Pesto Chicken Salad
+day12,lunch,Salad Bar,Green Bean Potato Salad
+day12,lunch,Salad Bar,White Bean Hummus
+day12,lunch,Salad Bar,Pearl Pasta Salad with Apricot
+day12,lunch,Soup,Chipotle Sweet Potato Soup
+day12,lunch,Soup,Corn Chowder
+day12,lunch,Traditional,Roasted Zucchini and Summer Squash
+day12,lunch,Traditional,AF Sheppherds Salad
+day12,lunch,Traditional,Steamed Kale
+day12,lunch,Traditional,AF Roasted Cherry Tomatoes
+day12,lunch,Traditional,Wheat Pita
+day12,lunch,Traditional,Basmati Rice
+day12,lunch,Traditional,Middle Eastern Vegan Crumble
+day12,lunch,Traditional,Middle Eastern Shaved Beef
+day12,lunch,Traditional,Tzatziki Sauce
+day13,lunch,Allergen Friendly,AF Cajun Spiced Chicken
+day13,lunch,Allergen Friendly,AF Cajun Spiced Chickpea Stew
+day13,lunch,Allergen Friendly,AF Vegan Polenta
+day13,lunch,Dessert,Butterscotch Blondie
+day13,lunch,Dessert,Vegan Butterscotch Blondie
+day13,lunch,Lighter Side,Roasted Yukon Gold Potatoes
+day13,lunch,Lighter Side,Steamed Peas
+day13,lunch,Lighter Side,Grilled Chicken Breast
+day13,lunch,Salad Bar,Pearl Pasta Salad with Apricot
+day13,lunch,Salad Bar,White Bean Hummus
+day13,lunch,Salad Bar,Green Bean Potato Salad
+day13,lunch,Salad Bar,Pesto Chicken Salad
+day13,lunch,Soup,Clam Chowder
+day13,lunch,Soup,3 Bean Chili
+day13,lunch,Soup,Tomato Bisque
+day13,lunch,Traditional,Shrimp Po Boy Sandwich
+day13,lunch,Traditional,Veggie Burger Po Boy Sandwich
+day13,lunch,Traditional,Roasted Beets
+day14,lunch,Allergen Friendly,AF Vegetarian Chili
+day14,lunch,Allergen Friendly,AF Cooked Brown Basmati Rice
+day14,lunch,Allergen Friendly,AF Beef Chili
+day14,lunch,Dessert,Cherry Squares
+day14,lunch,Dessert,Vegan Cherry Squares
+day14,lunch,Lighter Side,Roasted Calico Fingerling Potatoes
+day14,lunch,Lighter Side,Steamed Corn
+day14,lunch,Lighter Side,Grilled Chicken Breast
+day14,lunch,Salad Bar,White Bean Hummus
+day14,lunch,Salad Bar,Green Bean Potato Salad
+day14,lunch,Salad Bar,Pesto Chicken Salad
+day14,lunch,Salad Bar,Pearl Pasta Salad with Apricot
+day14,lunch,Soup,Pasta Fagioli with Sausage
+day14,lunch,Soup,Chipotle Sweet Potato Soup
+day14,lunch,Traditional,Tostitos
+day14,lunch,Traditional,Diced Tomatoes
+day14,lunch,Traditional,"Onion, Red, Diced"
+day14,lunch,Traditional,"Cilantro, Chopped"
+day14,lunch,Traditional,"Iceberg, Lettuce, Shredded"
+day14,lunch,Traditional,Cheddar Cheese
+day14,lunch,Traditional,Sour Cream
+day14,lunch,Traditional,Braised Collard Greens with Garlic
+day14,lunch,Traditional,Corn Bread
+day14,lunch,Traditional,Vegetarian Chili
+day14,lunch,Traditional,Bison Chili
+day14,lunch,Traditional,White Rice
+day15,lunch,Allergen Friendly,AF Charlie's Chicken
+day15,lunch,Allergen Friendly,AF Grilled Portobello w/Balsamic Glaze
+day15,lunch,Allergen Friendly,Quinoa
+day15,lunch,Dessert,Chocolate Brownie
+day15,lunch,Dessert,Vegan Brownies
+day15,lunch,Lighter Side,Grilled Chicken Breast
+day15,lunch,Lighter Side,Steamed Kale
+day15,lunch,Lighter Side,Baked Sweet Potato
+day15,lunch,Salad Bar,Cavatappi Pasta Salad
+day15,lunch,Salad Bar,Creamy Cole Slaw
+day15,lunch,Salad Bar,Cranberry-Apple Chicken Salad
+day15,lunch,Salad Bar,Hummus
+day15,lunch,Soup,Pasta Fagioli with Sausage
+day15,lunch,Soup,Split Pea & Kale Soup
+day15,lunch,Traditional,Charlie's Chicken
+day15,lunch,Traditional,Creole Fried Tofu
+day15,lunch,Traditional,Roasted Cauliflower
+day15,lunch,Traditional,White Rice
+day16,lunch,Allergen Friendly,AF Marinana Chicken Pasta
+day16,lunch,Allergen Friendly,AF Marinana Mushroom Pasta
+day16,lunch,Allergen Friendly,AF Steamed Rice Brown
+day16,lunch,Dessert,Vegan Chocolate Chip Cookies
+day16,lunch,Dessert,Chocolate Chip Cookie
+day16,lunch,Lighter Side,Grilled Chicken Breast
+day16,lunch,Lighter Side,Roasted Potatoes
+day16,lunch,Lighter Side,Ratatouille
+day16,lunch,Salad Bar,Hummus
+day16,lunch,Salad Bar,Cranberry-Apple Chicken Salad
+day16,lunch,Salad Bar,Creamy Cole Slaw
+day16,lunch,Salad Bar,Cavatappi Pasta Salad
+day16,lunch,Soup,White Bean & Escarole Soup
+day16,lunch,Soup,Soup Turkey Gumbo Kettle Cuisine
+day16,lunch,Traditional,Steamed Broccoli
+day16,lunch,Traditional,Braised Beef Ravioli
+day16,lunch,Traditional,Roasted Vegetable Vegan Ravioli
+day16,lunch,Traditional,Marinara Sauce
+day16,lunch,Traditional,Alfredo Cheese Sauce
+day16,lunch,Traditional,Garlic and Herb Breadsticks
+day17,lunch,Allergen Friendly,AF Bulgogi Korean BBQ Beef
+day17,lunch,Allergen Friendly,AF Grilled Chickpea Tofu
+day17,lunch,Allergen Friendly,AF Cooked Jasmine Rice
+day17,lunch,Dessert,Strawberry Oat Bar
+day17,lunch,Dessert,Vegan Strawberry Oat Bar
+day17,lunch,Lighter Side,Grilled Chicken Breast
+day17,lunch,Lighter Side,Steamed Sugar Snap Peas
+day17,lunch,Lighter Side,Roasted Yukon Gold Potatoes
+day17,lunch,Salad Bar,Creamy Cole Slaw
+day17,lunch,Salad Bar,Cranberry-Apple Chicken Salad
+day17,lunch,Salad Bar,Cavatappi Pasta Salad
+day17,lunch,Salad Bar,Hummus
+day17,lunch,Soup,Broccoli Cheddar Soup
+day17,lunch,Soup,Beef and Barley Soup
+day17,lunch,Traditional,Poke Bowl Salmon
+day17,lunch,Traditional,Bulgogi Korean BBQ Beef
+day17,lunch,Traditional,Sushi Rice
+day17,lunch,Traditional,Kimchi Slaw
+day17,lunch,Traditional,Edamame
+day17,lunch,Traditional,Mango Chunks
+day17,lunch,Traditional,Nori
+day17,lunch,Traditional,Pickled Ginger
+day17,lunch,Traditional,Shredded Carrots
+day17,lunch,Traditional,Cilantro
+day17,lunch,Traditional,Green Onion
+day17,lunch,Traditional,Spicy Mayo
+day18,lunch,Allergen Friendly,AF Chili Lime Chicken
+day18,lunch,Allergen Friendly,AF Chili Lime Seared Chickpea Tofu
+day18,lunch,Allergen Friendly,AF Roasted Potatoes
+day18,lunch,Dessert,Chocolate Chip M&M Cookie
+day18,lunch,Dessert,Vegan Ranger Cookies
+day18,lunch,Lighter Side,Grilled Chicken Breast
+day18,lunch,Lighter Side,Baked Sweet Potato
+day18,lunch,Lighter Side,Steamed Fresh Carrots
+day18,lunch,Lighter Side,Roasted Harvest Vegetable Blend
+day18,lunch,Salad Bar,Tabbouleh Salad
+day18,lunch,Salad Bar,Buffalo Chicken Salad
+day18,lunch,Salad Bar,Potato Salad
+day18,lunch,Salad Bar,Black Bean Hummus
+day18,lunch,Soup,Chicken and Roasted Corn Chowder
+day18,lunch,Soup,Butternut Squash & Apple Soup
+day18,lunch,Traditional,Chicken Tenders
+day18,lunch,Traditional,Pakora Caesar Wrap
+day18,lunch,Traditional,Chicken Caesar Wrap
+day18,lunch,Traditional,Waffle Fries
+day18,lunch,Traditional,Roasted Brussels Sprouts with Garlic
+day19,lunch,Allergen Friendly,AF Steamed Green Beans
+day19,lunch,Allergen Friendly,AF Rice Pilaf
+day19,lunch,Allergen Friendly,AF Beef Stew
+day19,lunch,Dessert,Vegan Espresso Brownies
+day19,lunch,Dessert,Chocolate Cream Cheese Brownie
+day19,lunch,Lighter Side,AF Roasted Potatoes
+day19,lunch,Lighter Side,Grilled Chicken Breast
+day19,lunch,Salad Bar,Buffalo Chicken Salad
+day19,lunch,Salad Bar,Black Bean Hummus
+day19,lunch,Salad Bar,Potato Salad
+day19,lunch,Salad Bar,Tabbouleh Salad
+day19,lunch,Soup,Chicken Noodle Soup
+day19,lunch,Soup,Carrot Ginger Soup
+day19,lunch,Soup,Black Bean Soup
+day19,lunch,Traditional,Autumnal Beef Stew
+day19,lunch,Traditional,Lentil Stew
+day19,lunch,Traditional,White Rice
+day19,lunch,Traditional,Honey Roasted Carrots
+day20,lunch,Allergen Friendly,AF Creole Fried Chicpea Tofu
+day20,lunch,Allergen Friendly,AF Vegan Polenta
+day20,lunch,Dessert,Vegan Butterscotch Blondie
+day20,lunch,Dessert,Butterscotch Blondie
+day20,lunch,Lighter Side,Roasted Yukon Gold Potatoes
+day20,lunch,Lighter Side,New England Cod Cakes
+day20,lunch,Lighter Side,Steamed Kale
+day20,lunch,Lighter Side,Grilled Chicken Breast
+day20,lunch,Salad Bar,Tabbouleh Salad
+day20,lunch,Salad Bar,Potato Salad
+day20,lunch,Salad Bar,Black Bean Hummus
+day20,lunch,Salad Bar,Buffalo Chicken Salad
+day20,lunch,Soup,Chipotle Sweet Potato Soup
+day20,lunch,Soup,Clam Chowder
+day20,lunch,Traditional,Burger
+day20,lunch,Traditional,Black Bean Veggie Burger
+day20,lunch,Traditional,White Rice
+day20,lunch,Traditional,Seasoned Potato Wedges
+day20,lunch,Traditional,Fried Pickles
+day20,lunch,Traditional,Roasted Vegetables
+day21,lunch,Allergen Friendly,AF Steamed Rice Brown
+day21,lunch,Allergen Friendly,AF Eggplant Cacciatore
+day21,lunch,Allergen Friendly,AF Chicken Cacciatore
+day21,lunch,Dessert,Vegan Congo Bars
+day21,lunch,Dessert,Congo Bars
+day21,lunch,Lighter Side,Roasted Calico Fingerling Potatoes
+day21,lunch,Lighter Side,Steamed Corn
+day21,lunch,Lighter Side,Grilled Chicken Breast
+day21,lunch,Salad Bar,Buffalo Chicken Salad
+day21,lunch,Salad Bar,Potato Salad
+day21,lunch,Salad Bar,Black Bean Hummus
+day21,lunch,Salad Bar,Tabbouleh Salad
+day21,lunch,Soup,White Cauliflower & Cheddar Soup
+day21,lunch,Soup,French Onion Soup
+day21,lunch,Traditional,Chicken Parmesan
+day21,lunch,Traditional,Fresh Marinara Sauce
+day21,lunch,Traditional,Eggplant Parmesan
+day21,lunch,Traditional,Waffle Fries
+day21,lunch,Traditional,Garlic Green Beans
+day21,lunch,Traditional,Bulkie Rolls
+day22,lunch,Dessert,Vegan Brownies with Chocolate Chips
+day22,lunch,Dessert,M&M Brownie
+day22,lunch,Lighter Side,AF Cooked Quinoa
+day22,lunch,Lighter Side,Beyond Meat Vegan Brat
+day22,lunch,Lighter Side,Sausage Chicken and Apple
+day22,lunch,Lighter Side,Steamed Kale
+day22,lunch,Lighter Side,Baked Sweet Potato
+day22,lunch,Lighter Side,Grilled Chicken Breast
+day22,lunch,Salad Bar,Greek Pasta Salad
+day22,lunch,Salad Bar,Ham Salad
+day22,lunch,Salad Bar,Brussels Sprouts & Pomegranate Salad
+day22,lunch,Salad Bar,Artichoke and White Bean Hummus
+day22,lunch,Soup,Chicken Orzo Soup
+day22,lunch,Soup,Corn Chowder
+day22,lunch,Traditional,Cage Free Scrambled Eggs
+day22,lunch,Traditional,Pure Maple Syrup
+day22,lunch,Traditional,Roasted Broccoli
+day22,lunch,Traditional,Bacon
+day22,lunch,Traditional,Vermont Corned Beef
+day22,lunch,Traditional,Garden Frittata
+day23,lunch,Dessert,Vegan Chocolate Chip Blondie
+day23,lunch,Dessert,Chocolate Chip Blondie
+day23,lunch,Lighter Side,AF Quinoa Stuffed Tomatoes
+day23,lunch,Lighter Side,AF Cooked Brown Basmati Rice
+day23,lunch,Lighter Side,Brown Rice
+day23,lunch,Lighter Side,Roasted Broccoli
+day23,lunch,Lighter Side,Grilled Chicken Breast
+day23,lunch,Soup,Loaded Potato Soup
+day23,lunch,Soup,Black Bean Soup
+day23,lunch,Traditional,Smoked Gouda & Maple Grilled Cheese
+day23,lunch,Traditional,Roasted Harvest Vegetable Blend
+day23,lunch,Traditional,Maple Ham and Smoked Gouda Sandwich
+day23,lunch,Traditional,Maple Roasted Sweet Potatoes
+day24,lunch,Allergen Friendly,AF Beef Stir Fry with Onions & Peppers
+day24,lunch,Dessert,Raspberry Chocolate Chip Oat Bar
+day24,lunch,Dessert,Vegan Raspberry Chocolate Chip Oat Bar
+day24,lunch,Dessert,Chocolate Chip Blondie
+day24,lunch,Dessert,Vegan Chocolate Chip Blondie
+day24,lunch,Lighter Side,AF Cooked Jasmine Rice
+day24,lunch,Lighter Side,AF Grilled Vegetable Taco Filling
+day24,lunch,Lighter Side,AF Roasted Yukon Gold Potatoes
+day24,lunch,Lighter Side,Steamed Sugar Snap Peas
+day24,lunch,Lighter Side,Grilled Chicken Breast
+day24,lunch,Soup,Thai Chicken Soup with Red Curry
+day24,lunch,Soup,Hungarian Mushroom Soup
+day24,lunch,Traditional,Shrimp Taco Filling
+day24,lunch,Traditional,Spanish Rice
+day24,lunch,Traditional,Tortilla
+day24,lunch,Traditional,Adobo Zucchini with Onions & Peppers
+day24,lunch,Traditional,Yellow Corn Tortillas
+day24,lunch,Traditional,Grilled Vegetable Taco Filling
+day24,lunch,Traditional,Cantina Chicken Taco Filling
+day24,lunch,Traditional,Corn Tortilla
+day25,lunch,Dessert,Vegan Coconut Lemon Bars
+day25,lunch,Dessert,Lemon Bars
+day25,lunch,Lighter Side,AF Rice Noodles with Garlic & Scallions
+day25,lunch,Lighter Side,AF Chickpea Tofu Stir Fry
+day25,lunch,Lighter Side,AF Beef Stir Fry with Onions & Peppers
+day25,lunch,Lighter Side,Baked Sweet Potato
+day25,lunch,Lighter Side,Steamed Fresh Carrots
+day25,lunch,Lighter Side,Grilled Chicken Breast
+day25,lunch,Soup,Minestrone Soup
+day25,lunch,Soup,Tomato & Garden Vegetable Soup
+day25,lunch,Traditional,Roasted Broccoli and Cauliflower
+day25,lunch,Traditional,Kale and Vegetable Dumpling
+day25,lunch,Traditional,Mu Shu Tofu
+day25,lunch,Traditional,Vegetable Lo Mein
+day25,lunch,Traditional,Lo Mein Chicken
+day26,lunch,Dessert,Salted Caramel Pretzel Brownies
+day26,lunch,Dessert,Vegan Salted Caramel Pretzel Bar
+day26,lunch,Lighter Side,AF Steamed Rice Brown
+day26,lunch,Lighter Side,AF Herb Marinated Grilled Portobello
+day26,lunch,Lighter Side,Roasted Potatoes
+day26,lunch,Lighter Side,Steamed Green Beans
+day26,lunch,Lighter Side,Grilled Chicken Breast
+day26,lunch,Soup,Lentil Soup
+day26,lunch,Soup,3 Bean Chili
+day26,lunch,Traditional,Zucchini Corn Fajita
+day26,lunch,Traditional,Yuca Fries
+day26,lunch,Traditional,Cuban Sandwich
+day26,lunch,Traditional,Black Bean Torta
+day27,lunch,Dessert,Oatmeal Raisin Cookies
+day27,lunch,Dessert,Vegan Oatmeal Raisin Bars
+day27,lunch,Lighter Side,AF Vegan Polenta
+day27,lunch,Lighter Side,AF Feijoada
+day27,lunch,Lighter Side,Roasted Yukon Gold Potatoes
+day27,lunch,Lighter Side,Roasted Butternut Squash
+day27,lunch,Lighter Side,Grilled Chicken Breast
+day27,lunch,Soup,Split Pea & Kale Soup
+day27,lunch,Soup,Clam Chowder
+day27,lunch,Traditional,Roasted Carrots
+day27,lunch,Traditional,Tartar Sauce
+day27,lunch,Traditional,French Fries
+day27,lunch,Traditional,Broccoli Macaroni and Cheese
+day27,lunch,Traditional,New England Fish Fry
+day28,lunch,Dessert,Cherry Squares
+day28,lunch,Dessert,Vegan Lemon Poppy Seed Cake
+day28,lunch,Lighter Side,AF Cooked Brown Basmati Rice
+day28,lunch,Lighter Side,AF Marinana Chicken Pasta
+day28,lunch,Lighter Side,AF Marinana Mushroom Pasta
+day28,lunch,Lighter Side,Roasted Calico Fingerling Potatoes
+day28,lunch,Lighter Side,Grilled Chicken Breast
+day28,lunch,Lighter Side,Roasted Beets
+day28,lunch,Soup,Chicken Noodle Soup
+day28,lunch,Soup,Broccoli Cheddar Soup
+day28,lunch,Traditional,Steamed Primavera Vegetables
+day28,lunch,Traditional,Vegan Pesto Gemelli
+day28,lunch,Traditional,Chicken Broccoli Alfredo
