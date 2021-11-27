@@ -1,0 +1,476 @@
+day,meal_type,dining_course,menu
+day1,dinner,Allergen Friendly,AF Vegan Mashed Potatoes
+day1,dinner,Allergen Friendly,AF Basil Pomo D'oro Sauce
+day1,dinner,Allergen Friendly,Grilled Chicken Breast
+day1,dinner,Allergen Friendly,AF Stuffed Acorn Squash
+day1,dinner,Dessert,Apple Pie
+day1,dinner,Lighter Side,Roasted Yukon Gold Potatoes
+day1,dinner,Lighter Side,Brown Rice
+day1,dinner,Lighter Side,Steamed Peas
+day1,dinner,Pasta,Carbonara Sauce
+day1,dinner,Pasta,Sauce Tomato Al Dente
+day1,dinner,Pasta,Penne Pasta
+day1,dinner,Pasta,Gemelli Pasta
+day1,dinner,Traditional,Garlic and Lemon Green Beans
+day1,dinner,Traditional,Stuffed Acorn Squash
+day1,dinner,Traditional,AF Roast Beef Au Jus
+day1,dinner,Traditional,Cauliflower and Mashed Potato
+day2,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day2,dinner,Allergen Friendly,AF Roasted Cauliflower Piccatta
+day2,dinner,Allergen Friendly,AF Cooked Quinoa
+day2,dinner,Allergen Friendly,AF Piccata Sauce
+day2,dinner,Allergen Friendly,Grilled Chicken Breast
+day2,dinner,Dessert,Vegan Chocolate Covered Cherry Cake
+day2,dinner,Dessert,Chocolate Covered Cherry Cake
+day2,dinner,Lighter Side,Fresh Catch of the Day
+day2,dinner,Lighter Side,Vegetable of The Day
+day2,dinner,Lighter Side,Baked Sweet Potato
+day2,dinner,Pasta,Pesto Cream Sauce
+day2,dinner,Pasta,Sauce Tomato Al Dente
+day2,dinner,Pasta,Penne Pasta
+day2,dinner,Pasta,Cavatappi Pasta
+day2,dinner,Traditional,Baked Sausage Radicchio Pasta
+day2,dinner,Traditional,Rosemary Focaccia Bread
+day2,dinner,Traditional,Ratatouille
+day2,dinner,Traditional,Baked Butternut Kale Pasta
+day3,dinner,Allergen Friendly,AF Cooked White Basmati Rice
+day3,dinner,Allergen Friendly,AF Chana Masala
+day3,dinner,Allergen Friendly,AF Masala Sauce
+day3,dinner,Allergen Friendly,Grilled Chicken Breast
+day3,dinner,Dessert,Vegan Chocolate Cake
+day3,dinner,Dessert,Chocolate Cake with Chocolate Frosting
+day3,dinner,Lighter Side,Fresh Catch of the Day
+day3,dinner,Lighter Side,Roasted Potatoes
+day3,dinner,Lighter Side,Turmeric Roasted Cauliflower
+day3,dinner,Pasta,Sauce Tomato Al Dente
+day3,dinner,Pasta,Sundried Tomato Sauce
+day3,dinner,Pasta,Penne Pasta
+day3,dinner,Traditional,Chana Masala
+day3,dinner,Traditional,Eggplant Begun Bhaja
+day3,dinner,Traditional,Parsley and Lemon Cous Cous
+day3,dinner,Traditional,Chicken Tikka Masala
+day4,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day4,dinner,Allergen Friendly,AF Eggplant Mushroom Ragout
+day4,dinner,Allergen Friendly,Grilled Chicken Breast
+day4,dinner,Dessert,Vegan Strawbery Shortcake
+day4,dinner,Dessert,Whipped Cream
+day4,dinner,Dessert,Strawbery Shortcake
+day4,dinner,Lighter Side,Fresh Catch of the Day
+day4,dinner,Lighter Side,Shiitake & Rice Stuffed Delicata Squash
+day4,dinner,Lighter Side,Roasted Yukon Gold Potatoes
+day4,dinner,Pasta,Sauce Tomato Al Dente
+day4,dinner,Pasta,Gorgonzola Sauce
+day4,dinner,Pasta,Gemelli Pasta
+day4,dinner,Traditional,Wheat Pull Apart Rolls
+day4,dinner,Traditional,Roasted Brussels Sprouts with Garlic
+day4,dinner,Traditional,Rice Pilaf
+day4,dinner,Traditional,Cannellini Bean and Mushroom Ragout
+day4,dinner,Traditional,Short Rib Ragout
+day5,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day5,dinner,Allergen Friendly,Grilled Chicken Breast
+day5,dinner,Allergen Friendly,AF Quinoa Breakfast Hash
+day5,dinner,Dessert,Vegan Apple Crisp
+day5,dinner,Lighter Side,Fresh Catch of the Day
+day5,dinner,Lighter Side,Roasted Calico Fingerling Potatoes
+day5,dinner,Lighter Side,Roasted Carrots
+day5,dinner,Pasta,Sauce Tomato Al Dente
+day5,dinner,Pasta,Boscaiola Sauce
+day5,dinner,Pasta,Gemelli Pasta
+day5,dinner,Traditional,French Toast
+day5,dinner,Traditional,Blueberries
+day5,dinner,Traditional,Strawberries
+day5,dinner,Traditional,Whipped Cream
+day5,dinner,Traditional,Turkey Sausage Link
+day5,dinner,Traditional,Chicken Bacon Ranch Hash
+day5,dinner,Traditional,Cage Free Scrambled Eggs
+day5,dinner,Traditional,Tater Tots
+day6,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day6,dinner,Allergen Friendly,AF Cooked Jasmine Rice
+day6,dinner,Allergen Friendly,AF Chinese 5 Spice Mushroom Stir Fry
+day6,dinner,Allergen Friendly,AF Kalbi Marinade
+day6,dinner,Allergen Friendly,Grilled Chicken Breast
+day6,dinner,Dessert,Vegan Oatmeal Fudge Bars
+day6,dinner,Dessert,White Chocolate Raspberry Cheesecake
+day6,dinner,Lighter Side,Fresh Catch of the Day
+day6,dinner,Lighter Side,Baked Sweet Potato
+day6,dinner,Pasta,Red Clam Sauce
+day6,dinner,Pasta,Sauce Tomato Al Dente
+day6,dinner,Pasta,Gemelli Pasta
+day6,dinner,Traditional,Togarashi Green Beans
+day6,dinner,Traditional,Coconut Rice
+day6,dinner,Traditional,Tofu with Kalbi Marinade
+day6,dinner,Traditional,Kalbi Beef Short Ribs
+day7,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day7,dinner,Allergen Friendly,Corn Tortilla
+day7,dinner,Allergen Friendly,AF Grilled Vegetable Taco Filling
+day7,dinner,Allergen Friendly,AF Enchilada Sauce
+day7,dinner,Allergen Friendly,Grilled Chicken Breast
+day7,dinner,Burger Bar,Red Onion
+day7,dinner,Burger Bar,Green Leaf Lettuce
+day7,dinner,Burger Bar,White Cheddar Cheese
+day7,dinner,Burger Bar,Tomato
+day7,dinner,Dessert,Vegan Chocolate Chip Cake
+day7,dinner,Dessert,Chocolate Mousse
+day7,dinner,Lighter Side,Fresh Catch of the Day
+day7,dinner,Lighter Side,Roasted Potatoes
+day7,dinner,Lighter Side,White Rice
+day7,dinner,Pasta,Sauce Tomato Al Dente
+day7,dinner,Pasta,Provencal Sauce
+day7,dinner,Pasta,Gemelli Pasta
+day7,dinner,Traditional,Burger
+day7,dinner,Traditional,Beyond Burger
+day7,dinner,Traditional,Brioche Hamburger Roll
+day7,dinner,Traditional,Sauteed Onions
+day7,dinner,Traditional,Sauteed Mushrooms
+day7,dinner,Traditional,Onion Rings
+day8,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day8,dinner,Allergen Friendly,AF Pasta with Garlic Oil
+day8,dinner,Allergen Friendly,Grilled Chicken Breast
+day8,dinner,Allergen Friendly,AF Grilled Chickpea Tofu
+day8,dinner,Allergen Friendly,AF Basil Pomo D'oro Sauce
+day8,dinner,Dessert,Vegan White Cake
+day8,dinner,Dessert,Whtie Cake
+day8,dinner,Lighter Side,Fresh Catch of the Day
+day8,dinner,Lighter Side,"Mac & ""Cheese"""
+day8,dinner,Lighter Side,Steamed Green Beans
+day8,dinner,Mac & Cheese Madness,Crumbled Bacon
+day8,dinner,Mac & Cheese Madness,Roasted Grape Tomatoes
+day8,dinner,Mac & Cheese Madness,Scallions
+day8,dinner,Mac & Cheese Madness,Caramelized Onions
+day8,dinner,Mac & Cheese Madness,Sauteed Mushrooms
+day8,dinner,Mac & Cheese Madness,Roasted Broccoli
+day8,dinner,Mac & Cheese Madness,Popcorn Chicken
+day8,dinner,Mac & Cheese Madness,Pulled Pork
+day8,dinner,Mac & Cheese Madness,Macaroni and Cheese
+day8,dinner,Pasta,Sauce Tomato Al Dente
+day8,dinner,Pasta,Siciliana Sauce
+day8,dinner,Pasta,Penne Pasta
+day9,dinner,Allergen Friendly,AF Lentil Dal
+day9,dinner,Allergen Friendly,Grilled Chicken Breast
+day9,dinner,Allergen Friendly,AF Cooked Brown Basmati Rice
+day9,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day9,dinner,Dessert,Vegan Chocolate Chip Cake
+day9,dinner,Dessert,Marble Cake with Chocolate Frosting
+day9,dinner,Lighter Side,Fresh Catch of the Day
+day9,dinner,Lighter Side,Steamed Fresh Carrots
+day9,dinner,Lighter Side,Baked Sweet Potato
+day9,dinner,Pasta,Gorgonzola Sauce
+day9,dinner,Pasta,Sauce Tomato Al Dente
+day9,dinner,Pasta,Penne Pasta
+day9,dinner,Pizza,Pepperoni Pizza
+day9,dinner,Pizza,Cheese Pizza
+day9,dinner,Traditional,Beef Rendang
+day9,dinner,Traditional,Roasted Brussels Sprouts
+day9,dinner,Traditional,Basmati with Spinach
+day9,dinner,Traditional,Grilled Naan
+day9,dinner,Traditional,Palak Paneer
+day10,dinner,Allergen Friendly,AF Sweet Potato and Black Bean Enchilada
+day10,dinner,Allergen Friendly,AF Enchilada Sauce
+day10,dinner,Allergen Friendly,Grilled Chicken Breast
+day10,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day10,dinner,Dessert,Raspberry Mousse w/White Chocolate Chips
+day10,dinner,Dessert,Vegan Banana Date Chocolate Mousse
+day10,dinner,Lighter Side,Fresh Catch of the Day
+day10,dinner,Lighter Side,Steamed Kale
+day10,dinner,Lighter Side,Roasted Brussels Sprouts
+day10,dinner,Lighter Side,Roasted Potatoes
+day10,dinner,Pasta,Alfredo Cheese Sauce
+day10,dinner,Pasta,Sauce Tomato Al Dente
+day10,dinner,Pasta,Penne Pasta
+day10,dinner,Pizza,Cheese Pizza
+day10,dinner,Pizza,Pepperoni Pizza
+day10,dinner,Traditional,Pierogi Potato Cheese w/ Apples & Onions
+day10,dinner,Traditional,Grilled Kielbasa
+day10,dinner,Traditional,Beyond Meat Vegan Brat
+day10,dinner,Traditional,Vegan Potato Pierogis
+day10,dinner,Traditional,Honey Roasted Carrots
+day11,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day11,dinner,Allergen Friendly,AF Creole Fried Chicpea Tofu
+day11,dinner,Allergen Friendly,AF Piccata Sauce
+day11,dinner,Allergen Friendly,Grilled Chicken Breast
+day11,dinner,Dessert,Vegan Lemon Tarts
+day11,dinner,Dessert,Fresh Lemon Tarts
+day11,dinner,Lighter Side,Roasted Garlic Zucchini
+day11,dinner,Lighter Side,Roasted Yukon Gold Potatoes
+day11,dinner,Lighter Side,Fresh Catch of the Day
+day11,dinner,Pasta,Vodka Sauce
+day11,dinner,Pasta,Sauce Tomato Al Dente
+day11,dinner,Pasta,Gemelli Pasta
+day11,dinner,Pizza,Cheese Pizza
+day11,dinner,Pizza,Pepperoni Pizza
+day11,dinner,Traditional,Cajun Dirty Rice
+day11,dinner,Traditional,Shrimp and Okra Etouffee
+day11,dinner,Traditional,Southern Fried Tofu with Mushroom Gravy
+day11,dinner,Traditional,Bourbon Chicken
+day12,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day12,dinner,Allergen Friendly,Grilled Chicken Breast
+day12,dinner,Allergen Friendly,AF Vegan Paella
+day12,dinner,Dessert,Cranberry Apple Buckle
+day12,dinner,Lighter Side,White Rice
+day12,dinner,Lighter Side,Fresh Catch of the Day
+day12,dinner,Lighter Side,Steamed Broccoli
+day12,dinner,Pasta,Pesto Cream Sauce
+day12,dinner,Pasta,Sauce Tomato Al Dente
+day12,dinner,Pasta,Gemelli Pasta
+day12,dinner,Pizza,Cheese Pizza
+day12,dinner,Pizza,Pepperoni Pizza
+day12,dinner,Traditional,Roasted Cauliflower
+day12,dinner,Traditional,Mediterranean Potatoes
+day12,dinner,Traditional,Paella Valencia
+day12,dinner,Traditional,Chimichurri Verde Sauce
+day12,dinner,Traditional,Seared Flat Iron Steak
+day13,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day13,dinner,Allergen Friendly,AF Steamed Rice Brown
+day13,dinner,Allergen Friendly,Grilled Chicken Breast
+day13,dinner,Allergen Friendly,AF Spanish Lentil Stew
+day13,dinner,Dessert,Vegan Blueberry Lemon Cake
+day13,dinner,Dessert,Lemon Chess Pie
+day13,dinner,Lighter Side,Baked Sweet Potato
+day13,dinner,Lighter Side,Steamed Swiss Chard
+day13,dinner,Lighter Side,Fresh Catch of the Day
+day13,dinner,Pasta,Red Clam Sauce
+day13,dinner,Pasta,Sauce Tomato Al Dente
+day13,dinner,Pasta,Gemelli Pasta
+day13,dinner,Pizza,Cheese Pizza
+day13,dinner,Pizza,Pepperoni Pizza
+day13,dinner,Traditional,White Rice
+day13,dinner,Traditional,Chili Lime Seared Tofu
+day13,dinner,Traditional,Grilled Tequila Lime Chicken
+day13,dinner,Traditional,Jicama Slaw with Lime Vinagrette
+day14,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day14,dinner,Allergen Friendly,AF BBQ Chickpea Tofu
+day14,dinner,Allergen Friendly,Grilled Chicken Breast
+day14,dinner,Allergen Friendly,AF Cider Mill BBQ Sauce
+day14,dinner,Dessert,Carrot Cake with Pineapple
+day14,dinner,Dessert,Vegan Carrot Cake 2021
+day14,dinner,Lighter Side,Steamed Peas and Onions
+day14,dinner,Lighter Side,Roasted Potatoes
+day14,dinner,Lighter Side,Fresh Catch of the Day
+day14,dinner,Pasta,Carbonara Sauce
+day14,dinner,Pasta,Sauce Tomato Al Dente
+day14,dinner,Pasta,Gemelli Pasta
+day14,dinner,Traditional,Roasted Root Vegetables
+day14,dinner,Traditional,Chicken 'Vesuvio'
+day14,dinner,Traditional,Roast Leg of Lamb with Cider and Apples
+day14,dinner,Traditional,Rosemary Focaccia Bread
+day15,dinner,Allergen Friendly,AF Chimichurri Verde Sauce
+day15,dinner,Allergen Friendly,Grilled Chicken Breast
+day15,dinner,Allergen Friendly,AF Herb Marinated Grilled Portobello
+day15,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day15,dinner,Dessert,Pineapple-Coconut Cake
+day15,dinner,Dessert,Vegan Pina Colada Cake with Frosting
+day15,dinner,Lighter Side,Roasted Potatoes
+day15,dinner,Lighter Side,Blackened Tempeh
+day15,dinner,Pasta,Sauce Tomato Al Dente
+day15,dinner,Pasta,Penne Pasta
+day15,dinner,Traditional,Slow Fire Brisket
+day15,dinner,Traditional,New England Baked Haddock
+day15,dinner,Traditional,Horseradish Sauce
+day15,dinner,Traditional,Roasted Brussels Sprouts with Garlic
+day15,dinner,Traditional,Mashed Potatoes
+day16,dinner,Allergen Friendly,AF Chinese 5 Spice Mushroom Stir Fry
+day16,dinner,Allergen Friendly,White Rice
+day16,dinner,Allergen Friendly,Sauteed Onions and Peppers
+day16,dinner,Allergen Friendly,Grilled Chicken Breast
+day16,dinner,Dessert,Steamed Raspberry Jam Pudding
+day16,dinner,Dessert,Vegan Raspberry Vanilla Cake
+day16,dinner,Lighter Side,Bok Choy
+day16,dinner,Lighter Side,Fresh Catch of the Day
+day16,dinner,Lighter Side,Baked Sweet Potato
+day16,dinner,Pasta,Penne Pasta
+day16,dinner,Pasta,Sauce Tomato Al Dente
+day16,dinner,Pasta,Alfredo Cheese Sauce
+day16,dinner,Traditional,Sesame Ginger Glazed Chicken Thighs
+day16,dinner,Traditional,Tofu with Sesame Ginger Glaze
+day16,dinner,Traditional,Togarashi Green Beans
+day16,dinner,Traditional,Edamame Dumpling
+day16,dinner,Traditional,Vegan Pineapple Fried Rice
+day17,dinner,Allergen Friendly,AF Cider Mill BBQ Sauce
+day17,dinner,Allergen Friendly,Grilled Chicken Breast
+day17,dinner,Allergen Friendly,AF BBQ Chickpea Tofu
+day17,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day17,dinner,Dessert,Tiramisu Cake
+day17,dinner,Dessert,Vegan Chocolate Cake
+day17,dinner,Lighter Side,Fresh Catch of the Day
+day17,dinner,Lighter Side,Steamed Green Beans
+day17,dinner,Pasta,Siciliana Sauce
+day17,dinner,Pasta,Sauce Tomato Al Dente
+day17,dinner,Pasta,Penne Pasta
+day17,dinner,Traditional,Creole Fried Chicken
+day17,dinner,Traditional,Succotash
+day17,dinner,Traditional,Braised Collard Greens with Garlic
+day17,dinner,Traditional,BBQ Pork Spare Ribs
+day17,dinner,Traditional,Kansas City BBQ Sauce
+day18,dinner,Allergen Friendly,AF Cooked Quinoa
+day18,dinner,Allergen Friendly,AF Enchilada Sauce
+day18,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day18,dinner,Allergen Friendly,Grilled Chicken Breast
+day18,dinner,Allergen Friendly,AF Vegan Fajita
+day18,dinner,Dessert,Vegan Lavender Cake
+day18,dinner,Dessert,Lavender Cake
+day18,dinner,Lighter Side,Brown Rice
+day18,dinner,Lighter Side,Roasted Yukon Gold Potatoes
+day18,dinner,Lighter Side,Fresh Catch of the Day
+day18,dinner,Pasta,Bolognese Sauce
+day18,dinner,Pasta,Gemelli Pasta
+day18,dinner,Pasta,Sauce Tomato Al Dente
+day18,dinner,Traditional,Yellow Corn Tortillas
+day18,dinner,Traditional,Flour Tortilla
+day18,dinner,Traditional,Chicken Fajita
+day18,dinner,Traditional,Beef Fajita
+day18,dinner,Traditional,Green Rice with Cilantro
+day18,dinner,Traditional,Adobo Zucchini with Onions & Peppers
+day18,dinner,Traditional,Black Bean & Corn Salsa
+day19,dinner,Allergen Friendly,AF Caribbean Jerk Chickpea Tofu
+day19,dinner,Allergen Friendly,AF Cooked Brown Basmati Rice
+day19,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day19,dinner,Allergen Friendly,AF Caribbean Jerk Sauce
+day19,dinner,Allergen Friendly,Grilled Chicken Breast
+day19,dinner,Dessert,Blueberry Cobbler
+day19,dinner,Lighter Side,Steamed Corn
+day19,dinner,Lighter Side,Fresh Catch of the Day
+day19,dinner,Pasta,Sauce Tomato Al Dente
+day19,dinner,Pasta,Provencal Sauce
+day19,dinner,Pasta,Gemelli Pasta
+day19,dinner,Traditional,Caribbean Jerk Chicken
+day19,dinner,Traditional,Cumin Lime Roasted Caulifower w/Cilantro
+day19,dinner,Traditional,Red Beans and Rice
+day19,dinner,Traditional,Caribbean Jerk Tofu
+day19,dinner,Traditional,Mango Pineapple Salsa
+day20,dinner,Allergen Friendly,AF Veggie Pot Pie
+day20,dinner,Allergen Friendly,Grilled Chicken Breast
+day20,dinner,Allergen Friendly,AF Biscuit
+day20,dinner,Allergen Friendly,AF Roasted Yukon Gold Potatoes
+day20,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day20,dinner,Dessert,Vegan Cheesecake
+day20,dinner,Dessert,Cheesecake of the Month
+day20,dinner,Lighter Side,Roast Sweet Potato
+day20,dinner,Lighter Side,Roasted Eggplant
+day20,dinner,Lighter Side,Fresh Catch of the Day
+day20,dinner,Pasta,Sauce Tomato Al Dente
+day20,dinner,Pasta,White Clam Sauce
+day20,dinner,Pasta,Gemelli Pasta
+day20,dinner,Traditional,Chicken Pot Pie
+day20,dinner,Traditional,Veggie Pot Pie
+day20,dinner,Traditional,Rice Pilaf
+day20,dinner,Traditional,Broccoli Florets
+day20,dinner,Traditional,Buttermilk Biscuit
+day21,dinner,Allergen Friendly,Grilled Chicken Breast
+day21,dinner,Allergen Friendly,AF Primavera Sauce
+day21,dinner,Allergen Friendly,Book & Plow Featured Vegetable
+day21,dinner,Allergen Friendly,AF Pasta Primavera
+day21,dinner,Dessert,Hershey's Chocolate Cream Tart
+day21,dinner,Dessert,Vegan Hershey's Chocolate Cream Tart
+day21,dinner,Lighter Side,Fresh Catch of the Day
+day21,dinner,Lighter Side,Roasted Garlic Zucchini
+day21,dinner,Pasta,Gemelli Pasta
+day21,dinner,Pasta,Vodka Sauce
+day21,dinner,Pasta,Sauce Tomato Al Dente
+day21,dinner,Traditional,"Veggie ""Meatballs"""
+day21,dinner,Traditional,Meatballs
+day21,dinner,Traditional,Steamed Primavera Vegetables
+day21,dinner,Traditional,Sauce Tomato Al Dente
+day21,dinner,Traditional,Spaghetti
+day21,dinner,Traditional,Assorted Dinner Rolls
+day22,dinner,Dessert,Bakery Special
+day22,dinner,Lighter Side,AF Herb Roasted Stuffed Portobello
+day22,dinner,Lighter Side,Grilled Chicken Breast
+day22,dinner,Lighter Side,Fresh Catch of the Day
+day22,dinner,Lighter Side,Brussels Sprouts
+day22,dinner,Lighter Side,White Rice
+day22,dinner,Pasta,Penne Pasta
+day22,dinner,Pasta,Siciliana Sauce
+day22,dinner,Pasta,Sauce Tomato Al Dente
+day22,dinner,Traditional,Apple Cranberry Chutney
+day22,dinner,Traditional,Roasted Potatoes
+day22,dinner,Traditional,Roasted Butternut Squash
+day22,dinner,Traditional,Maple Mustard Roast Tofu
+day22,dinner,Traditional,Roast Breast of Vermont Turkey w/ Gravy
+day23,dinner,Dessert,Vegan Stuffed Chocolate Chip Cookies
+day23,dinner,Dessert,Double Stuffed Chocolate Chip Cookies
+day23,dinner,Lighter Side,Grilled Chicken Breast
+day23,dinner,Lighter Side,Book & Plow Featured Vegetable
+day23,dinner,Lighter Side,Brown Rice
+day23,dinner,Lighter Side,Fresh Catch of the Day
+day23,dinner,Lighter Side,AF General Tso's Chickpea Tofu
+day23,dinner,Lighter Side,Baked Sweet Potato
+day23,dinner,Pasta,Gorgonzola Sauce
+day23,dinner,Pasta,Sauce Tomato Al Dente
+day23,dinner,Pasta,Penne Pasta
+day23,dinner,Traditional,Vegetable Egg Roll
+day23,dinner,Traditional,Asian Vegetable Medley
+day23,dinner,Traditional,Sticky Rice
+day23,dinner,Traditional,General Tso's Chicken
+day24,dinner,Dessert,Vegan Tres Leches Cake
+day24,dinner,Dessert,Tres Leches Cake
+day24,dinner,Lighter Side,AF Spanish Lentil Stew
+day24,dinner,Lighter Side,Book & Plow Featured Vegetable
+day24,dinner,Lighter Side,Grilled Chicken Breast
+day24,dinner,Lighter Side,Fresh Catch of the Day
+day24,dinner,Lighter Side,Roasted Potatoes
+day24,dinner,Pasta,Sauce Tomato Al Dente
+day24,dinner,Pasta,Alfredo Cheese Sauce
+day24,dinner,Pasta,Lentil Penne
+day24,dinner,Traditional,Fried Sweet Plantains
+day24,dinner,Traditional,Garlic Green Beans
+day24,dinner,Traditional,Arroz Con Gandules
+day24,dinner,Traditional,Adobo Grilled Tofu
+day24,dinner,Traditional,Pernil al Horno
+day25,dinner,Dessert,Vegan Cookies and Cream Cake
+day25,dinner,Dessert,Cookies & Cream Cake
+day25,dinner,Lighter Side,Grilled Chicken Breast
+day25,dinner,Lighter Side,AF Grilled Portobello w/Balsamic Glaze
+day25,dinner,Lighter Side,Book & Plow Featured Vegetable
+day25,dinner,Lighter Side,Roasted Yukon Gold Potatoes
+day25,dinner,Pasta,Sauce Tomato Al Dente
+day25,dinner,Pasta,Spicy Marinara Sauce
+day25,dinner,Pasta,Gemelli Pasta
+day25,dinner,Traditional,Grilled Salmon
+day25,dinner,Traditional,Sirloin Tips with Roasted Mushrooms
+day25,dinner,Traditional,Roasted Cauliflower
+day25,dinner,Traditional,Caramelized Onion Mashed Potato
+day26,dinner,Dessert,Vegan Coconut Chocolate Bread Pudding
+day26,dinner,Dessert,Bread Pudding
+day26,dinner,Lighter Side,Fresh Catch of the Day
+day26,dinner,Lighter Side,Brown Rice
+day26,dinner,Lighter Side,Grilled Chicken Breast
+day26,dinner,Lighter Side,Book & Plow Featured Vegetable
+day26,dinner,Lighter Side,AF Vegan Jambalaya
+day26,dinner,Pasta,Pesto Cream Sauce
+day26,dinner,Pasta,Sauce Tomato Al Dente
+day26,dinner,Pasta,Gemelli Pasta
+day26,dinner,Traditional,Fresh Corn on the Cob
+day26,dinner,Traditional,Delmonico Potatoes
+day26,dinner,Traditional,Creole Chicken
+day26,dinner,Traditional,Southern Fried Tofu with Mushroom Gravy
+day27,dinner,Dessert,Vegan Chocolate Mousse
+day27,dinner,Dessert,White Chocolate Mousse
+day27,dinner,Lighter Side,Book & Plow Featured Vegetable
+day27,dinner,Lighter Side,Grilled Chicken Breast
+day27,dinner,Lighter Side,AF Vegan Lasagna
+day27,dinner,Lighter Side,Fresh Catch of the Day
+day27,dinner,Pasta,Brown Rice Pasta
+day27,dinner,Pasta,Red Clam Sauce
+day27,dinner,Pasta,Sauce Tomato Al Dente
+day27,dinner,Pasta,Linguini
+day27,dinner,Traditional,Garlic and Herb Breadsticks
+day27,dinner,Traditional,Lasagna Alla Caprese
+day27,dinner,Traditional,Garlic and Lemon Roasted Broccoli
+day27,dinner,Traditional,Lasagna al Forno
+day28,dinner,Dessert,Vegan Pineappple Banana Upside Down Cake
+day28,dinner,Dessert,Pineapple Upside Down Cake
+day28,dinner,Lighter Side,Grilled Chicken Breast
+day28,dinner,Lighter Side,AF Chickpea Tofu
+day28,dinner,Lighter Side,AF Baked Sweet Potato
+day28,dinner,Lighter Side,Fresh Catch of the Day
+day28,dinner,Lighter Side,Roasted Vegetables
+day28,dinner,Pasta,Carbonara Sauce
+day28,dinner,Pasta,Sauce Tomato Al Dente
+day28,dinner,Pasta,Gemelli Pasta
+day28,dinner,Traditional,Vegan Sesame Nuggets
+day28,dinner,Traditional,Chicken Wings
+day28,dinner,Traditional,Waffle Fries
+day28,dinner,Traditional,Buffalo Chicken Wings
+day28,dinner,Traditional,Celery
+day28,dinner,Traditional,Tempura Chicken
+day28,dinner,Traditional,Carrots
