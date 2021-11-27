@@ -12,9 +12,9 @@ public class ValMenu {
     public static void main (String[] args){
         System.out.println("Welcome to our code.");
         char option;
-        ArrayList<Food> F = new ArrayList<>();
 
         do{
+            ArrayList<Food> F = new ArrayList<>();
             System.out.println("\nMenu: ");
             System.out.print("\n1. Program Description" +
                     " \n2. Authors" +
@@ -187,10 +187,10 @@ public class ValMenu {
 //        ArrayList<Food> possible = F;
         ArrayList<Food> bad = new ArrayList<>();
         //excludes meat/poultry/pork/turkey/seafood/fish/eggs/dairy/shellfish
-        ArrayList<String> vegan = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "turkey", "duck",
+        ArrayList<String> vegan = new ArrayList<>(Arrays.asList("beef", "meat", "steak", "pork", "chicken", "turkey", "duck",
                 "fish", "eggs", "egg", "dairy", "shellfish", "shrimp", "prawn", "crab", "lobster", "milk"));
-        ArrayList<String> vegetarian = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "turkey", "duck",
-                "fish", "shellfish", "shrimp", "prawn", "crab", "lobster"));
+        ArrayList<String> vegetarian = new ArrayList<>(Arrays.asList("steak", "beef", "meat", "pork", "chicken", "chicken breast",
+                "chicken thigh", "turkey", "duck", "fish", "shellfish", "shrimp", "prawn", "crab", "lobster"));
         ArrayList<String> pescatarian = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "turkey", "duck"));
         String halal = "chicken"; //chicken is the only halal option in Val
         String dairyFree = "dairy";
@@ -213,10 +213,12 @@ public class ValMenu {
             for(String i:f.ingredients){
                 switch(d) {
                     case "1": //vegetarian
-                        if (vegetarian.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:vegetarian){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "2": //vegan
