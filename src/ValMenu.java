@@ -222,10 +222,12 @@ public class ValMenu {
                         }
                         break;
                     case "2": //vegan
-                        if (vegan.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:vegan){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "3": //pescatarian
