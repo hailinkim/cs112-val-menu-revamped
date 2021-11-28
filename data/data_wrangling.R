@@ -207,7 +207,7 @@ day7_dinner <- dinner3 %>%
 write_csv(day7_dinner, "day7_dinner.txt", col_names = FALSE)
 
 
-#salad bar
+#wrangling the web-scraped data set for salad bar menu
 salad_scraped <- read_csv("salad_scraped.csv")
 salad_scraped2 <- salad_scraped %>% 
   select(-"# of Servings") %>% 
@@ -244,3 +244,22 @@ salad3 <- salad2 %>%
 
 write_csv(salad3, "salad.csv", col_names = FALSE)
 write_csv(salad3, "salad.txt", col_names = FALSE)
+
+
+#wrangling final data sets for salad bar menu
+salad_final <- read_csv("salad_final.csv")
+salad_final[41,5] <- "olive oil"
+salad_final[75,5] <- "chia seeds"
+salad_final2 <- salad_final %>% 
+  mutate(ingredients = str_replace_all(ingredients, ",", "/"),
+         #contains column
+         contains = str_replace_all(contains, ", ", "/")) %>%
+  #combine 'ingredients' and 'contains' columns
+  unite("ingredients2", ingredients:contains, sep = "/", remove = TRUE) %>% 
+  mutate(ingredients = str_remove_all(ingredients2, "/NA")) %>% 
+  select(-ingredients2) %>% 
+  drop_na() %>% 
+  mutate(calories = as.integer(calories)) 
+write_csv(salad_final2, "salad.txt", col_names = FALSE)
+
+
