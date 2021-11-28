@@ -1,22 +1,22 @@
-Chicken Sausage Patty,80 (1 patty),Chicken/ Water/ Salt/ Spices/ Dextrose/ Sugar/ Dried Parsley
-Cage Free Fried Egg,63 (1 egg),Fresh Cage Free Medium Eggs/ Kosher Salt/Eggs
-Cage Free Scrambled Eggs,105 (1/2 cup),eggs
-JustEgg Folded,100 (1 piece),Water/ Mung Bean Protein Isolate/ Expeller-Pressed Canola Oil/ Corn Starch/ Baking Powder (Sodium Acid Pyrophosphate/ Sodium Bicarbonate/ Corn Starch/ Monocalcium Phosphate)/ Dehydrated Garlic/ Dehydrated Onion/ Natural Carrot Extractives/ Natural Turmeric Extractives/ Salt/ Transglutaminase.
-Cage Free Hard Boiled Egg,72 (1 egg),Fresh Cage Free Medium Eggs/Eggs
-English Muffin,120 (1 muffin),Enriched Flour (Wheat Flour/ Malted Barley Flour/ Niacin/ Reduced Iron/ Thiamine Mononitrate/ Riboflavin/ folic Aicd)/ Water/ Yeast/ High Fructose Corn Syrup/ Contains less than 2% of each of the following: Yellow Corn Meal/ Soybean Oil/ Caclium Propionate and/or Potassium Sorbate (preservative)/ Baking soda/ Fumeric Acid/ Salt/ Calcium Sulfate/ Ammonium Sulfate. /Gluten/Soy/Wheat
-Bacon,115 (1 slice),Pork/ Water/ Turbinado Sugar/ Seasoning (Cultured Celery Juice Powder/ Sea Salt)
-Home Fries,98 (3 oz),Potatoes(Ingredients: Diced Potatoes/ Dextrose/ Potassium Sorbate/ Disodium Pyrophosphate.)/ Onion/ Spanish/ Diced(Onions)/ Olive Oil/ Kosher Salt/ Spanish Paprika(Ingredients: Paprika/ Silicon Dioxide.)/ Ground Black Pepper
-White American Cheese,47 (1 slice),Cultured Pastuerized Milk and Skim Milk/ Cream/ Water/ Salt/ Sodium Citrate/ Contains less than 2% of milk protein concentrate/ milkfat/ lactic acid/ sorbic acid (preservative)/ sodium phosphate/ enzymes/ soy lecithin/ and soybean oil blend/Dairy/Soy
-Avocado,45 (1 oz),avocado
-Tomato,3 (1 slice),tomato
-Maine Rolled Oats,202 (1 cup),Water/ Maine Rolled Oats(Ingredients: Locally Sourced Organic Rolled Oats.)/ Sea Salt
-Grits,21 (1 cup),Degerminated White Corn Grits/ Calcium Carbonate/ Reduced Iron/ Niacinamide/ BHT/ Citric Acid/ Thiamin Mononitrate/ Riboflavin/ Folic Acid
-Quinoa,134 (1.2 cup),Water/ quinoa/ sea salt
-Cantaloupe,39 (1/2 cup),Cantaloupe
-Blackberries,18 (1 ounce),blackberries
-Greek Yogurt,64 (1/2 cup),Nonfat yogurt (cultured pasteurized nonfat milk). Contains Live and Active Cultures: S. Thermophilus/ L. Bulgaricus/ L. Acidophilus/ Bifidus and L. Casei/dairy
-Vanilla Yogurt,113 (1/2 cup),Cultured Grade A Low Fat Milk/ Sugar/ Modified Corn Starch/ Corn Starch/ Potassium Sorbate/ Natural Flavor/ Vitamin A Acetate/ Vitamin D3/dairy
-Soy Yogurt,18 (1 ounce),Soy Milk (Filtered Water/ Soybeans)/ Cane Sugar/ Corn Starch/ Natural Flavor/ Pectin/ Tricalcium Phosphate/ Citric Acid/ Dipotassium Phosphate/ Sea Salt/ Live and Active Cultures/ Vitamin D2/ Vitamin C Ester/ Mixed Tocopherols./soy
-Blueberry Vanilla Granola,203 (1/2 cup),Organic oats/ organic agave nectar/ organic dried sweetened blueberries ( organic blueberries/ organic high oleic sunflower oil/ organic cane sugar)/ organic oat bran/ organic vanilla and sea salt. Created in a facility that uses peanuts/ tree nuts/ wheat and soy/gluten
-Blueberry Muffin,205 (1 muffin),"All Purpose Flour(WHEAT FLOUR/ MALTED BARLEY FLOUR/ NIACIN/ IRON/ THIAMIN MONONITRATE/ RIBOFLAVIN/ FOLIC ACID.)/ Water/ Blueberries(Ingredients: Blueberries)/ Sugar/ Canola Oil/ Maine Rolled Oats(Ingredients: Locally Sourced Organic Rolled Oats.)/ Liquid Eggs(Whole eggs/ citric acid/ water)/ Baking Powder(Ingredients: Baking Soda (for leavening)/ Cornstarch/ Sodium Aluminum Sulfate (for leavening)/ Calcium Sulfate/ Monocalcium Phosphate (for leavening).)/ Baking Soda(Sodium Bicarbonate)/ Salt/Eggs/gluten/wheat"
-Vegan GF Blueberry Muffin,196 (1 muffin),Gluten Free Flour(ingredients: Sweet White Rice Flour/ Whole Grain Brown Rice Flour/ Potato Starch/ Whole Grain Sweet White Sorghum Flour/ Tapioca Flour/ Xanthan Gum)/ Hemp Milk(Ingredients: Hemp Nut Base (Filtered Water/ Hemp Nut [Shelled Hemp Seed}/ Vanilla Extract/ Sunflower Lecithin/ Tricalcium Phosphate/ Gellan Gum/ Sea Salt/ Vitamin A Palmitate/ Vitamin D2/ Riboflavin/ Vitamin B12))/ Sugar/ Canola Oil/ Blueberries(Ingredients: Blueberries)/ Baking Powder(Ingredients: Baking Soda (for leavening)/ Cornstarch/ Sodium Aluminum Sulfate (for leavening)/ Calcium Sulfate/ Monocalcium Phosphate (for leavening).)/ Salt/ Vanilla Paste(Ingredients: Pure Vanilla Extratives/ Sugar/ Vanilla Beans/Xanthan Gum)
+Chicken Sausage Patty,80,(1 patty),Chicken/ Water/ Salt/ Spices/ Dextrose/ Sugar/ Dried Parsley
+Cage Free Fried Egg,63,(1 egg),Fresh Cage Free Medium Eggs/ Kosher Salt/Eggs
+Cage Free Scrambled Eggs,105,(1/2 cup),eggs
+JustEgg Folded,100,(1 piece),Water/ Mung Bean Protein Isolate/ Expeller-Pressed Canola Oil/ Corn Starch/ Baking Powder (Sodium Acid Pyrophosphate/ Sodium Bicarbonate/ Corn Starch/ Monocalcium Phosphate)/ Dehydrated Garlic/ Dehydrated Onion/ Natural Carrot Extractives/ Natural Turmeric Extractives/ Salt/ Transglutaminase.
+Cage Free Hard Boiled Egg,72,(1 egg),Fresh Cage Free Medium Eggs/Eggs
+English Muffin,120,(1 muffin),Enriched Flour (Wheat Flour/ Malted Barley Flour/ Niacin/ Reduced Iron/ Thiamine Mononitrate/ Riboflavin/ folic Aicd)/ Water/ Yeast/ High Fructose Corn Syrup/ Contains less than 2% of each of the following: Yellow Corn Meal/ Soybean Oil/ Caclium Propionate and/or Potassium Sorbate (preservative)/ Baking soda/ Fumeric Acid/ Salt/ Calcium Sulfate/ Ammonium Sulfate. /Gluten/Soy/Wheat
+Bacon,115,(1 slice),Pork/ Water/ Turbinado Sugar/ Seasoning (Cultured Celery Juice Powder/ Sea Salt)
+Home Fries,98,(3 oz),Potatoes(Ingredients: Diced Potatoes/ Dextrose/ Potassium Sorbate/ Disodium Pyrophosphate.)/ Onion/ Spanish/ Diced(Onions)/ Olive Oil/ Kosher Salt/ Spanish Paprika(Ingredients: Paprika/ Silicon Dioxide.)/ Ground Black Pepper
+White American Cheese,47,(1 slice),Cultured Pastuerized Milk and Skim Milk/ Cream/ Water/ Salt/ Sodium Citrate/ Contains less than 2% of milk protein concentrate/ milkfat/ lactic acid/ sorbic acid (preservative)/ sodium phosphate/ enzymes/ soy lecithin/ and soybean oil blend/Dairy/Soy
+Avocado,45,(1 oz),avocado
+Tomato,3,(1 slice),tomato
+Maine Rolled Oats,202,(1 cup),Water/ Maine Rolled Oats(Ingredients: Locally Sourced Organic Rolled Oats.)/ Sea Salt
+Grits,21,(1 cup),Degerminated White Corn Grits/ Calcium Carbonate/ Reduced Iron/ Niacinamide/ BHT/ Citric Acid/ Thiamin Mononitrate/ Riboflavin/ Folic Acid
+Quinoa,134,(1.2 cup),Water/ quinoa/ sea salt
+Cantaloupe,39,(1/2 cup),Cantaloupe
+Blackberries,18,(1 ounce),blackberries
+Greek Yogurt,64,(1/2 cup),Nonfat yogurt (cultured pasteurized nonfat milk). Contains Live and Active Cultures: S. Thermophilus/ L. Bulgaricus/ L. Acidophilus/ Bifidus and L. Casei/dairy
+Vanilla Yogurt,113,(1/2 cup),Cultured Grade A Low Fat Milk/ Sugar/ Modified Corn Starch/ Corn Starch/ Potassium Sorbate/ Natural Flavor/ Vitamin A Acetate/ Vitamin D3/dairy
+Soy Yogurt,18,(1 ounce),Soy Milk (Filtered Water/ Soybeans)/ Cane Sugar/ Corn Starch/ Natural Flavor/ Pectin/ Tricalcium Phosphate/ Citric Acid/ Dipotassium Phosphate/ Sea Salt/ Live and Active Cultures/ Vitamin D2/ Vitamin C Ester/ Mixed Tocopherols./soy
+Blueberry Vanilla Granola,203,(1/2 cup),Organic oats/ organic agave nectar/ organic dried sweetened blueberries ( organic blueberries/ organic high oleic sunflower oil/ organic cane sugar)/ organic oat bran/ organic vanilla and sea salt. Created in a facility that uses peanuts/ tree nuts/ wheat and soy/gluten
+Blueberry Muffin,205,(1 muffin),"All Purpose Flour(WHEAT FLOUR/ MALTED BARLEY FLOUR/ NIACIN/ IRON/ THIAMIN MONONITRATE/ RIBOFLAVIN/ FOLIC ACID.)/ Water/ Blueberries(Ingredients: Blueberries)/ Sugar/ Canola Oil/ Maine Rolled Oats(Ingredients: Locally Sourced Organic Rolled Oats.)/ Liquid Eggs(Whole eggs/ citric acid/ water)/ Baking Powder(Ingredients: Baking Soda (for leavening)/ Cornstarch/ Sodium Aluminum Sulfate (for leavening)/ Calcium Sulfate/ Monocalcium Phosphate (for leavening).)/ Baking Soda(Sodium Bicarbonate)/ Salt/Eggs/gluten/wheat"
+Vegan GF Blueberry Muffin,196,(1 muffin),Gluten Free Flour(ingredients: Sweet White Rice Flour/ Whole Grain Brown Rice Flour/ Potato Starch/ Whole Grain Sweet White Sorghum Flour/ Tapioca Flour/ Xanthan Gum)/ Hemp Milk(Ingredients: Hemp Nut Base (Filtered Water/ Hemp Nut [Shelled Hemp Seed}/ Vanilla Extract/ Sunflower Lecithin/ Tricalcium Phosphate/ Gellan Gum/ Sea Salt/ Vitamin A Palmitate/ Vitamin D2/ Riboflavin/ Vitamin B12))/ Sugar/ Canola Oil/ Blueberries(Ingredients: Blueberries)/ Baking Powder(Ingredients: Baking Soda (for leavening)/ Cornstarch/ Sodium Aluminum Sulfate (for leavening)/ Calcium Sulfate/ Monocalcium Phosphate (for leavening).)/ Salt/ Vanilla Paste(Ingredients: Pure Vanilla Extratives/ Sugar/ Vanilla Beans/Xanthan Gum)
