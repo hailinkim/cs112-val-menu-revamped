@@ -25,8 +25,8 @@ public class ValMenu {
             cin.nextLine();
             switch(option){
                 case '1':
-                    System.out.println("This program was designed for CS112 final project." +
-                            "The program's database is based on Val menu scraped from AC Nutrition website." +
+                    System.out.println("This program was designed for CS112 final project.\n" +
+                            "The program's database is based on Val menu scraped from AC Nutrition website.\n" +
                             "It allows users to choose Breakfast/Lunch/Dinner menu based on their dietary preferences and restrictions.");
                     break;
                 case '2':
@@ -71,15 +71,35 @@ public class ValMenu {
         System.out.println("Let's start building your meal plan!");
         String s = day(F); //saves the selected day of week, meal type
         read(s, F); //reads data for certain day of week, certain meal type
-        ArrayList<Food> Result = F;
+        ArrayList<Food> Possible = F;
         for (String d:Diet_num){
-            exclude(d, Result);//F now contains all the foods for certain day of week, certain meal type
+            exclude(d, Possible);//F now contains all the foods for certain day of week, certain meal type
         }
         System.out.println("Possible options: ");
-        for(Food f: Result){
+        for(Food f: Possible){
             System.out.println(f);
-            System.out.println(f.ingredients); //for debugging
+//            System.out.println(f.ingredients); //for debugging
         }
+        System.out.println();
+
+        addItem(Possible);
+        System.out.println();
+
+        char op;
+        do {
+            System.out.print("Would you like to make your own salad?(y/n) ");
+            op = cin.next().charAt(0);
+            switch (op){
+                case 'y':
+                    salad(Diet_num);
+                    break;
+                case 'n':
+                    System.out.println("Goodbye!");
+                    break;
+                default:
+                    System.out.println("Invalid input! Enter y/n.");
+            }
+        } while (op != 'y' && op != 'n');
     }//diet
     static String customDiet(){
         String option;
@@ -172,7 +192,7 @@ public class ValMenu {
 
         while(fin.hasNext()){
             String m = fin.nextLine();
-            System.out.println(m); //for debugging
+//            System.out.println(m); //for debugging
             String[] M = m.split(",");
             int cal = Integer.parseInt(M[1]);
             String[] ing = M[3].split("/");
@@ -180,13 +200,13 @@ public class ValMenu {
 //            System.out.println(Arrays.toString(ing)); //for debugging
 //            System.out.println(M[1]); //for debugging
             Food c = new Food(M[0], cal , M[2], Ing);
-            System.out.println(c);
+//            System.out.println(c);
             F.add(c);
         }
         fin.close();
     }//read
 
-    static void exclude(String d, ArrayList<Food> Result){ //String d represents each of the dietary preferences selected by the user
+    static void exclude(String d, ArrayList<Food> Possible){ //String d represents each of the dietary preferences selected by the user
 //        ArrayList<Food> possible = F;
         ArrayList<Food> bad = new ArrayList<>();
         //excludes meat/poultry/pork/turkey/seafood/fish/eggs/dairy/shellfish
@@ -212,7 +232,7 @@ public class ValMenu {
         String alcoholFree = "alcohol";
         String coconutFree = "coconut";
 
-        for(Food f:Result){
+        for(Food f:Possible){
             for(String i:f.ingredients){
                 switch(d) {
                     case "1": //vegetarian
@@ -332,8 +352,36 @@ public class ValMenu {
                 }//switch
             }//inner for loop
         }//outer for loop
-        Result.removeAll(bad);
+        Possible.removeAll(bad);
     }//exclude
+    static void addItem(ArrayList<Food> Possible) {
+        ArrayList<String> F = new ArrayList<>(); //arraylist of names of possible foods
+        for (Food p : Possible) {
+            F.add(p.name);
+        }
+
+        boolean inputError;
+        ArrayList<String> Result;
+        do {
+            inputError = false;
+            System.out.print("Enter the items you would like to add from the possible options, separated by commas: ");
+            String option = cin.nextLine();
+            String[] Op = option.split(",");
+            Result = new ArrayList<>(Arrays.asList(Op));
+            for (String r : Result) {
+                if (!F.contains(r)) {
+                    inputError = true;
+                    System.out.println("Invalid input! There is no such food in the possible options.");
+                }
+            }
+        } while (inputError);
+
+        System.out.println("Items added!");
+        System.out.println(Result);
+    }//addItem
+    static void salad(String[] Diet_num){
+
+    }//salad
 }//class
 ////////////////////////////
 class Food{
