@@ -77,7 +77,8 @@ public class ValMenu {
         }
         System.out.println("Possible options: ");
         for(Food f: Result){
-            System.out.println(f.name);
+            System.out.println(f);
+            System.out.println(f.ingredients); //for debugging
         }
     }//diet
     static String customDiet(){
@@ -171,13 +172,15 @@ public class ValMenu {
 
         while(fin.hasNext()){
             String m = fin.nextLine();
-//            System.out.println(m); //for debugging
+            System.out.println(m); //for debugging
             String[] M = m.split(",");
-            String[] ing = M[2].split("/");
+            int cal = Integer.parseInt(M[1]);
+            String[] ing = M[3].split("/");
             ArrayList<String> Ing = new ArrayList<>(Arrays.asList(ing));
 //            System.out.println(Arrays.toString(ing)); //for debugging
 //            System.out.println(M[1]); //for debugging
-            Food c = new Food(M[0], M[1], Ing);
+            Food c = new Food(M[0], cal , M[2], Ing);
+            System.out.println(c);
             F.add(c);
         }
         fin.close();
@@ -335,17 +338,17 @@ public class ValMenu {
 ////////////////////////////
 class Food{
     String name;
-    String type;
-    String calories;
+    int calories;
+    String serving;
     ArrayList<String> ingredients; //change to set
-    Food(String name, String calories, ArrayList<String> ingredients){
+    Food(String name, int calories, String serving, ArrayList<String> ingredients){
         this.name = name;
-//        this.type = type;
         this.calories = calories;
+        this.serving = serving;
         this.ingredients = ingredients;
     }//constructor
     public String toString(){
-        return name + " " + calories;
+        return name + " " + calories + "cal " + serving;
     }
 }
 
