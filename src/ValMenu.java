@@ -82,16 +82,19 @@ public class ValMenu {
         }
         System.out.println();
 
-        addItem(Possible);
+        ArrayList<String> Result = addItem(Possible); //non-salad foods
+        System.out.println(Result);
         System.out.println();
 
         char op;
         do {
             System.out.print("Would you like to make your own salad?(y/n) ");
             op = cin.next().charAt(0);
+            cin.nextLine();
             switch (op){
                 case 'y':
-                    salad(Diet_num);
+                    ArrayList<String> Salad = salad(Diet_num); //salad chosen by users
+                    Result.addAll(Salad);
                     break;
                 case 'n':
                     System.out.println("Goodbye!");
@@ -100,6 +103,9 @@ public class ValMenu {
                     System.out.println("Invalid input! Enter y/n.");
             }
         } while (op != 'y' && op != 'n');
+
+        System.out.println(Result);
+
     }//diet
     static String customDiet(){
         String option;
@@ -210,12 +216,12 @@ public class ValMenu {
 //        ArrayList<Food> possible = F;
         ArrayList<Food> bad = new ArrayList<>();
         //excludes meat/poultry/pork/turkey/seafood/fish/eggs/dairy/shellfish
-        ArrayList<String> vegan = new ArrayList<>(Arrays.asList("beef", "meat", "steak", "pork", "chicken", "turkey", "duck",
+        ArrayList<String> vegan = new ArrayList<>(Arrays.asList("beef", "meat", "steak", "pork", "lamb", "chicken", "turkey", "duck",
                 "fish", "eggs", "egg", "dairy", "shellfish", "shrimp", "prawn", "crab", "lobster", "milk"));
-        ArrayList<String> vegetarian = new ArrayList<>(Arrays.asList("steak", "beef", "meat", "pork", "chicken", "chicken breast",
+        ArrayList<String> vegetarian = new ArrayList<>(Arrays.asList("steak", "beef", "meat", "pork", "lamb", "chicken", "chicken breast",
                 "chicken thigh", "turkey", "duck", "fish", "shellfish", "shrimp", "prawn", "crab", "lobster"));
-        ArrayList<String> pescatarian = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "turkey", "duck"));
-        String halal = "chicken"; //chicken is the only halal option in Val
+        ArrayList<String> pescatarian = new ArrayList<>(Arrays.asList("beef", "meat", "pork", "chicken", "lamb", "turkey", "duck"));
+        ArrayList<String> halal = new ArrayList<>(Arrays.asList("yogurt", "gelatin", "beef", "meat", "steak", "pork", "lamb", "chicken", "turkey", "duck", "alcohol"));
         String dairyFree = "dairy";
         String glutenFree = "gluten";
         ArrayList<String> eggFree = new ArrayList<>(Arrays.asList("egg", "eggs"));
@@ -254,14 +260,24 @@ public class ValMenu {
                         }
                         break;
                     case "3": //pescatarian
-                        if (pescatarian.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:pescatarian){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "4": //halal
-                        //codes for halal to be added
+                        for(String v:halal){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                if(f.name.equals("Grilled Chicken Breast"))
+                                    bad.remove(f);
+                                break;
+                            }
+                        }
                         break;
                     case "5": //dairy-Free
                         if (dairyFree.equals(i.toLowerCase())) {
@@ -278,17 +294,21 @@ public class ValMenu {
                         }
                         break;
                     case "7": //egg-Free
-                        if (eggFree.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:eggFree){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "8": //keto
-                        if (keto.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:keto){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "9": //move on to custom options
@@ -308,24 +328,30 @@ public class ValMenu {
                         }
                         break;
                     case "12": //tree nuts-free
-                        if (treeNutsFree.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:treeNutsFree){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "13": //peanut-free
-                        if (peanutFree.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:peanutFree){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "14": //soy-free
-                        if (soyFree.contains(i.toLowerCase())) {
-                            if (!bad.contains(f))
-                                bad.add(f);
-                            break;
+                        for(String v:soyFree){
+                            if (i.toLowerCase().contains(v)){
+                                if (!bad.contains(f))
+                                    bad.add(f);
+                                break;
+                            }
                         }
                         break;
                     case "15": //sesame-free
@@ -354,17 +380,18 @@ public class ValMenu {
         }//outer for loop
         Possible.removeAll(bad);
     }//exclude
-    static void addItem(ArrayList<Food> Possible) {
+    static ArrayList<String> addItem(ArrayList<Food> Possible) {
+        ArrayList<String> Result;
+
         ArrayList<String> F = new ArrayList<>(); //arraylist of names of possible foods
         for (Food p : Possible) {
             F.add(p.name);
         }
 
         boolean inputError;
-        ArrayList<String> Result;
         do {
             inputError = false;
-            System.out.print("Enter the items you would like to add from the possible options, separated by commas: ");
+            System.out.print("Enter the items you would like to add from the possible options, separated by comma: ");
             String option = cin.nextLine();
             String[] Op = option.split(",");
             Result = new ArrayList<>(Arrays.asList(Op));
@@ -377,11 +404,47 @@ public class ValMenu {
         } while (inputError);
 
         System.out.println("Items added!");
-        System.out.println(Result);
+        return Result;
     }//addItem
-    static void salad(String[] Diet_num){
-
+    static ArrayList<String> salad(String[] Diet_num){
+        ArrayList<Food> S = new ArrayList<>();//arraylist of salad ingredients
+        readSalad(S);
+        ArrayList<Food> Possible = S;
+        for (String d:Diet_num){
+            exclude(d, Possible);//F now contains all the foods for certain day of week, certain meal type
+        }
+        System.out.println("Possible salad ingredients for you: ");
+        for(Food f:Possible){
+            System.out.println(f);
+            System.out.println(f.ingredients);
+        }
+        return addItem(Possible);
     }//salad
+    static void readSalad(ArrayList<Food> S){
+        Scanner fin = null;
+        try{
+            //read from a dataset for certain day based on the user's input for day of the week
+            fin = new Scanner(new File("salad.txt"));
+        } catch(Exception ex){
+            System.out.println(ex);
+            System.exit(1);
+        }
+
+        while(fin.hasNext()){
+            String m = fin.nextLine();
+//            System.out.println(m); //for debugging
+            String[] M = m.split(",");
+            int cal = Integer.parseInt(M[1]);
+            String[] ing = M[3].split("/");
+            ArrayList<String> Ing = new ArrayList<>(Arrays.asList(ing));
+//            System.out.println(Arrays.toString(ing)); //for debugging
+//            System.out.println(M[1]); //for debugging
+            Food c = new Food(M[0], cal , M[2], Ing);
+//            System.out.println(c); //for debugging
+            S.add(c);
+        }
+        fin.close();
+    }//readSalad
 }//class
 ////////////////////////////
 class Food{
