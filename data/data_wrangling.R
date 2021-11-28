@@ -5,7 +5,7 @@ library(stringr)
 library(tidyr)
 
 #wrangling breakfast data
-breakfast <- read_csv("breakfast.csv")
+breakfast <- read_csv("data/breakfast.csv")
 breakfast2 <- breakfast %>% 
   #rename the days
   mutate(day = case_when(
@@ -35,9 +35,7 @@ breakfast3 <- breakfast2 %>%
   drop_na() %>% 
   mutate(calories = as.integer(calories)) 
 
-# breakfast3 <- breakfast3 %>% 
-#   mutate(calories = str_replace(calories, " ", "cal "))
-
+#exporting data sets
 day1_breakfast <- breakfast3 %>% 
   filter(day == "day1") %>% 
   select(-day)
@@ -74,10 +72,10 @@ day7_breakfast <- breakfast3 %>%
 write_csv(day7_breakfast, "day7_breakfast.txt", col_names = FALSE)
 
 
-
 #wrangling lunch data
-lunch <- read_csv("lunch.csv")
+lunch <- read_csv("data/lunch.csv")
 lunch2 <- lunch %>% 
+  filter(dining_course != "Salad Bar") %>% 
   #rename the days
   mutate(day = case_when(
     day == "day6" ~ "day1",
@@ -104,9 +102,8 @@ lunch3 <- lunch2 %>%
   select(-ingredients2) %>% 
   drop_na() %>% 
   mutate(calories = as.integer(calories)) 
-  
-  
 
+#exporting data sets
 day1_lunch <- lunch3 %>% 
   filter(day == "day1") %>% 
   select(-day)
@@ -144,7 +141,7 @@ write_csv(day7_lunch, "day7_lunch.txt", col_names = FALSE)
 
 
 #wrangling dinner data
-dinner <- read_csv("dinner.csv")
+dinner <- read_csv("data/dinner.csv")
 dinner2 <- dinner %>% 
   #rename the days
   mutate(day = case_when(
@@ -173,6 +170,7 @@ dinner3 <- dinner2 %>%
   drop_na() %>% 
   mutate(calories = as.integer(calories)) 
 
+#exporting data sets
 day1_dinner <- dinner3 %>% 
   filter(day == "day1") %>% 
   select(-day)
