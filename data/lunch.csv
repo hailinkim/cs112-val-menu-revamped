@@ -69,12 +69,11 @@ day9,lunch,Soup,Tomato & Garden Vegetable Soup,75 (3/4 Cup),"Diced Tomatoes (tom
 day9,lunch,Soup,Minestrone Soup,65 (3/4 Cup),"Chicken Stock (Water, Chicken, Onions, Celery, Carrots, Sea Salt, Garlic, Parley, White Pepper, Thyme, Bay Leaves, Marjoram), Diced Tomatoes (Tomatoes, Tomato Juice, Salt, Naturally Derived Citric Acid), Turkey Thigh Meat, Okra, Onions, Carrots, Celery, White Rice, Turkey Breast Meat, Green Peppers, Chicken Fat, Sherry Wine (contains Sulfites), Wheat Flour, Sea Salt, Garlic, Spices, Parsley, Paprika (for color), Pepper Sauce (Distilled Vinegar, Red Pepper, Salt).","Eggs, Gluten, Wheat"
 day9,lunch,Traditional,Garlic Green Beans,144 (4 oz Portion),"Green Beans, Olive Oil, Garlic, Kosher Salt, Ground Black Pepper",
 day9,lunch,Traditional,Seasoned Potato Wedges,120 (3 oz Portion),"Potatoes, Vegetable Oil (Soybean Oil, Canola Oil), Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Rice Flour, Yellow Corn Meal, Salt, Modified Corn Starch, Garlic Powder, Onion Powder, Spices, Flavor (Autolyzed Yeast Extract, Dried Torula Yeast, Thiamine Hydrochloride, Corn Syrup Solids), Dehydrated Parsley, Guar Gum, Dextrose, Disodium Dihydrogen Pyrophosphate.","Gluten, Soy, Wheat"
-day9,lunch,Traditional,Nacho Cheese Sauce,80(1/4 Cup),"Water, Nonfat Milk, Partially Hydrogentated Soybean Oil, Modified Food Starch, Natural Flavors, Salt, Cheddar Cheese (Cultured Milk, Salt, and Enzymes), Sodium Phosphate, Lactic and Citric Acids, Sodium Citrate, Annatto, Datem, Spice","Dairy, Soy"
+day9,lunch,Traditional,Nacho Cheese Sauce,80 (1/4 Cup),"Water, Nonfat Milk, Partially Hydrogentated Soybean Oil, Modified Food Starch, Natural Flavors, Salt, Cheddar Cheese (Cultured Milk, Salt, and Enzymes), Sodium Phosphate, Lactic and Citric Acids, Sodium Citrate, Annatto, Datem, Spice","Dairy, Soy"
 day9,lunch,Traditional,Sauteed Onions and Peppers,12 (1/4 Cup),"Onion, Sliced Green Bell Peppers, Red Bell Peppers, Canola Oil, Kosher Salt, Ground Black Pepper",
 day9,lunch,Traditional,Sub Rolls,181 (Roll),"Wheat Flour Enriched With: Niacin, Iron, Thiamine Mononitrate (vitamin B1), Riboflavin (vitamin B2), Water, Folic Avic, Yeast, Sugar, Salt, Soybean Oil, Soy Flour, Calcium Propionate, Datem, Calcium Sulfate, L-cysteine, Ascorbic Acid, Cottonseed Oils, Azodicarbonamide, Enzyme. May Contain Trace Amounts of Sesame Seeds.","Gluten, Soy, Wheat"
 day10,lunch,Allergen Friendly,AF Grilled Vegetable Taco Filling,15 (1/4 Cup),"Onion, Spanish, Diced(Onions), Summer Squash, Squash Zucchini Sliced, Green Bell Pepper, Diced(Green Bell Pepper), Red Bell Pepper(Red Bell Pepper)",
 day10,lunch,Allergen Friendly,AF Beef Taco Filling,72 (1/4 Cup),"Lean Ground Beef, Tomatoes(Ingredients: Vine-ripened fresh tomatoes, Tomato Juice, Salt, Calcium Chloride, Citric Acid), Taco Seasoning(Chili Powder(Ingredients: Paprika, Chili Pepper, Oregano, Cumin, Garlic, Salt.), Kosher Salt, Ground Cumin, Granulated Onion, Ground Black Pepper, Spanish Paprika(Ingredients: Paprika, Silicon Dioxide.), Coriander, Cayenne Pepper), Green Bell Pepper, Diced(Green Bell Pepper), Onion, Spanish, Diced(Onions), Canola Oil, Garlic, Minced(Garlic), Parsley, Chopped(Fresh Italian Parsley)",
-day10,lunch,Dessert,Vegan Chocolate Chip Cookies,,,
 day10,lunch,Dessert,Chocolate Chip Cookie,125 (Cookie),"Chocolate Chips (Sugar, Chocolate Liquor, Cocoa Butter, Soy Lecithin, Vanilla, Salt, Milk), Wheat Flour (Bleached and Enriched with Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Brown Sugar, Vegetable Oil Blend (Soybean, Palm, and Olive Oils), Water, Salt, Milk, Mono- and Diglycerides, Soy Lecithin, Sodium Benzoate, Natural and Artificial Flavors, Vitamin A Palmitate, Beta Carotene for Color), Wheat Flour (Unbleached Enriched with Thiaimn Mononitrate, Riboflavin, Folic Acid), Margarine (Partially Hydrogenated Soybean Oil, Water, Salt, Milk Powder, Soy lecithin, Mono- and Diglycerides, Potassium Sorbate, Beta Carotene for color, Artificial Flavor, Vitamin A Palmitate), Sugar, Pasteurized Whole Eggs, Salt, Baking Soda, Artificial Vanilla Flavor","Dairy, Eggs, Gluten, Soy, Wheat"
 day10,lunch,Lighter Side,Roasted Yukon Gold Potatoes,103 (1/2 Cup),"Yukon Gold Potato, Canola Oil, Sea Salt, Ground Black Pepper",
 day10,lunch,Lighter Side,Steamed Sugar Snap Peas,48 (1/2 Cup),Sugar Snap Peas,
@@ -119,49 +118,5 @@ day12,lunch,Soup,Chipotle Sweet Potato Soup,113 (3/4 Cup),"Vegetable Stock (Wate
 day12,lunch,Soup,Corn Chowder,539 (3/4 Cup),"Corn (corn, water, salt), Vegetable Stock (water, onions, cabbage, celery, mushrooms, carrots, turnips, black peppercorns, mustard seed, dill weed, thyme, bay leaves, marjoram), Potatoes, Light Cream (milk, cream), Onions, Butter (cream, salt), Water, Rice Flour, Celery, Corn Starch, Sea Salt, Sugar, Spices",Dairy
 day12,lunch,Traditional,Roasted Zucchini and Summer Squash,57 (3 oz Portion),"Squash Summer, Squash Zucchini Sliced, Extra Virgin Olive Oil, Kosher Salt, Ground Black Pepper",
 day12,lunch,Traditional,Veggie Val Burger Wrap,378 (Half Wrap),"White Flour Tortilla(Ingredients: Enriched Flour (Wheat Flour, Niacin (Vitamin B3), Reduced Iron, Thiamine Mononitrate (Vitamin B1), Riboflavin (Vitamin B2), Folic Acid (Vitamin B9), Malted Barley Flour), Water, Sunflower Oil, Contains 2% or Less of the Following: Cultured Wheat Flour added with Vinegar, Soy Lecithin, Salt, Guar Gum, Yeast, Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Citric Acid.), Veggie Burger(Ingredients: Carrots, Peas, Whole Oats, Zucchini, Edamame, Non-GMO Corn, String Beans, Spinach, Corn Meal, Onions, Potato Starch, Soy Protein Flour, Organic Wheat Free Tamari (Water, Organic Soybeans, Salt), Chick Peas, Dried Onion, Salt, Non-GMO Canola Oil, Red Peppers, Broccoli, Granulated Garlic, Parsley.), Iceberg, Lettuce, Shredded(Iceberg Lettuce), Special Sauce(Vegan Mayonnaise Spread(Ingredients: Expeller Pressed Canola Oil, Water, Organic Distilled Vinegar, Salt, Modified Food Starch, Cane Sugar, Spice, Natural Flavor, Lemon Juice Concentrate, Calcium Disodium EDTA, Oleoresin Paprika), Country French Dressing(Ingredients: Soybean Oil, Sugar, Vinegar (Cider, Distilled), Water, Tomato Paste, Honey, Contains less than 2% of: Salt, Spice, Xanthan Gum, Onion, Garlic, Beet Powder.), Sweet Pickle Relish(Ingredients: Pickles, Fructose, Vinegar, Sugar, Salt, Natural Flavors, Xanthan Gum, Calcium Chloride, Sodium Benzoate (Preservative), Polysorbate 80, And FD&C #1), Onion(Ingredients: Onion), White Vinegar(Ingredients: White Distilled Vinegar, Water.), Sugar, Kosher Salt), White Cheddar Cheese, Onion, Spanish, Diced(Onions), Kosher Dill Pickle Slices(Cucumbers, water, vinegar, salt, garlic, dill, calcium chloride, potassium sorbate, sodium benzoate, spices and flavoring.)","Dairy, Gluten, Soy, Wheat"
-day12,lunch,Traditional,Steak Fries,129 (3 oz),,Soy
+day12,lunch,Traditional,Steak Fries,129 (3 oz),potato,Soy
 day12,lunch,Traditional,Val Burger Wrap,443 (Half Wrap),"Hamburger(Ingredients: Beef, Flavoring, Seasoning (Maltodextrin, Natural Flavor, Modified Food Starch, Corn Syrup Solids, Tricalcium Phosphate), Salt.), White Flour Tortilla(Ingredients: Enriched Flour (Wheat Flour, Niacin (Vitamin B3), Reduced Iron, Thiamine Mononitrate (Vitamin B1), Riboflavin (Vitamin B2), Folic Acid (Vitamin B9), Malted Barley Flour), Water, Sunflower Oil, Contains 2% or Less of the Following: Cultured Wheat Flour added with Vinegar, Soy Lecithin, Salt, Guar Gum, Yeast, Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Citric Acid.), White Cheddar Cheese, Iceberg, Lettuce, Shredded(Iceberg Lettuce), Special Sauce(Vegan Mayonnaise Spread(Ingredients: Expeller Pressed Canola Oil, Water, Organic Distilled Vinegar, Salt, Modified Food Starch, Cane Sugar, Spice, Natural Flavor, Lemon Juice Concentrate, Calcium Disodium EDTA, Oleoresin Paprika), Country French Dressing(Ingredients: Soybean Oil, Sugar, Vinegar (Cider, Distilled), Water, Tomato Paste, Honey, Contains less than 2% of: Salt, Spice, Xanthan Gum, Onion, Garlic, Beet Powder.), Sweet Pickle Relish(Ingredients: Pickles, Fructose, Vinegar, Sugar, Salt, Natural Flavors, Xanthan Gum, Calcium Chloride, Sodium Benzoate (Preservative), Polysorbate 80, And FD&C #1), Onion(Ingredients: Onion), White Vinegar(Ingredients: White Distilled Vinegar, Water.), Sugar, Kosher Salt), Onion, Spanish, Diced(Onions), Kosher Dill Pickle Slices(Cucumbers, water, vinegar, salt, garlic, dill, calcium chloride, potassium sorbate, sodium benzoate, spices and flavoring.)","Dairy, Gluten, Soy, Wheat"
-day13,lunch,Allergen Friendly,AF Cajun Spiced Chicken,,,
-day13,lunch,Allergen Friendly,AF Cajun Spiced Chickpea Stew,,,
-day13,lunch,Allergen Friendly,AF Vegan Polenta,,,
-day13,lunch,Dessert,Butterscotch Blondie,,,
-day13,lunch,Dessert,Vegan Butterscotch Blondie,,,
-day13,lunch,Lighter Side,Roasted Yukon Gold Potatoes,,,
-day13,lunch,Lighter Side,Steamed Peas,,,
-day13,lunch,Lighter Side,Grilled Chicken Breast,,,
-day13,lunch,Salad Bar,Pearl Pasta Salad with Apricot,,,
-day13,lunch,Salad Bar,White Bean Hummus,,,
-day13,lunch,Salad Bar,Green Bean Potato Salad,,,
-day13,lunch,Salad Bar,Pesto Chicken Salad,,,
-day13,lunch,Soup,Clam Chowder,,,
-day13,lunch,Soup,3 Bean Chili,,,
-day13,lunch,Soup,Tomato Bisque,,,
-day13,lunch,Traditional,Shrimp Po Boy Sandwich,,,
-day13,lunch,Traditional,Veggie Burger Po Boy Sandwich,,,
-day13,lunch,Traditional,Roasted Beets,,,
-day14,lunch,Allergen Friendly,AF Vegetarian Chili,,,
-day14,lunch,Allergen Friendly,AF Cooked Brown Basmati Rice,,,
-day14,lunch,Allergen Friendly,AF Beef Chili,,,
-day14,lunch,Dessert,Cherry Squares,,,
-day14,lunch,Dessert,Vegan Cherry Squares,,,
-day14,lunch,Lighter Side,Roasted Calico Fingerling Potatoes,,,
-day14,lunch,Lighter Side,Steamed Corn,,,
-day14,lunch,Lighter Side,Grilled Chicken Breast,,,
-day14,lunch,Salad Bar,White Bean Hummus,,,
-day14,lunch,Salad Bar,Green Bean Potato Salad,,,
-day14,lunch,Salad Bar,Pesto Chicken Salad,,,
-day14,lunch,Salad Bar,Pearl Pasta Salad with Apricot,,,
-day14,lunch,Soup,Pasta Fagioli with Sausage,,,
-day14,lunch,Soup,Chipotle Sweet Potato Soup,,,
-day14,lunch,Traditional,Tostitos,,,
-day14,lunch,Traditional,Diced Tomatoes,,,
-day14,lunch,Traditional,"Onion, Red, Diced",,,
-day14,lunch,Traditional,"Cilantro, Chopped",,,
-day14,lunch,Traditional,"Iceberg, Lettuce, Shredded",,,
-day14,lunch,Traditional,Cheddar Cheese,,,
-day14,lunch,Traditional,Sour Cream,,,
-day14,lunch,Traditional,Braised Collard Greens with Garlic,,,
-day14,lunch,Traditional,Corn Bread,,,
-day14,lunch,Traditional,Vegetarian Chili,,,
-day14,lunch,Traditional,Bison Chili,,,
-day14,lunch,Traditional,White Rice,,,
