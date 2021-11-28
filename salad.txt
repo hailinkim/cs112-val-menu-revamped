@@ -107,4 +107,4 @@ vegetable,Steamed Bean Medley,29,1/2 Cup,Green Beans/ Yellow Wax Beans
 vegetable,Steamed Snow Peas,46,1/2 Cup,Snow Peas
 vegetable,Steamed Sugar Snap Peas,48,1/2 Cup,Sugar Snap Peas
 vegetable,Grape Tomatoes,13,1/2 Cup,Grape Tomatoes
-vegetable,"Mushroom, White, Sliced",5,Ounce,Mushroom White Medium
+vegetable,Mushroom White Sliced,5,Ounce,Mushroom White Medium
