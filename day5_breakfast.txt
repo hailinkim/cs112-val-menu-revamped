@@ -1,14 +1,14 @@
-Cage Free Scrambled Eggs,105,(1/2 cup),Liquid Eggs/Eggs
+Cage Free Scrambled Eggs,105,(0.5 cup),Liquid Eggs/Eggs
 Cage Free Hard Boiled Egg,72,(1 egg),Fresh Cage Free Medium Eggs
 Apple Cinnamon Pancakes,176,(2 pancakes),Pancake Mix(INGREDIENTS: ENRICHED BLEACHED FLOUR (BLEACHED WHEAT FLOUR/ NIACIN/ REDUCED IRON/ THIAMIN MONONITRATE/ RIBOFLAVIN/ FOLIC ACID)/ SUGAR/ LEAVENING (SODIUM BICARBONATE/ SODIUM ALUMINUM PHOSPHATE/ MONOCALCIUM PHOSPHATE)/ DEXTROSE/ DRIED BUTTERMILK/ PARTIALLY HYDROGENATED SOYBEAN OIL/ SALT/ WHEAT GLUTEN/ DEFATTED SOY FLOUR/ CALCIUM CARBONATE/ CORN SYRUP SOLIDS/ NONFAT DRY MILK/ SOY LECITHIN/ SODIUM CASEINATE/ MONO AND DIGLYCERIDES/ SOYBEAN OIL/ LACTIC ACID. CONTAINS WHEAT/ MILK AND SOY INGREDIENTS. MAY CONTAIN TRACES OF EGG.)/ Local Apple Cider/ Apple(Ingredients: Apples (Treated with Ascorbic Acid/ Citric Acid/ Salt).)/ Sugar/ Cinnamon/Dairy/Eggs/Gluten/Soy/Wheat
 Canadian Bacon,89,(2 slices),Water/ salt/ dextrose/ sodium phosphates/ sodium erythorbate/ sodium nitrate/Pork
 Chicken Sausage Patty,80,(1 patty),Chicken/ Water/ Salt/ Spices/ Dextrose/ Sugar/ Dried Parsley
 Maine Rolled Oats,202,(1 cup),Water/ Maine Rolled Oats (Ingredients: Locally Sourced Organic Rolled Oats.)/ Sea Salt
-White rice,107,(1/2 cup),Water/ Jasmine Rice
+White rice,107,(0.5 cup),Water/ Jasmine Rice
 Red Grapes,104,(1 cup),red grapes
 Mandarin Oranges,47,(1 orange),mandarin oranges
-Greek Yogurt,64,(1/2 cup),Nonfat yogurt (cultured pasteurized nonfat milk). Contains Live and Active Cultures: S. Thermophilus/ L. Bulgaricus/ L. Acidophilus/ Bifidus and L. Casei
-Vanilla Yogurt,113,(1/2 cup),Cultured Grade A Low Fat Milk/ Sugar/ Modified Corn Starch/ Corn Starch/ Potassium Sorbate/ Natural Flavor/ Vitamin A Acetate/ Vitamin D3
+Greek Yogurt,64,(0.5 cup),Nonfat yogurt (cultured pasteurized nonfat milk). Contains Live and Active Cultures: S. Thermophilus/ L. Bulgaricus/ L. Acidophilus/ Bifidus and L. Casei
+Vanilla Yogurt,113,(0.5 cup),Cultured Grade A Low Fat Milk/ Sugar/ Modified Corn Starch/ Corn Starch/ Potassium Sorbate/ Natural Flavor/ Vitamin A Acetate/ Vitamin D3
 Soy Yogurt,18,(1 ounce),Soy Milk (Filtered Water/ Soybeans)/ Cane Sugar/ Corn Starch/ Natural Flavor/ Pectin/ Tricalcium Phosphate/ Citric Acid/ Dipotassium Phosphate/ Sea Salt/ Live and Active Cultures/ Vitamin D2/ Vitamin C Ester/ Mixed Tocopherols.
 Coconut and Fruit Granola,119,(1 ounce),gluten free oats/ coconut syrup/ raisins (raisins/ high oleic sunflower oil)/ sunflower seeds/ unsweetened dried coconut/ dried cranberries (cranberries/ apple juice concentrate/ sunflower oil)/ high oleic sunflower oil/ maple syrup/ coriander/ vanilla/ sea salt/coconut
 Cinnamon Chocolate Chip Coffee Cake,306,(slice),Sugar/ All Purpose Flour(WHEAT FLOUR/ MALTED BARLEY FLOUR/ NIACIN/ IRON/ THIAMIN MONONITRATE/ RIBOFLAVIN/ FOLIC ACID.)/ Sour Cream(Cultured Pasteurized Light Cream/ Modified Corn Starch/ Nonfat Milk/ Disodium Phospahate/ Guar Gum/ Sodium Citrate/ Carrageenan and Locust Bean Gum)/ Butter(Ingredients: Cream/ Salt)/ Semi-Sweet Chocolate Chips(Semi-Sweet Chocolate (Sugar/ Chocolate/ Cocoa Butter/ Milk Fat/ Soy Lecithin/ Vanillin/ Artificial Flavor/ Milk))/ Fresh Cage Free Medium Eggs/ Baking Powder(Ingredients: Baking Soda (for leavening)/ Cornstarch/ Sodium Aluminum Sulfate (for leavening)/ Calcium Sulfate/ Monocalcium Phosphate (for leavening).)/ Vanilla Paste(Ingredients: Pure Vanilla Extratives/ Sugar/ Vanilla Beans/Xanthan Gum)/ Cinnamon/ Salt/dairy/Eggs/Gluten/Soy/Wheat

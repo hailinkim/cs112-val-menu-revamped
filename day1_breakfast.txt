@@ -1,5 +1,5 @@
 Pork Breakfast Sausage Patty,170,(1 patty),Pork/ Water/ Salt/ Spices/ Dextrose/ Sugar/Pork
-Cage Free Scrambled Eggs,105,(1/2 cup),eggs
+Cage Free Scrambled Eggs,105,(0.5 cup),eggs
 House Fries,98,(3 oz),Potatoes(Ingredients: Diced Potatoes/ Dextrose/ Potassium Sorbate/ Disodium Pyrophosphate.)/ Onion/ Spanish/ Diced(Onions)/ Olive Oil/ Kosher Salt/ Spanish Paprika(Ingredients: Paprika/ Silicon Dioxide.)/ Ground Black Pepper
 JustEgg Folded,100,(1 piece),Water/ Mung Bean Protein Isolate/ Expeller-Pressed Canola Oil/ Corn Starch/ Baking Powder (Sodium Acid Pyrophosphate/ Sodium Bicarbonate/ Corn Starch/ Monocalcium Phosphate)/ Dehydrated Garlic/ Dehydrated Onion/ Natural Carrot Extractives/ Natural Turmeric Extractives/ Salt/ Transglutaminase.
 Cage Free Fried Egg,63,(1 egg),Fresh Cage Free Medium Eggs/ Kosher Salt/Eggs
@@ -11,9 +11,9 @@ Avocado,45,(1 oz),avocado
 Tomato,3,(1 slice),tomato
 Maine Rolled Oats,202,(1 cup),Water/ Maine Rolled Oats (Ingredients: Locally Sourced Organic Rolled Oats.)/ Sea Salt
 Grits,21,(1 cup),Degerminated White Corn Grits/ Calcium Carbonate/ Reduced Iron/ Niacinamide/ BHT/ Citric Acid/ Thiamin Mononitrate/ Riboflavin/ Folic Acid
-Peaches,68,(1/2 cup),peaches
-Mango Chunks,46,(1/2 cup),mango
-Greek Yogurt,64,(1/2 cup),Nonfat yogurt (cultured pasteurized nonfat milk). Contains Live and Active Cultures: S. Thermophilus/ L. Bulgaricus/ L. Acidophilus/ Bifidus and L. Casei/dairy
-Vanilla Yogurt,113,(1/2 cup),Cultured Grade A Low Fat Milk/ Sugar/ Modified Corn Starch/ Corn Starch/ Potassium Sorbate/ Natural Flavor/ Vitamin A Acetate/ Vitamin D3/dairy
+Peaches,68,(0.5 cup),peaches
+Mango Chunks,46,(0.5 cup),mango
+Greek Yogurt,64,(0.5 cup),Nonfat yogurt (cultured pasteurized nonfat milk). Contains Live and Active Cultures: S. Thermophilus/ L. Bulgaricus/ L. Acidophilus/ Bifidus and L. Casei/dairy
+Vanilla Yogurt,113,(0.5 cup),Cultured Grade A Low Fat Milk/ Sugar/ Modified Corn Starch/ Corn Starch/ Potassium Sorbate/ Natural Flavor/ Vitamin A Acetate/ Vitamin D3/dairy
 Soy Yogurt,18,(1 ounce),Soy Milk (Filtered Water/ Soybeans)/ Cane Sugar/ Corn Starch/ Natural Flavor/ Pectin/ Tricalcium Phosphate/ Citric Acid/ Dipotassium Phosphate/ Sea Salt/ Live and Active Cultures/ Vitamin D2/ Vitamin C Ester/ Mixed Tocopherols./soy
-Blueberry Vanilla Granola,203,(1/2 cup),organic oats/ organic agave nectar/ organic dried sweetened blueberries (organic blueberries/ organic high oleic sunflower oil/ organic cane sugar)/ organic oat bran/ organic vanilla and sea salt. Created in a facility that uses peanuts/ tree nuts/ wheat and soy/gluten
+Blueberry Vanilla Granola,203,(0.5 cup),organic oats/ organic agave nectar/ organic dried sweetened blueberries (organic blueberries/ organic high oleic sunflower oil/ organic cane sugar)/ organic oat bran/ organic vanilla and sea salt. Created in a facility that uses peanuts/ tree nuts/ wheat and soy/gluten
