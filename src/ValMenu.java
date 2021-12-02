@@ -24,8 +24,9 @@ public class ValMenu {
                     " \n2. Authors" +
                     "\n3. Calculate your BMR & set your caloric intake plan" +
                     " \n4. Start building your own menu" +
+                    "\n5. View Val tips" +
                     "\n0. Exit program."+
-                    "\n\nEnter an option (1-3, 0 to quit): ");
+                    "\n\nEnter an option (1-5, 0 to quit): ");
             option = cin.next().charAt(0); // returns the character at index 0.
             cin.nextLine();
             switch(option){
@@ -42,6 +43,9 @@ public class ValMenu {
                     break;
                 case '4':
                     diet(F);
+                    break;
+                case '5':
+                    randomTip();
                     break;
                 case '0':
                     System.out.println("\n** You entered option 0 to exit. Good bye! **");
@@ -945,6 +949,43 @@ public class ValMenu {
         System.out.println();
         System.out.println("Item(s) removed!");
     }//removeFood
+    static void randomTip() {
+        System.out.println();
+        System.out.println("Surprise! Here is a randomly generated Val dining tip...");
+        System.out.println();
+        String[] recipe = {"Breakfast Sandwich: \n\tYou can’t go wrong with the combination of bread, eggs, cheese and meat.\n" +
+                "\tGet a scoop of scrambled eggs from the hot breakfast, as well as sausage or bacon if you wish, and a slice of cheese.\n" +
+                "\tToast a bagel or English muffin. Sprinkle eggs with salt and pepper and assemble the sandwich.\n" +
+                "\tPlace in the panini press until the cheese has melted. Jazz it up with tomato, spinach or arugula if available.\n" +
+                "\tDip in hot sauce or ketchup and eat. (If you are in a rush, you can try melting the cheese by placing it on top of the hot eggs in a closed container.)",
+                "Spicy Mayo: \n\tSpicy mayo is an easy combination of condiments. Mix one packet of sriracha with one packet of mayonnaise.\n" +
+                        "\tAdjust these as you like depending on your spice preferences. Add a bit of lemon or lime juice for some zing.\n" +
+                        "\tNote: do not substitute hot sauce (or at least Texas Pete hot sauce…) for the sriracha.",
+                "Microwave desserts and pastries: \n\tThis is not a recipe as much as a brilliant and wildly unique suggestion.\n" +
+                        "\tStick muffins, pies, brownies, croissants and pastries in the microwave for about 20 seconds before consuming.\n" +
+                        "\tMakes you feel super fancy and gives a warm feeling in your stomach (literally).",
+                "Peanut Butter, Honey, and Banana Sandwich: \n\tSpread peanut butter and honey on bread and place banana slices on top.\n" +
+                        "\tSprinkle on cinnamon too for some extra pizazz. Cover with another piece of bread and place it in the panini press to warm it up.\n" +
+                        "\tThis is delicious — and nutritious!",
+                "Mocha Made with Chocolate Milk: \n\tCombine two parts coffee (hot or iced) with one part chocolate milk.\n" +
+                        "\tYou choose the milk — I suggest chocolate almond. Adjust coffee and milk levels to your liking.",
+                "Mocha Made with Hot Chocolate Packet: \n\tStir a hot chocolate packet into a hot cup of coffee. Add creamer or milk if you wish.",
+                "Peppermint Hot Chocolate: \n\tUnder the unfortunate assumption you make hot chocolate with a hot water base at Val, steep a mint tea bag in the water for a few minutes before pouring in the hot chocolate powder. \n" +
+                        "\tMakes you feel like Christmas is near.",
+                "Coffee Float: \n\tDessert for breakfast or coffee for dinner, the caffeine and sugar levels of a coffee float make it a great energy boost.\n" +
+                        "\tScoop out a dish of vanilla or chocolate ice cream from the cooler and place it in a larger cup. Pour hot coffee over the top.\n" +
+                        "\tEnjoy with a spoon or straw. Or a fork if you are feeling bold.",
+                "Salad Dressing on Sandwich: \n\tPut balsamic dressing on a vegetarian’s dream sandwich of cheese and loads of veggies.\n" +
+                        "\tItalian dressing also does the job well.",
+                "Peanut Butter, Honey, Chia, and Banana Toast: \n\tSpread peanut butter and honey on a slice of buttered toast then add banana slices sprinkled with chia seeds on top for a delicious snack.",
+                "On the Art of Panini Making: \n\tSpread butter on the outside of your bread before panini pressing it for the best toasted effect.",
+                "Sesame Noodles with Justin's Peanut Butter and Soy Sauce: \n\tIf you happen to find sesame noodles at the pasta bar, try mixing in Justin's peanut butter and some soy sauce.",};
+
+        System.out.println(randomString(recipe) + "\n\nTip credits to Sarah Weiner of the Amherst Student and the Val Dining Instagram page.");
+    }
+    static String randomString(String[] options) {
+        return options[(int) (options.length * Math.random())];
+    }
 }//class
 ////////////////////////////
 class Food{
