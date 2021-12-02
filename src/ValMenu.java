@@ -579,26 +579,36 @@ public class ValMenu {
             F.add(p.name);
         }
 
-        boolean inputCorrect;
-        String[] Op;
         //check for invalid input
+        boolean inputCorrect;
+        ArrayList<String> Op = new ArrayList<>();
         do {
             inputCorrect = true;
-            System.out.print("Enter the items and portion size in numbers(integers or decimals) you would like to add from the possible options, separated by commas without any spaces: ");
-            String option = cin.nextLine();
-            Op = option.split(",");
-            for(int i=0; i<Op.length; i+=2){
-                if (!F.contains(Op[i])) {
-                    inputCorrect = false;
-                    System.out.println("Invalid input! There is no such food in the possible options.");
+            System.out.println("Enter each item and its portion size in numbers(integers or decimals) you would like to add, separated by commas without any spaces after each line break(q to quit): ");
+            System.out.print("Your menu: ");
+            String option = "";
+            while(!option.equals("q")){
+                option = cin.nextLine();
+                if(!option.equals("q")){
+                    String[] tmp = option.split(",");
+                    if (!F.contains(tmp[0])|!isNumeric(tmp[1])) {
+                        inputCorrect = false;
+                        System.out.println("Invalid input! There is no such food in the possible options.");
+                        break;
+                    }
+                    else{
+                        Op.addAll(Arrays.asList(tmp));
+                    }
                 }
+
             }
         } while (!inputCorrect);
-        //add user's options to Result
-        for(int i=0; i<Op.length; i+=2){
+
+        //add selected salad bar menu to the result
+        for(int i=0; i<Op.size(); i+=2){
             for(Food f:Possible){
-                if(f.name.equals(Op[i])){
-                    double portion = Double.parseDouble(Op[i+1]); //user's portion size
+                if(f.name.equals(Op.get(i))){
+                    double portion = Double.parseDouble(Op.get(i+1)); //user's portion size
                     Pattern p = Pattern.compile("\\d+.\\d+|\\d+");
                     Matcher m = p.matcher(f.serving);
                     if(m.find()) {
@@ -618,6 +628,17 @@ public class ValMenu {
         System.out.println("Items added!");
         return Result;
     }//addItem
+    static boolean isNumeric(String strNum) { //check if portion size input is numeric
+        if (strNum == null) {
+            return false;
+        }
+        try {
+            double d = Double.parseDouble(strNum);
+        } catch (NumberFormatException ex) {
+            return false;
+        }
+        return true;
+    }//isNumeric
     static ArrayList<Food> salad(String[] Diet_num){
         ArrayList<Food> S = new ArrayList<>();//arraylist of salad ingredients
         readSalad(S);
@@ -715,28 +736,36 @@ public class ValMenu {
         for (Food p : Possible) {
             F.add(p.name);
         }
-
+    //check for invalid input
         boolean inputCorrect;
-        String[] Op;
-        //check for invalid input
+        ArrayList<String> Op = new ArrayList<>(); //arraylist of user's choice
         do {
             inputCorrect = true;
-            System.out.print("Enter the items and portion size in numbers(integers or decimals) you would like to add from the possible options, separated by commas without any spaces: ");
-            String option = cin.nextLine();
-            Op = option.split(",");
-            for(int i=0; i<Op.length; i+=2){
-                if (!F.contains(Op[i])) {
-                    inputCorrect = false;
-                    System.out.println("Invalid input! There is no such food in the possible options.");
+            System.out.println("Enter each item and its portion size in numbers(integers or decimals) you would like to add, separated by commas without any spaces after each line break(q to quit): ");
+            System.out.print("Your menu: ");
+            String option = "";
+            while(!option.equals("q")){
+                option = cin.nextLine();
+                if(!option.equals("q")){
+                    String[] tmp = option.split(",");
+                    if (!F.contains(tmp[0])|!isNumeric(tmp[1])) {
+                        inputCorrect = false;
+                        System.out.println("Invalid input! There is no such food in the possible options.");
+                        break;
+                    }
+                    else{
+                        Op.addAll(Arrays.asList(tmp));
+                    }
                 }
+
             }
         } while (!inputCorrect);
 
         //add selected salad bar menu to the result
-        for(int i=0; i<Op.length; i+=2){
+        for(int i=0; i<Op.size(); i+=2){
             for(Food f:Possible){
-                if(f.name.equals(Op[i])){
-                    double portion = Double.parseDouble(Op[i+1]); //user's portion size
+                if(f.name.equals(Op.get(i))){
+                    double portion = Double.parseDouble(Op.get(i+1)); //user's portion size
                     Pattern p = Pattern.compile("\\d+.\\d+|\\d+");
                     Matcher m = p.matcher(f.serving);
                     if(m.find()) {
