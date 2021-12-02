@@ -6,6 +6,10 @@ Authors: Mia Jung (BO), Vanesa Farooq (VF), Hailin Kim (HK)
 import java.io.File;
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.text.DecimalFormat;
+
 public class ValMenu {
     static Scanner cin = new Scanner(System.in); // a global scanner.
     static String restrictionList = ""; //a global variable for user's dietary pref/res
@@ -26,8 +30,8 @@ public class ValMenu {
             cin.nextLine();
             switch(option){
                 case '1':
-                    System.out.println("This program was designed for CS112 final project." +
-                            "The program's database is based on Val menu scraped from AC Nutrition website." +
+                    System.out.println("This program was designed for CS112 final project.\n" +
+                            "The program's database is based on Val menu scraped from AC Nutrition website.\n" +
                             "It allows users to choose Breakfast/Lunch/Dinner menu based on their dietary preferences and restrictions.");
                     break;
                 case '2':
@@ -227,25 +231,25 @@ public class ValMenu {
         ArrayList<String> O;
         do{
             System.out.println("1. Vegetarian\n2. Vegan\n3. Pescatarian\n4. Halal\n" +
-                    "5. Dairy-free\n6. Gluten-free\n7. Egg-free\n8. Keto\n9. Enter your own restrictions list");
-            System.out.print("Choose your dietary preferences/restrictions (enter all numbers that apply to you separated by space): ");
+                    "5. Dairy-free\n6. Gluten-free\n7. Egg-free\n8. Keto\n9. No restrictions\n10. Enter your own restrictions list");
+            System.out.print("Choose your dietary preferences/restrictions (enter all numbers that apply to you separated by commas without any spaces): ");
             option = cin.nextLine();
-            O = new ArrayList<>(Arrays.asList(option.split(" ")));
+            O = new ArrayList<>(Arrays.asList(option.split(",")));
 
             //if O includes invalid input
             if (!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
-                    O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9"))) {
+                    O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9") || O.contains("10"))) {
                 System.out.println("Invalid input! Enter 1-9.");
             }
         } while(!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
-                O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9")));
+                O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9") || O.contains("10")));
 
         String c = "";
-        if(option.contains("9"))
+        if(option.contains("10"))
             c = customDiet();
 
-        String diet_num = option + " " + c;
-        String[] Diet_num = diet_num.split(" ");
+        String diet_num = option + "," + c;
+        String[] Diet_num = diet_num.split(",");
 //        System.out.println(Arrays.toString(Diet_num)); //for debugging
 
         System.out.println("Let's start building your meal plan!");
@@ -255,15 +259,18 @@ public class ValMenu {
         for (String d:Diet_num){
             exclude(d, Possible);//F now contains all the foods for certain day of week, certain meal type
         }
+        System.out.println();
         System.out.println("Possible options: ");
         for(Food f: Possible){
-            System.out.println(f);
+            System.out.println("\t" + f);
 //            System.out.println(f.ingredients); //for debugging
         }
         System.out.println();
 
-        ArrayList<String> Result = addItem(Possible); //non-salad foods
-        System.out.println(Result);
+        ArrayList<Food> Result = addItem(Possible); //non-salad foods
+        for(Food f:Result){
+            System.out.println("\t" + f);
+        }
         System.out.println();
 
         char op;
@@ -273,18 +280,21 @@ public class ValMenu {
             cin.nextLine();
             switch (op){
                 case 'y':
-                    ArrayList<String> Salad = salad(Diet_num); //salad chosen by users
-                    Result.addAll(Salad);
+                    Result.addAll(salad(Diet_num)); //add salad ingredients chosen by user to the final result
                     break;
                 case 'n':
-                    System.out.println("Goodbye!");
                     break;
                 default:
                     System.out.println("Invalid input! Enter y/n.");
             }
         } while (op != 'y' && op != 'n');
 
-        System.out.println(Result);
+        System.out.println("Total items added: ");
+        for(Food f:Result){
+            System.out.println("\t" + f);
+        }
+        System.out.println();
+        checkExceed(Result, Possible, Diet_num);
 
     }//diet
     static String customDiet(){
@@ -293,9 +303,9 @@ public class ValMenu {
         do{
             System.out.println("1. Fish\n2. Shellfish\n3. Tree nuts\n4. Peanuts\n" +
                     "5. Soybean\n6. Sesame\n7. Alcohol\n8. Coconut");
-            System.out.print("Enter all numbers that apply to you separated by space: ");
+            System.out.print("Enter all numbers that apply to you separated by commas without any spaces: ");
             option = cin.nextLine();
-            O = new ArrayList<>(Arrays.asList(option.split(" ")));
+            O = new ArrayList<>(Arrays.asList(option.split(",")));
 
             //if O includes invalid input
             if (!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
@@ -308,21 +318,21 @@ public class ValMenu {
         String result = "";
         for(String o:O){ //recoding the user input
             if(o.equals("1"))
-                result = result + "10";
+                result = result + "11,";
             if(o.equals("2"))
-                result = result + "11 ";
+                result = result + "12,";
             if(o.equals("3"))
-                result = result + "12 ";
+                result = result + "13,";
             if(o.equals("4"))
-                result = result + "13 ";
+                result = result + "14,";
             if(o.equals("5"))
-                result = result + "14 ";
+                result = result + "15,";
             if(o.equals("6"))
-                result = result + "15 ";
+                result = result + "16,";
             if(o.equals("7"))
-                result = result + "16 ";
+                result = result + "17,";
             if(o.equals("8"))
-                result = result + "17 ";
+                result = result + "18,";
         }
         return result;
     }//customDiet
@@ -380,7 +390,7 @@ public class ValMenu {
             String m = fin.nextLine();
 //            System.out.println(m); //for debugging
             String[] M = m.split(",");
-            int cal = Integer.parseInt(M[1]);
+            double cal = Double.parseDouble(M[1]);
             String[] ing = M[3].split("/");
             ArrayList<String> Ing = new ArrayList<>(Arrays.asList(ing));
 //            System.out.println(Arrays.toString(ing)); //for debugging
@@ -490,23 +500,25 @@ public class ValMenu {
                             }
                         }
                         break;
-                    case "9": //move on to custom options
+                    case "9": //no restrictions
                         break;
-                    case "10": //fish-free
+                    case "10": //move on to custom options
+                        break;
+                    case "11": //fish-free
                         if (fishFree.equals(i.toLowerCase())) {
                             if (!bad.contains(f))
                                 bad.add(f);
                             break;
                         }
                         break;
-                    case "11": //shellfish-free
+                    case "12": //shellfish-free
                         if (shellFree.equals(i.toLowerCase())) {
                             if (!bad.contains(f))
                                 bad.add(f);
                             break;
                         }
                         break;
-                    case "12": //tree nuts-free
+                    case "13": //tree nuts-free
                         for(String v:treeNutsFree){
                             if (i.toLowerCase().contains(v)){
                                 if (!bad.contains(f))
@@ -515,7 +527,7 @@ public class ValMenu {
                             }
                         }
                         break;
-                    case "13": //peanut-free
+                    case "14": //peanut-free
                         for(String v:peanutFree){
                             if (i.toLowerCase().contains(v)){
                                 if (!bad.contains(f))
@@ -524,7 +536,7 @@ public class ValMenu {
                             }
                         }
                         break;
-                    case "14": //soy-free
+                    case "15": //soy-free
                         for(String v:soyFree){
                             if (i.toLowerCase().contains(v)){
                                 if (!bad.contains(f))
@@ -533,21 +545,21 @@ public class ValMenu {
                             }
                         }
                         break;
-                    case "15": //sesame-free
+                    case "16": //sesame-free
                         if (sesameFree.equals(i.toLowerCase())) {
                             if (!bad.contains(f))
                                 bad.add(f);
                             break;
                         }
                         break;
-                    case "16": //alcohol-free
+                    case "17": //alcohol-free
                         if (alcoholFree.equals(i.toLowerCase())) {
                             if (!bad.contains(f))
                                 bad.add(f);
                             break;
                         }
                         break;
-                    case "17": //coconut-free
+                    case "18": //coconut-free
                         if (coconutFree.equals(i.toLowerCase())) {
                             if (!bad.contains(f))
                                 bad.add(f);
@@ -559,46 +571,193 @@ public class ValMenu {
         }//outer for loop
         Possible.removeAll(bad);
     }//exclude
-    static ArrayList<String> addItem(ArrayList<Food> Possible) {
-        ArrayList<String> Result;
+    static ArrayList<Food> addItem(ArrayList<Food> Possible) {
+        ArrayList<Food> Result = new ArrayList<>();
 
         ArrayList<String> F = new ArrayList<>(); //arraylist of names of possible foods
         for (Food p : Possible) {
             F.add(p.name);
         }
 
-        boolean inputError;
+        boolean inputCorrect;
+        String[] Op;
+        //check for invalid input
         do {
-            inputError = false;
-            System.out.print("Enter the items you would like to add from the possible options, separated by comma: ");
+            inputCorrect = true;
+            System.out.print("Enter the items and portion size in numbers(integers or decimals) you would like to add from the possible options, separated by commas without any spaces: ");
             String option = cin.nextLine();
-            String[] Op = option.split(",");
-            Result = new ArrayList<>(Arrays.asList(Op));
-            for (String r : Result) {
-                if (!F.contains(r)) {
-                    inputError = true;
+            Op = option.split(",");
+            for(int i=0; i<Op.length; i+=2){
+                if (!F.contains(Op[i])) {
+                    inputCorrect = false;
                     System.out.println("Invalid input! There is no such food in the possible options.");
                 }
             }
-        } while (inputError);
-
+        } while (!inputCorrect);
+        //add user's options to Result
+        for(int i=0; i<Op.length; i+=2){
+            for(Food f:Possible){
+                if(f.name.equals(Op[i])){
+                    double portion = Double.parseDouble(Op[i+1]); //user's portion size
+                    Pattern p = Pattern.compile("\\d+.\\d+|\\d+");
+                    Matcher m = p.matcher(f.serving);
+                    if(m.find()) {
+                        double serving = Double.parseDouble(m.group(0));
+                        f.calories = f.calories * (portion/serving);
+                        String tmp = f.serving.replace("(","");
+                        f.serving = "(" + portion + tmp.replaceAll("[0-9]|\\.","");
+                    }
+                    else{
+                        f.calories = f.calories * portion;
+                        f.serving = "(" + portion + f.serving.replace("(","");
+                    }
+                    Result.add(f);
+                }
+            }
+        }
         System.out.println("Items added!");
         return Result;
     }//addItem
-    static ArrayList<String> salad(String[] Diet_num){
+    static ArrayList<Food> salad(String[] Diet_num){
         ArrayList<Food> S = new ArrayList<>();//arraylist of salad ingredients
         readSalad(S);
         ArrayList<Food> Possible = S;
         for (String d:Diet_num){
             exclude(d, Possible);//F now contains all the foods for certain day of week, certain meal type
         }
-        System.out.println("Possible salad ingredients for you: ");
-        for(Food f:Possible){
-            System.out.println(f);
-            System.out.println(f.ingredients);
-        }
-        return addItem(Possible);
+
+        char op;
+        ArrayList<Food> Result = new ArrayList<>();
+        do{
+            System.out.println("1. Salad\n2. Lettuce\n3. Veggies\n4. Toppings\n5. Fruits\n6. Condiments");
+            System.out.print("Choose a type of salad ingredients you would like to add to your salad(1-6, 0 to quit): ");
+            op = cin.next().charAt(0);
+            cin.nextLine();
+            System.out.println();
+            ArrayList<Food> tmp = new ArrayList<>();
+            switch(op){
+                case '1':
+                    System.out.println("Possible salad options for you: ");
+                    for(Food f:Possible){
+                        if (((Salad) f).type.equals("salad")) {
+                            tmp.add(f);
+                            System.out.println("\t" + f);
+                        }
+                    }
+                    System.out.println();
+                    addSalad(tmp, Result);
+                    break;
+                case '2':
+                    System.out.println("Possible lettuce options for you: ");
+                    for(Food f:Possible){
+                        if (((Salad) f).type.equals("lettuce")) {
+                            tmp.add(f);
+                            System.out.println("\t" + f);
+                        }
+                    }
+                    System.out.println();
+                    addSalad(tmp, Result);
+                    break;
+                case '3':
+                    System.out.println("Possible veggie options for you: ");
+                    for(Food f:Possible){
+                        if (((Salad) f).type.equals("vegetable")) {
+                            tmp.add(f);
+                            System.out.println("\t" + f);
+                        }
+                    }
+                    System.out.println();
+                    addSalad(tmp, Result);
+                    break;
+                case '4':
+                    System.out.println("Possible toppings for you: ");
+                    for(Food f:Possible){
+                        if (((Salad) f).type.equals("topping")) {
+                            tmp.add(f);
+                            System.out.println("\t" + f);
+                        }
+                    }
+                    System.out.println();
+                    addSalad(tmp, Result);
+                    break;
+                case '5':
+                    System.out.println("Possible fruits for you: ");
+                    for(Food f:Possible){
+                        if (((Salad) f).type.equals("fruit")) {
+                            tmp.add(f);
+                            System.out.println("\t" + f);
+                        }
+                    }
+                    System.out.println();
+                    addSalad(tmp, Result);
+                    break;
+                case '6':
+                    System.out.println("Possible condiments for you: ");
+                    for(Food f:Possible){
+                        if (((Salad) f).type.equals("condiment")) {
+                            tmp.add(f);
+                            System.out.println("\t" + f);
+                        }
+                    }
+                    System.out.println();
+                    addSalad(tmp, Result);
+                    break;
+                case '0':
+                    break;
+                default:
+                    System.out.println("Invalid input! Enter 1-6.");
+            }
+        } while(op != '0');
+        return Result;
     }//salad
+    static void addSalad(ArrayList<Food> Possible, ArrayList<Food> Result) {
+        ArrayList<String> F = new ArrayList<>(); //arraylist of names of possible foods
+        for (Food p : Possible) {
+            F.add(p.name);
+        }
+
+        boolean inputCorrect;
+        String[] Op;
+        //check for invalid input
+        do {
+            inputCorrect = true;
+            System.out.print("Enter the items and portion size in numbers(integers or decimals) you would like to add from the possible options, separated by commas without any spaces: ");
+            String option = cin.nextLine();
+            Op = option.split(",");
+            for(int i=0; i<Op.length; i+=2){
+                if (!F.contains(Op[i])) {
+                    inputCorrect = false;
+                    System.out.println("Invalid input! There is no such food in the possible options.");
+                }
+            }
+        } while (!inputCorrect);
+
+        //add selected salad bar menu to the result
+        for(int i=0; i<Op.length; i+=2){
+            for(Food f:Possible){
+                if(f.name.equals(Op[i])){
+                    double portion = Double.parseDouble(Op[i+1]); //user's portion size
+                    Pattern p = Pattern.compile("\\d+.\\d+|\\d+");
+                    Matcher m = p.matcher(f.serving);
+                    if(m.find()) {
+                        double serving = Double.parseDouble(m.group(0));
+                        f.calories = f.calories * (portion/serving);
+                        f.serving = "(" + portion + f.serving.replaceAll("[0-9]|\\.","") + ")";
+                    }
+                    else{
+                        f.calories = f.calories * portion;
+                        f.serving = "(" + portion + " " + f.serving + ")";
+                    }
+                    Result.add(f);
+                }
+            }
+        }
+
+        System.out.println("Items added!");
+        for(Food f:Result){
+            System.out.println("\t" + f);
+        }
+    }//addSalad
     static void readSalad(ArrayList<Food> S){
         Scanner fin = null;
         try{
@@ -611,9 +770,9 @@ public class ValMenu {
 
         while(fin.hasNext()){
             String m = fin.nextLine();
-            System.out.println(m); //for debugging
+//            System.out.println(m); //for debugging
             String[] M = m.split(",");
-            int cal = Integer.parseInt(M[2]);
+            double cal = Double.parseDouble(M[2]);
             String[] ing = M[4].split("/");
             ArrayList<String> Ing = new ArrayList<>(Arrays.asList(ing));
 //            System.out.println(Arrays.toString(ing)); //for debugging
@@ -624,28 +783,167 @@ public class ValMenu {
         }
         fin.close();
     }//readSalad
+    static void checkExceed(ArrayList<Food> Result, ArrayList<Food> Possible, String[] Diet_num){
+        double totalCal = 0.0;
+        double dailyCal = (double)calorie_intake/3;
+        for(Food f:Result){
+            totalCal += f.calories;
+        }
+
+        String pattern = "###.##";
+        DecimalFormat decimalFormat = new DecimalFormat(pattern);
+        String totalCalFormat = decimalFormat.format(totalCal);
+        String dailyCalFormat = decimalFormat.format(dailyCal);
+
+        System.out.println("Total calories of your menu: " + totalCalFormat + "cal");
+        System.out.println("Your daily caloric intake per meal: " + dailyCalFormat + "cal"); //for debugging
+        System.out.println();
+        if (totalCal > dailyCal) { //when calories greater than needed
+            char op;
+            do{
+                System.out.print("Calories of your menu exceed your caloric intake. Would you like to remove some foods from your menu? (y/n) ");
+                op = cin.next().charAt(0);
+                cin.nextLine();
+                switch(op){
+                    case 'y':
+                        double excess = totalCal - dailyCal;
+                        String excessFormat = decimalFormat.format(excess);
+                        System.out.println("Excess calories: " + excessFormat + "cal");
+                        removeFood(Result);
+                        for(Food f:Result){
+                            System.out.println("\t" + f);
+                        }
+                        break;
+                    case 'n':
+                        System.out.println("Goodbye!");
+                        break;
+                    default:
+                        System.out.println("Invalid input! Enter y/n.");
+                }
+            } while(op != 'y' && op != 'n');
+
+        }
+        else if (dailyCal - totalCal > 500) { //when 500+ calories fewer than needed
+            char op;
+            do{
+                System.out.print("You're eating 500+ fewer calories than you need. Would you like to add more food? (y/n) ");
+                op = cin.next().charAt(0);
+                cin.nextLine();
+                switch (op){
+                    case 'y':
+                        char op2;
+                        double deficit;
+                        String deficitFormat;
+                        do{
+                            System.out.println("Add from:\n1. Salad Bar Menu\n2. Daily Menu");
+                            System.out.print("Option(1-2)? ");
+                            op2 = cin.next().charAt(0);
+                            cin.nextLine();
+                            System.out.println();
+                            switch (op2){
+                                case '1':
+                                    deficit = dailyCal - totalCal;
+                                    deficitFormat = decimalFormat.format(deficit);
+                                    System.out.println("Additional calories needed: " + deficitFormat + "cal");
+                                    Result.addAll(salad(Diet_num));
+                                    System.out.println("Total items added: ");
+                                    for(Food f:Result){
+                                        System.out.println("\t" + f);
+                                    }
+                                    break;
+                                case '2':
+                                    deficit = dailyCal - totalCal;
+                                    deficitFormat = decimalFormat.format(deficit);
+                                    System.out.println("Additional calories needed: " + deficitFormat + "cal");
+                                    Result.addAll(addItem(Possible));
+                                    System.out.println("Total items added: ");
+                                    for(Food f:Result){
+                                        System.out.println("\t" + f);
+                                    }
+                                    break;
+                                default:
+                                    System.out.println("Invalid input. Enter 1-2.");
+                            }
+                        } while(op2 != '1' && op2 != '2');
+                        break;
+                    case 'n':
+                        System.out.println("Goodbye!");
+                        break;
+                    default:
+                        System.out.println("Invalid input! Enter y/n.");
+                }
+            } while(op != 'y' && op != 'n');
+        }
+        else {
+            System.out.println("You're eating just the right amount of calories. Goodbye!");
+        }
+    }//checkExceed
+    static void removeFood(ArrayList<Food> Result){
+        System.out.println("Your menu:");
+        for(Food f:Result){
+            System.out.println("\t" + f);
+        }
+        System.out.println();
+        ArrayList<String> F = new ArrayList<>(); //arraylist of names of selected foods
+        for (Food r : Result) {
+            F.add(r.name);
+        }
+        //check for invalid input
+        boolean inputCorrect;
+        String[] Op;
+        do {
+            inputCorrect = true;
+            System.out.print("Enter food(s) that you would like to remove: ");
+            String option = cin.nextLine();
+            Op = option.split(",");
+            for(String op:Op){
+                if (!F.contains(op)) {
+                    inputCorrect = false;
+                    System.out.println("Invalid input! There is no such food in the possible options.");
+                }
+            }
+        } while (!inputCorrect);
+        //remove foods entered by the user
+        ArrayList<Food> Removed = new ArrayList<>();
+        for(String op:Op){
+            for(Food p:Result){
+                if(p.name.equals(op)){
+                    Removed.add(p);
+                }
+            }
+        }
+        Result.removeAll(Removed);
+        System.out.println();
+        System.out.println("Item(s) removed!");
+    }//removeFood
 }//class
 ////////////////////////////
 class Food{
     String name;
-    int calories;
+    double calories;
     String serving;
     ArrayList<String> ingredients; //change to set
-    Food(String name, int calories, String serving, ArrayList<String> ingredients){
+    Food(String name, double calories, String serving, ArrayList<String> ingredients){
         this.name = name;
         this.calories = calories;
         this.serving = serving;
         this.ingredients = ingredients;
     }//constructor
     public String toString(){
-        return name + " " + calories + "cal " + serving;
+        String pattern = "###.##";
+        DecimalFormat decimalFormat = new DecimalFormat(pattern);
+        String caloriesFormat = decimalFormat.format(calories);
+        return name + " " + caloriesFormat + "cal " + serving;
     }
 }//Food
 class Salad extends Food{
     String type;
-    public Salad(String type, String name, int calories, String serving, ArrayList<String> ingredients){
+    public Salad(String type, String name, double calories, String serving, ArrayList<String> ingredients){
         super(name, calories, serving, ingredients);
         this.type = type;
+    }//constructor
+    public String toString(){
+        return super.toString();
     }
 }//Salad
 
