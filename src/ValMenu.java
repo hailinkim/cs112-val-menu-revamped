@@ -1,10 +1,12 @@
 /*
 CS112 Final project
-Title: Val Menu Revamped
+File: HABOVF_Final_Project/ValMenu.java
+Title: Val Menu and Meal Planner
 Authors: Mia Jung (BO), Vanesa Farooq (VF), Hailin Kim (HK)
 */
 import java.io.File;
-import java.lang.reflect.Array;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -14,6 +16,11 @@ public class ValMenu {
     static Scanner cin = new Scanner(System.in); // a global scanner.
     static String restrictionList = ""; //a global variable for user's dietary pref/res
     static int calorie_intake = 0; // calories user plans to intake today.
+    static ArrayList<Food> breakfast = new ArrayList<>();
+    static ArrayList<Food> lunch = new ArrayList<>();
+    static ArrayList<Food> dinner = new ArrayList<>();
+    static String bmr_result = "";
+
     public static void main (String[] args){
         System.out.println("Welcome to our code.");
         char option;
@@ -23,10 +30,11 @@ public class ValMenu {
             System.out.print("\n1. Program Description" +
                     " \n2. Authors" +
                     "\n3. Calculate your BMR & set your caloric intake plan" +
-                    " \n4. Start building your own menu" +
+                    " \n4. Start building your own menu / Add another meal" +
                     "\n5. View Val tips" +
+                    "\n6. View your final meal plan in a file" +
                     "\n0. Exit program."+
-                    "\n\nEnter an option (1-5, 0 to quit): ");
+                    "\n\nEnter an option (1-6, 0 to quit): ");
             option = cin.next().charAt(0); // returns the character at index 0.
             cin.nextLine();
             switch(option){
@@ -47,6 +55,8 @@ public class ValMenu {
                 case '5':
                     randomTip();
                     break;
+                case '6':
+                    getFinalFile();
                 case '0':
                     System.out.println("\n** You entered option 0 to exit. Good bye! **");
                     break;
@@ -67,10 +77,10 @@ public class ValMenu {
         int HBE_f_bmr = HBE_f(info); // gets BMR estimate using user info & the Revised Harris Benedict Equation "for females".
         int HBE_m_bmr = HBE_m(info); // gets BMR estimate using user info & the Revised Harris Benedict Equation "for males".
 
-
-        System.out.println("\nAccording to your physical information, your BMR estimate is around " + MJE_f_bmr + " to " + MJE_m_bmr +
+        bmr_result = "\nAccording to your physical information, your BMR estimate is around " + MJE_f_bmr + " to " + MJE_m_bmr +
                 " calories (using the Mifflin St Jeor Equation)," +
-                "\nor around " + HBE_f_bmr + " to " + HBE_m_bmr + " calories (using the Harris Benedict Equation).");
+                "\nor around " + HBE_f_bmr + " to " + HBE_m_bmr + " calories (using the Harris Benedict Equation).";
+        System.out.println(bmr_result);
 
         System.out.println("\nBMR = the calories you need per day to maintain your body weight, " +
                 "assuming you remain at rest the whole day." +
@@ -233,20 +243,30 @@ public class ValMenu {
     static void diet(ArrayList<Food> F){
         String option;
         ArrayList<String> O;
+        ArrayList<String> Num = new ArrayList<>(Arrays.asList("1","2","3","4","5","6","7","8","9","10"));
+        boolean inputCorrect;
         do{
+            inputCorrect = true;
             System.out.println("1. Vegetarian\n2. Vegan\n3. Pescatarian\n4. Halal\n" +
                     "5. Dairy-free\n6. Gluten-free\n7. Egg-free\n8. Keto\n9. No restrictions\n10. Enter your own restrictions list");
             System.out.print("Choose your dietary preferences/restrictions (enter all numbers that apply to you separated by commas without any spaces): ");
             option = cin.nextLine();
             O = new ArrayList<>(Arrays.asList(option.split(",")));
 
-            //if O includes invalid input
-            if (!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
-                    O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9") || O.contains("10"))) {
-                System.out.println("Invalid input! Enter 1-9.");
+            //check for invalid input
+            for(String op:O){
+                if(!isNumeric(op)) { //non-numeric input
+                    inputCorrect = false;
+                    System.out.println("Invalid input! Enter 1-10.");
+                    break;
+                }
+                else if(!Num.contains(op)) { //invalid numeric input
+                    inputCorrect = false;
+                    System.out.println("Invalid input! Enter 1-10.");
+                    break;
+                }
             }
-        } while(!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
-                O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8") || O.contains("9") || O.contains("10")));
+        } while(!inputCorrect);
 
         String c = "";
         if(option.contains("10"))
@@ -257,7 +277,9 @@ public class ValMenu {
 //        System.out.println(Arrays.toString(Diet_num)); //for debugging
 
         System.out.println("Let's start building your meal plan!");
-        String s = day(F); //saves the selected day of week, meal type
+        String s = day() + "";
+        String m = mealType();
+        s = s + "_" + m; //saves the selected day of week, meal type
         read(s, F); //reads data for certain day of week, certain meal type
         ArrayList<Food> Possible = F;
         for (String d:Diet_num){
@@ -300,24 +322,44 @@ public class ValMenu {
         System.out.println();
         checkExceed(Result, Possible, Diet_num);
 
+        if (m.equals("breakfast")){
+            breakfast = Result;
+        }
+        else if (m.equals("lunch")){
+            lunch = Result;
+        }
+        else{
+            dinner = Result;
+        }
     }//diet
     static String customDiet(){
         String option;
         ArrayList<String> O;
+        ArrayList<String> Num = new ArrayList<>(Arrays.asList("1","2","3","4","5","6","7","8"));
+        boolean inputCorrect;
         do{
+            inputCorrect = true;
             System.out.println("1. Fish\n2. Shellfish\n3. Tree nuts\n4. Peanuts\n" +
                     "5. Soybean\n6. Sesame\n7. Alcohol\n8. Coconut");
             System.out.print("Enter all numbers that apply to you separated by commas without any spaces: ");
             option = cin.nextLine();
             O = new ArrayList<>(Arrays.asList(option.split(",")));
 
-            //if O includes invalid input
-            if (!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
-                    O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8"))) {
-                System.out.println("Invalid input! Enter 1-8.");
+            //check for invalid input
+            for(String op:O){
+                if(!isNumeric(op)) { //non-numeric input
+                    inputCorrect = false;
+                    System.out.println("Invalid input! Enter 1-8.");
+                    break;
+                }
+                else if(!Num.contains(op)) { //invalid numeric input
+                    inputCorrect = false;
+                    System.out.println("Invalid input! Enter 1-8.");
+                    break;
+                }
             }
-        } while(!(O.contains("1") || O.contains("2") || O.contains("3") || O.contains("4") ||
-                O.contains("5") || O.contains("6") || O.contains("7") || O.contains("8")));
+        } while(!inputCorrect);
+
 
         String result = "";
         for(String o:O){ //recoding the user input
@@ -340,7 +382,7 @@ public class ValMenu {
         }
         return result;
     }//customDiet
-    static String day(ArrayList<Food> F){
+    static char day(){
         char d;
         do{
             System.out.println("1. Monday\n2. Tuesday\n3. Wednesday\n4. Thursday\n5. Friday\n6. Saturday\n7. Sunday");
@@ -353,7 +395,9 @@ public class ValMenu {
                 System.out.println("Invalid input! Enter 1-7.");
             }
         } while(!(d == '1' || d == '2' || d == '3' || d == '4' || d == '5' || d == '6' || d == '7'));
-
+        return d;
+    }//day
+    static String mealType(){
         char m;
         do{
             System.out.println("1. Breakfast\n2. Lunch\n3. Dinner");
@@ -377,8 +421,8 @@ public class ValMenu {
                 meal = "dinner";
                 break;
         }
-        return d + "_" + meal;
-    }//day
+        return meal;
+    }
 
     static void read(String s, ArrayList<Food> F){
         Scanner fin = null;
@@ -623,7 +667,7 @@ public class ValMenu {
                     }
                     else{
                         f.calories = f.calories * portion;
-                        f.serving = "(" + portion + f.serving.replace("(","");
+                        f.serving = "(" + portion + " " + f.serving.replace("(","");
                     }
                     Result.add(f);
                 }
@@ -843,6 +887,7 @@ public class ValMenu {
                         String excessFormat = decimalFormat.format(excess);
                         System.out.println("Excess calories: " + excessFormat + "cal");
                         removeFood(Result);
+                        System.out.println("Your final menu:");
                         for(Food f:Result){
                             System.out.println("\t" + f);
                         }
@@ -878,6 +923,7 @@ public class ValMenu {
                                     deficit = dailyCal - totalCal;
                                     deficitFormat = decimalFormat.format(deficit);
                                     System.out.println("Additional calories needed: " + deficitFormat + "cal");
+                                    System.out.println();
                                     Result.addAll(salad(Diet_num));
                                     System.out.println("Total items added: ");
                                     for(Food f:Result){
@@ -888,6 +934,11 @@ public class ValMenu {
                                     deficit = dailyCal - totalCal;
                                     deficitFormat = decimalFormat.format(deficit);
                                     System.out.println("Additional calories needed: " + deficitFormat + "cal");
+                                    System.out.println();
+                                    for(Food f:Possible){
+                                        System.out.println(f);
+                                    }
+                                    System.out.println();
                                     Result.addAll(addItem(Possible));
                                     System.out.println("Total items added: ");
                                     for(Food f:Result){
@@ -921,33 +972,55 @@ public class ValMenu {
         for (Food r : Result) {
             F.add(r.name);
         }
-        //check for invalid input
+
         boolean inputCorrect;
-        String[] Op;
+        ArrayList<String> Op = new ArrayList<>();
         do {
             inputCorrect = true;
-            System.out.print("Enter food(s) that you would like to remove: ");
-            String option = cin.nextLine();
-            Op = option.split(",");
-            for(String op:Op){
-                if (!F.contains(op)) {
-                    inputCorrect = false;
-                    System.out.println("Invalid input! There is no such food in the possible options.");
+            System.out.print("Enter food(s) and portion size you would like to remove: ");
+            String option = "";
+            while(!option.equals("q")){
+                option = cin.nextLine();
+                if(!option.equals("q")){
+                    String[] tmp = option.split(",");
+                    if (!F.contains(tmp[0])|!isNumeric(tmp[1])) {
+                        inputCorrect = false;
+                        System.out.println("Invalid input! There is no such food in the possible options.");
+                        break;
+                    }
+                    else{
+                        Op.addAll(Arrays.asList(tmp));
+                    }
                 }
+
             }
         } while (!inputCorrect);
-        //remove foods entered by the user
+
         ArrayList<Food> Removed = new ArrayList<>();
-        for(String op:Op){
-            for(Food p:Result){
-                if(p.name.equals(op)){
-                    Removed.add(p);
+        for(int i=0; i<Op.size(); i+=2){
+            for(Food f:Result){
+                if(f.name.equals(Op.get(i))){
+                    double portion = Double.parseDouble(Op.get(i+1)); //user's portion size
+                    Pattern p = Pattern.compile("\\d+.\\d+|\\d+");
+                    Matcher m = p.matcher(f.serving);
+                    if(m.find()) {
+                        double serving = Double.parseDouble(m.group(0));
+                        if(portion!=serving){ //when removing the partial portion of food
+                            f.calories = f.calories * ((serving-portion)/serving);
+                            String tmp = f.serving.replace("(","");
+                            f.serving = "(" + (serving-portion) + tmp.replaceAll("[0-9]|\\.","");
+                        }
+                        else{ //when removing the entire portion
+                            Removed.add(f);
+                        }
+                    }
+
                 }
             }
         }
         Result.removeAll(Removed);
-        System.out.println();
         System.out.println("Item(s) removed!");
+        System.out.println();
     }//removeFood
     static void randomTip() {
         System.out.println();
@@ -982,10 +1055,67 @@ public class ValMenu {
                 "Sesame Noodles with Justin's Peanut Butter and Soy Sauce: \n\tIf you happen to find sesame noodles at the pasta bar, try mixing in Justin's peanut butter and some soy sauce.",};
 
         System.out.println(randomString(recipe) + "\n\nTip credits to Sarah Weiner of the Amherst Student and the Val Dining Instagram page.");
-    }
+    }//randomTip
     static String randomString(String[] options) {
         return options[(int) (options.length * Math.random())];
-    }
+    }//randomString
+    static void getFinalFile() {
+        try {
+            File ff = new File("final.txt");
+            if (ff.createNewFile()) {
+                System.out.println();
+                System.out.println("File created: " + ff.getName());
+                PrintWriter fout = new PrintWriter(ff);
+                makeFinalFile(fout);
+                System.out.println("Finished: " + ff.getName() + "\nCheck it!");
+                fout.close();
+            } else
+                System.out.println("File already exists:" + ff.getName());
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+    }//getFinalFile
+    static void makeFinalFile(PrintWriter fout) {
+
+        String pattern = "###.##";
+        DecimalFormat decimalFormat = new DecimalFormat(pattern);
+
+        double totalCal = 0.0;
+        fout.write("Here's your finalized plan for today!\n");
+        if (calorie_intake!=0){
+            fout.write("\nYour BMR estimation:\n");
+            fout.write(bmr_result + "\n");
+            fout.write("\nCalorie intake plan for the day: " + calorie_intake + " calories.\n");
+        }
+
+        fout.write("\nToday's meal plan:\n");
+        if(!breakfast.isEmpty()){
+            fout.write("\tYour breakfast:\n");
+            for(Food f:breakfast){
+                totalCal += f.calories;
+                String calFormat = decimalFormat.format(f.calories);
+                fout.write("\t\t" + f.name + " " + calFormat + " " + f.serving + "\n");
+            }
+        }
+        if(!lunch.isEmpty()){
+            fout.write("\tYour lunch:\n");
+            for(Food f:lunch){
+                totalCal += f.calories;
+                String calFormat = decimalFormat.format(f.calories);
+                fout.write("\t\t" + f.name + " " + calFormat + " " + f.serving + "\n");
+            }
+        }
+        if(!dinner.isEmpty()){
+            fout.write("\tYour dinner:\n");
+            for(Food f:dinner){
+                totalCal += f.calories;
+                String calFormat = decimalFormat.format(f.calories);
+                fout.write("\t\t" + f.name + " " + calFormat + " " + f.serving + "\n");
+            }
+        }
+        String totalCalFormat = decimalFormat.format(totalCal);
+        fout.write("\nTotal calories of your meal(s): " + totalCalFormat);
+    }//makeFinalFile
 }//class
 ////////////////////////////
 class Food{
