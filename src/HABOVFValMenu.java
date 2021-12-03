@@ -1,6 +1,6 @@
 /*
 CS112 Final project
-File: HABOVF_Final_Project/ValMenu.java
+File: HABOVFFinalProject/HABOVFValMenu.java
 Title: Val Menu and Meal Planner
 Authors: Mia Jung (BO), Vanesa Farooq (VF), Hailin Kim (HK)
 */
@@ -12,7 +12,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.text.DecimalFormat;
 
-public class ValMenu {
+public class HABOVFValMenu {
     static Scanner cin = new Scanner(System.in); // a global scanner.
     static String restrictionList = ""; //a global variable for user's dietary pref/res
     static int calorie_intake = 0; // calories user plans to intake today.
