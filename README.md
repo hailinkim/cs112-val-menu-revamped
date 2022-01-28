@@ -1,6 +1,6 @@
 # Val Menu and Meal Planner
 
-## Authors: Mia Jung (BO), Vanesa Farooq (VF), Hailin Kim (HK)
+## Authors: Mia Jung (BO), Vanesa Farooq (VF), Angelica Kim (HK)
 
 ### Date: November 29, 2021
 
