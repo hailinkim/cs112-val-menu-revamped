@@ -1,16 +1,14 @@
-Title: Val Menu and Meal Planner
+# Val Menu and Meal Planner
 
-Authors: Mia Jung (BO), Vanesa Farooq (VF), Hailin Kim (HK)
+## Authors: Mia Jung (BO), Vanesa Farooq (VF), Hailin Kim (HK)
 
-Date: November 29, 2021
+### Date: November 29, 2021
 
-Course: CS-112
-
-Files used: "Val Menu".csv
+### Course: CS-112
 
 Software used: IntelliJ and R Studio
 
-Abstract:
+### Abstract:
 
 For our project, we created a program that allows the user to create their Val meal plan on a specific day of
 the week (where each day of the week has unique meal choices). We calculate the user's BMR (Basal metabolic rate), which
